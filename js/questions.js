@@ -394,7 +394,46 @@ const matematicaQuestions = [
     },
     correct: "B",
     justification: "2x = 8 → x = 4."
-  }
+  },
+  {
+    subject: "Matemática",
+    question: "Qual é a área de um triângulo com base 10 cm e altura 5 cm?",
+    options: {
+      A: "25 cm²",
+      B: "30 cm²",
+      C: "35 cm²",
+      D: "40 cm²",
+      E: "50 cm²"
+    },
+    correct: "A",
+    justification: "Área = (base × altura) / 2 = (10 × 5) / 2 = 25 cm²."
+  },
+  {
+    subject: "Matemática",
+    question: "Qual é o valor de 15% de 200?",
+    options: {  
+      A: "20",
+      B: "25",
+      C: "30",  
+      D: "35",
+      E: "40"
+    },
+    correct: "C",
+    justification: "15% de 200 = 0.15 × 200 = 30."
+  },
+  {
+    subject: "Matemática",
+    question: "Qual é o valor de 7² + 3²?",
+    options: {
+      A: "49",
+      B: "58",
+      C: "62",
+      D: "72",
+      E: "82"
+    },
+    correct: "B",
+    justification: "7² + 3² = 49 + 9 = 58."
+  },
 ];
 
 /* =====================================================
@@ -413,6 +452,162 @@ const portuguesQuestions = [
     },
     correct: "C",
     justification: "O verbo 'existir' concorda com o sujeito."
+  },
+  {
+    subject: "Português",
+    question: {
+      text: "A eficiência no serviço público depende não apenas de recursos materiais, mas sobretudo do comprometimento humano.",
+      itens: "A ideia central do texto é que:",
+    },
+    options: {
+      A: "Recursos materiais são suficientes para a eficiência.",
+      B: "O comprometimento humano é irrelevante.",
+      C: "A eficiência depende exclusivamente do servidor.",
+      D: "O fator humano tem papel central na eficiência.",
+      E: "O serviço público é ineficiente por natureza."
+    },
+    correct: "D",
+    justification: "O advérbio “sobretudo” indica destaque principal ao comprometimento humano, sem excluir outros fatores."
+
+  },
+  {
+    subject: "Português",
+    question: "No trecho “não apenas…, mas sobretudo…”, a estrutura estabelece ideia de:",
+    options: {
+      A: "Oposição",
+      B: "Exclusão",
+      C: "Comparação",
+      D: "Adição com ênfase",
+      E: "Condição"
+    },
+    correct: "D",
+    justification: "O advérbio “sobretudo” indica destaque principal ao comprometimento humano, sem excluir outros fatores."
+
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa em que a frase está correta.",
+      text: "Embora os avanços tecnológicos sejam evidentes, a capacitação profissional ainda é indispensável.",
+      itens: "Infere-se que:",
+    options: {
+      A: "A tecnologia substitui o profissional.",
+      B: "A capacitação perdeu importância.",
+      C: "Tecnologia e capacitação são excludentes.",
+      D: "A tecnologia elimina a necessidade de estudo.",
+      E: "A capacitação continua necessária."
+    },
+    correct: "E",
+    justification: "O conectivo “embora” introduz concessão, mantendo válida a necessidade de capacitação."
+  },
+  {
+    subject: "Português",
+    question: "O termo 'indispensável' pode ser substituído, sem prejuízo de sentido, por:",
+    options: {
+      A: "Opcional",
+      B: "Secundário",
+      C: "Essencial",
+      D: "Eventual",
+      E: "Supérfluo"
+    },
+    correct: "C",
+    justification: "Indispensável = algo que não pode faltar → essencial."
+  },
+  {
+    subject: "Português",
+    question: "A intenção do texto é:",
+    options: {
+      A: "Ironizar o avanço tecnológico",
+      B: "Defender apenas o ensino formal",
+      C: "Alertar sobre a irrelevância da tecnologia",
+      D: "Valorizar o equilíbrio entre tecnologia e formação",
+      E: "Criticar profissionais desatualizados"
+    },
+    correct: "D",
+    justification: "O texto não exclui a tecnologia, mas reforça a formação humana."
+  },
+  {
+    subject: "Português",
+    question: {
+      text: "A leitura crítica permite ao cidadão interpretar informações com maior autonomia.",
+      itens: "O termo “crítica” tem sentido de:",
+    },
+      options: {
+        A: "Julgamento negativo",
+        B: "Análise reflexiva",
+        C: "Reclamação constante",
+        D: "Contestação agressiva",
+        E: "Censura moral"
+      },
+      correct: "B",
+      justification: "Leitura crítica = análise consciente e reflexiva."   
+  },
+  {
+    subject: "Português",
+    question: {
+      text: "A leitura crítica permite ao cidadão interpretar informações com maior autonomia.",
+      itens: "A palavra “autonomia” indica:",
+    },
+    options: {
+      A: "Dependência",
+      B: "Isolamento",
+      C: "Independência intelectual",
+      D: "Desinteresse social",
+      E: "Neutralidade absoluta"
+    },
+    correct: "C",
+    justification: "Autonomia = capacidade de agir por conta própria, especialmente intelectualmente."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa correta:",
+    options: {
+      A: "Excessão",
+      B: "Pretensão",
+      C: "Reinvindicar",
+      D: "Conciderar",
+      E: "Excesivo"
+    },
+    correct: "B",
+    justification: "'Pretensão' está correto; as outras palavras estão grafadas incorretamente."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa correta:",
+    options: {
+      A: "Auto-estima",
+      B: "Autoestima",
+      C: "Altoestima",
+      D: "Auto estima",
+      E: "Alta-estima"
+    },
+    correct: "B",
+    justification: "'Autoestima' está correta; as outras palavras estão grafadas incorretamente."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa correta:",
+    options: {
+      A: "Assistiu o filme",
+      B: "Assistiu ao filme",
+      C: "Assistiu no filme",
+      D: "Assistiu para o filme",
+      E: "Assistiu-se o filme"
+    },
+    correct: "B",
+    justification: "'Assistiu ao filme' está correta; assistir (ver) rege preposição a."
+  },
+  {
+    subject: "Português",
+    question: "O verbo gostar rege:",
+    options: {
+      A: "Preposição",
+      B: "Objeto direto",
+      C: "Objeto indireto",
+      D: "Adjetivo",
+      E: "Advérbio"
+    },
+    correct: "C",
+    justification: "'Gostar' é verbo transitivo indireto e rege preposição 'de'."
   }
 ];
 
@@ -432,6 +627,45 @@ const direitoAdmQuestions = [
     },
     correct: "C",
     justification: "Na Administração Pública, só é permitido fazer o que a lei autoriza."
+  },
+  {
+    subject: "Direito Administrativo",
+    question: "O ato administrativo é considerado nulo quando:",
+    options: {
+      A: "Tem vício de forma",
+      B: "É praticado por autoridade competente",
+      C: "Atende ao interesse público",
+      D: "Segue os princípios legais",
+      E: "É revogado pela autoridade"
+    },
+    correct: "A",
+    justification: "Ato nulo é aquele com vício insanável, como falta de competência."
+  },
+  {
+    subject: "Direito Administrativo",
+    question: "A licitação tem como objetivo principal:",
+    options: {
+      A: "Favorecer empresas específicas",
+      B: "Garantir a contratação direta",
+      C: "Assegurar a seleção da proposta mais vantajosa",
+      D: "Evitar a concorrência",
+      E: "Reduzir a transparência"
+    },
+    correct: "C",
+    justification: "Licitação visa selecionar a proposta mais vantajosa para a Administração Pública."
+  },
+  {
+    subject: "Direito Administrativo",
+    question: "O servidor público pode ser responsabilizado por atos praticados no exercício de suas funções quando:",
+    options: {
+      A: "Age com base na lei",
+      B: "Age com dolo ou culpa",
+      C: "Cumpre ordens superiores",
+      D: "Atende ao interesse público",
+      E: "Age de forma ética"
+    },
+    correct: "B",
+    justification: "Responsabilização ocorre quando há dolo (intenção) ou culpa (negligência, imprudência ou imperícia)."
   }
 ];
 
@@ -451,6 +685,19 @@ const transitoQuestions = [
     },
     correct: "C",
     justification: "Avançar o sinal vermelho é infração gravíssima (art. 208 do CTB)."
+  },
+  {
+    subject: "Legislação de Trânsito",
+    question: "A velocidade máxima permitida em vias urbanas é de:",
+    options: {
+      A: "40 km/h",
+      B: "50 km/h",
+      C: "60 km/h",
+      D: "70 km/h", 
+      E: "80 km/h"
+    },
+    correct: "B",
+    justification: "A velocidade máxima em vias urbanas é de 50 km/h, salvo indicação em contrário (art. 61 do CTB)."
   }
 ];
 
