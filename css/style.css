@@ -1,0 +1,211 @@
+/********************************
+ * VARIÁVEIS DE TEMA
+ ********************************/
+:root {
+  --primary: #4f46e5;
+  --secondary: #22c55e;
+  --danger: #ef4444;
+  --warning: #eab308;
+  --info: #0ea5e9;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #1e293b;
+  --muted: #64748b;
+  --border: #e5e7eb;
+}
+
+/********************************
+ * RESET BÁSICO
+ ********************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/********************************
+ * HEADER
+ ********************************/
+header {
+  background: linear-gradient(135deg, var(--primary), #6366f1);
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.4rem;
+  margin-bottom: 4px;
+}
+
+header p {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/********************************
+ * CONTAINER
+ ********************************/
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 16px;
+}
+
+/********************************
+ * FORM / BOTÕES
+ ********************************/
+select,
+button {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+select {
+  background: #fff;
+  border: 1px solid var(--border);
+}
+
+button {
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(79, 70, 229, 0.25);
+}
+
+button.secondary {
+  background: var(--secondary);
+}
+
+button.danger {
+  background: var(--danger);
+}
+
+/********************************
+ * TIMER
+ ********************************/
+.timer {
+  margin-top: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--primary);
+}
+
+/********************************
+ * CARD
+ ********************************/
+.card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 14px;
+  margin-top: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+/********************************
+ * QUESTÃO
+ ********************************/
+#questionText {
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+/********************************
+ * OPÇÕES
+ ********************************/
+.option {
+  border: 2px solid var(--border);
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.option:hover {
+  background: #eef2ff;
+  border-color: var(--primary);
+}
+/********************************
+ * OPÇÃO SELECIONADA
+ ********************************/
+.option.selected {
+  background: #e0e7ff;
+  border-color: var(--primary);
+  font-weight: 600;
+}
+
+/********************************
+ * FEEDBACK VISUAL
+ ********************************/
+.option.correct {
+  background: #dcfce7;
+  border-color: var(--secondary);
+}
+
+.option.wrong {
+  background: #fee2e2;
+  border-color: var(--danger);
+}
+
+/********************************
+ * FEEDBACK TEXTO
+ ********************************/
+#feedback {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/********************************
+ * DASHBOARD
+ ********************************/
+#dashboard h3 {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+#dashboard canvas {
+  max-width: 100%;
+}
+
+/********************************
+ * UTILIDADES
+ ********************************/
+.hidden {
+  display: none;
+}
+
+/********************************
+ * RESPONSIVIDADE
+ ********************************/
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .container {
+    padding: 24px;
+  }
+
+  #questionText {
+    font-size: 1.15rem;
+  }
+}
