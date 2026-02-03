@@ -100,7 +100,7 @@ const logicaQuestions = [
   },
   {
     subject: "Lógica e Probabilidade",
-    question: "Ao lançar um dado honesto, a probabilidade de sair um número primo é:",
+    question: "Ao lançar um dado, a probabilidade de sair um número primo é:",
     options: {
       A: "1/6",
       B: "1/3",
@@ -374,10 +374,48 @@ const logicaQuestions = [
   justification: "Equivalência clássica da implicação."
 
 },
+{
+  subject: "Lógica e Probabilidade",
+  question: "Uma urna contém 5 bolas vermelhas e 5 azuis. Retirando-se uma bola ao acaso, a probabilidade de não ser vermelha é:",
+  options: {
+    A: "1/5",
+    B: "2/5",
+    C: "1/2",
+    D: "3/5",
+    E: "4/5"
+  },
+  correct: "C",
+  justification: "5/10 = 1/2."
 
+},
+{
+  subject: "Lógica e Probabilidade",
+  question: "A negação da proposição 'Alguns motoristas são prudentes' é:",
+  options: {
+    A: "Nenhum motorista é prudente",
+    B: "Todos os motoristas são imprudentes",
+    C: "Nenhum motorista é imprudente",
+    D: "Alguns motoristas são imprudentes",
+    E: "Todos os motoristas são prudentes"
+  },
+  correct: "A",
+  justification: "A negação de 'Alguns X são Y' é 'Nenhum X é Y'."
+
+},
+{
+  subject: "Lógica e Probabilidade",
+  question: "Se a afirmação 'Se o veículo está parado, então o motor está desligado' é falsa, então:",
+  options: {
+    A: "O veículo está parado",
+    B: "O motor está desligado",
+    C: "O veículo está parado e o motor está ligado",
+    D: "O motor está ligado e o veículo não está parado",
+    E: "O veículo está em movimento e o motor desligado"
+  },
+  correct: "C",
+  justification: "Implicação é falsa quando V → F."
+}
 ];
-
-
 /* =====================================================
    MATEMÁTICA
 ===================================================== */
@@ -434,6 +472,19 @@ const matematicaQuestions = [
     correct: "B",
     justification: "7² + 3² = 49 + 9 = 58."
   },
+  {
+    subject: "Matemática",
+    question: "Qual é o valor de x na equação 3x - 4 = 11?",
+    options: {
+      A: "4",
+      B: "5",
+      C: "6",
+      D: "7",
+      E: "8"
+    },
+    correct: "B",
+    justification: "3x = 15 → x = 5."
+  }
 ];
 
 /* =====================================================
@@ -666,6 +717,84 @@ const direitoAdmQuestions = [
     },
     correct: "B",
     justification: "Responsabilização ocorre quando há dolo (intenção) ou culpa (negligência, imprudência ou imperícia)."
+  },
+  {
+    subject: "Direito Administrativo",
+    question: "A desapropriação é um ato administrativo que:",
+    options: {
+      A: "Transfere propriedade por vontade do dono",
+      B: "Exige indenização prévia e justa",
+      C: "Não requer pagamento ao expropriado",
+      D: "Pode ser feita sem motivo",
+      E: "É voluntária"
+    },
+    correct: "B",
+    justification: "A desapropriação exige indenização prévia, justa e em dinheiro ao expropriado."
+  },
+  {
+    subject: "Direito Administrativo",
+    question: "O princípio da impessoalidade na Administração Pública significa que:",
+    options: {
+      A: "As ações visam interesses pessoais",
+      B: "As decisões são baseadas em favoritismo",
+      C: "Os atos administrativos devem visar o interesse público", 
+      D: "Os servidores podem agir conforme suas preferências",
+      E: "A Administração pode discriminar cidadãos"
+    },
+    correct: "C",
+    justification: "A impessoalidade exige que os atos administrativos atendam ao interesse público, sem favorecimentos."
+  },
+  {
+    subject: "Direito Administrativo",  
+    question: "A função administrativa do Estado inclui:",
+    options: {
+      A: "Elaboração de leis",
+      B: "Julgamento de processos",
+      C: "Execução de políticas públicas",
+      D: "Fiscalização do Judiciário",
+      E: "Atuação exclusiva do Legislativo"
+    },
+    correct: "C",
+    justification: "A função administrativa refere-se à execução das políticas públicas pelo Estado."
+  },
+  {
+    subject: "Direito Administrativo",  
+    question: "O controle interno na Administração Pública tem como finalidade:",
+    options: {
+      A: "Substituir o controle externo",
+      B: "Garantir a legalidade e eficiência dos atos administrativos",
+      C: "Evitar auditorias",
+      D: "Limitar a transparência",
+      E: "Reduzir a fiscalização"
+    },
+    correct: "B",
+    justification: "O controle interno visa assegurar a legalidade, eficiência e eficácia dos atos administrativos."
+  },
+  {
+    subject: "Direito Administrativo",  
+    question: "A responsabilidade civil do Estado ocorre quando:",
+    options: {
+      A: "O Estado age dentro da lei",
+      B: "Há dano causado por ato lícito",
+      C: "Há dano causado por ato ilícito",
+      D: "O Estado não é responsabilizado",
+      E: "O servidor age com base na lei"
+    },
+    correct: "C",
+    justification: "A responsabilidade civil do Estado decorre de atos ilícitos que causem danos a terceiros."
+  },
+  {
+    subject: "Direito Administrativo",  
+    question: "A concessão de serviço público é caracterizada por:",
+    options: {
+      A: "Atuação direta do Estado na prestação do serviço",  
+      B: "Transferência da prestação do serviço a particular mediante contrato",
+      C: "Prestação gratuita do serviço",
+      D: "Exclusão do controle estatal",
+      E: "Atuação exclusiva do setor privado"
+    },
+    correct: "B",
+    justification: "Concessão é a transferência da prestação de serviço público a particular, sob contrato e controle estatal."
   }
 ];
 
@@ -700,6 +829,89 @@ const transitoQuestions = [
     justification: "A velocidade máxima em vias urbanas é de 50 km/h, salvo indicação em contrário (art. 61 do CTB)."
   }
 ];
+/* =====================================================
+   INFORMÁTICA
+===================================================== */
+const informaticaQuestions = [
+  {
+    subject: "Informática",
+    question: "Qual dos seguintes é um sistema operacional?",
+    options: {
+      A: "Microsoft Word",
+      B: "Google Chrome",
+      C: "Linux",
+      D: "Adobe Photoshop",
+      E: "Mozilla Firefox"
+    },
+    correct: "C",
+    justification: "Linux é um sistema operacional; os outros são aplicativos."
+  },
+  {
+    subject: "Informática",
+    question: "O que é um firewall?",
+    options: {
+      A: "Um tipo de vírus",
+      B: "Um software de edição de imagens",
+      C: "Um dispositivo de segurança de rede",
+      D: "Um programa de navegação na internet",
+      E: "Um sistema de armazenamento de dados"
+    },
+    correct: "C",
+    justification: "Firewall é um dispositivo ou software que protege redes contra acessos não autorizados."
+  },
+  {
+    subject: "Informática",
+    question: "Qual é a função principal do software antivírus?",
+    options: {
+      A: "Acelerar o computador",
+      B: "Proteger contra malware",
+      C: "Gerenciar arquivos",
+      D: "Editar documentos",
+      E: "Navegar na internet"
+    },
+    correct: "B",
+    justification: "O antivírus protege o sistema contra malwares, como vírus e trojans."
+  },
+  {
+    subject: "Informática",
+    question: "O que significa a sigla 'URL'?",
+    options: {
+      A: "Universal Resource Locator",
+      B: "Uniform Resource Locator",
+      C: "Universal Reference Link",  
+      D: "Uniform Reference Link",
+      E: "Unique Resource Link"
+    },
+    correct: "B",
+    justification: "URL significa Uniform Resource Locator, que é o endereço de um recurso na internet."
+  },
+  {
+    subject: "Informática",
+    question: "Qual dos seguintes é um exemplo de software de planilha eletrônica?",
+    options: {
+      A: "Microsoft Excel",
+      B: "Adobe Acrobat",
+      C: "Mozilla Firefox",
+      D: "Google Chrome",
+      E: "Microsoft PowerPoint"
+    },
+    correct: "A",
+    justification: "Microsoft Excel é um software de planilha eletrônica; os outros são de diferentes categorias."
+  },
+  {
+    subject: "Informática",
+    question: "O que é 'nuvem' (cloud computing) em informática?",
+    options: {
+      A: "Um tipo de hardware",
+      B: "Um software de edição de fotos",
+      C: "Armazenamento e serviços via internet",
+      D: "Um sistema operacional",
+      E: "Um programa de navegação"
+    },
+    correct: "C",
+    justification: "Nuvem refere-se ao armazenamento e serviços acessados via internet."
+  }
+];
 
 /* =====================================================
    SIMULADO OFICIAL – DETRAN
@@ -708,7 +920,9 @@ const detranQuestions = [
   ...transitoQuestions,
   ...direitoAdmQuestions,
   ...portuguesQuestions,
-  ...logicaQuestions
+  ...logicaQuestions,
+  ...matematicaQuestions,
+  ...informaticaQuestions
 ];
 
 /* =====================================================
@@ -719,7 +933,8 @@ const QUESTIONS = [
   ...matematicaQuestions,
   ...portuguesQuestions,
   ...direitoAdmQuestions,
-  ...transitoQuestions
+  ...transitoQuestions,
+  ...informaticaQuestions
 ];
 
 

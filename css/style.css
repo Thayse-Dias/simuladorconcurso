@@ -1,21 +1,24 @@
 /********************************
  * VARIÁVEIS DE TEMA
+ * Centralizam as cores do sistema
+ * Facilitam manutenção e identidade visual
  ********************************/
 :root {
-  --primary: #4f46e5;
-  --secondary: #22c55e;
-  --danger: #ef4444;
+  --primary: #4f46e5;     /* Azul principal */
+  --secondary: #22c55e;   /* Verde (acerto / ação positiva) */
+  --danger: #ef4444;      /* Vermelho (erro / reset) */
   --warning: #eab308;
   --info: #0ea5e9;
-  --bg: #f8fafc;
-  --card: #ffffff;
-  --text: #1e293b;
+  --bg: #f8fafc;          /* Fundo geral */
+  --card: #ffffff;       /* Cartões */
+  --text: #1e293b;       /* Texto principal */
   --muted: #64748b;
   --border: #e5e7eb;
 }
 
 /********************************
  * RESET BÁSICO
+ * Padroniza layout e fontes
  ********************************/
 * {
   margin: 0;
@@ -32,6 +35,7 @@ body {
 
 /********************************
  * HEADER
+ * Identidade do simulado
  ********************************/
 header {
   background: linear-gradient(135deg, var(--primary), #6366f1);
@@ -52,6 +56,7 @@ header p {
 
 /********************************
  * CONTAINER
+ * Centraliza o conteúdo
  ********************************/
 .container {
   max-width: 960px;
@@ -60,7 +65,7 @@ header p {
 }
 
 /********************************
- * FORM / BOTÕES
+ * FORMULÁRIOS E BOTÕES
  ********************************/
 select,
 button {
@@ -90,6 +95,7 @@ button:hover {
   box-shadow: 0 6px 14px rgba(79, 70, 229, 0.25);
 }
 
+/* Botões auxiliares */
 button.secondary {
   background: var(--secondary);
 }
@@ -100,6 +106,7 @@ button.danger {
 
 /********************************
  * TIMER
+ * Destaque visual sem distrair
  ********************************/
 .timer {
   margin-top: 12px;
@@ -110,6 +117,7 @@ button.danger {
 
 /********************************
  * CARD
+ * Blocos de conteúdo (questão, feedback, dashboard)
  ********************************/
 .card {
   background: var(--card);
@@ -129,7 +137,7 @@ button.danger {
 }
 
 /********************************
- * OPÇÕES
+ * OPÇÕES DE RESPOSTA
  ********************************/
 .option {
   border: 2px solid var(--border);
@@ -144,8 +152,10 @@ button.danger {
   background: #eef2ff;
   border-color: var(--primary);
 }
+
 /********************************
  * OPÇÃO SELECIONADA
+ * Antes de responder
  ********************************/
 .option.selected {
   background: #e0e7ff;
@@ -155,6 +165,7 @@ button.danger {
 
 /********************************
  * FEEDBACK VISUAL
+ * Após responder
  ********************************/
 .option.correct {
   background: #dcfce7;
@@ -167,11 +178,13 @@ button.danger {
 }
 
 /********************************
- * FEEDBACK TEXTO
+ * FEEDBACK DE TEXTO
+ * Justificativa e correção
  ********************************/
 #feedback {
   font-size: 0.95rem;
-  line-height: 1.4;
+  line-height: 1.5;
+  border-left: 6px solid var(--primary);
 }
 
 /********************************
@@ -209,3 +222,122 @@ button.danger {
     font-size: 1.15rem;
   }
 }
+/********************************
+ * UX MOBILE – ESTILO APP DE CURSINHO
+ ********************************/
+@media (max-width: 767px) {
+
+  body {
+    background: #f1f5f9;
+  }
+
+  header {
+    padding: 14px 10px;
+  }
+
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  header p {
+    font-size: 0.85rem;
+  }
+
+  .container {
+    padding: 12px;
+  }
+
+  /********************************
+   * CARD DA QUESTÃO (FOCO TOTAL)
+   ********************************/
+  #questionCard {
+    padding: 16px;
+  }
+
+  #questionText {
+    font-size: 1.05rem;
+    line-height: 1.5;
+  }
+
+  /********************************
+   * OPÇÕES – ÁREA DE TOQUE GRANDE
+   ********************************/
+  .option {
+    padding: 14px 12px;
+    font-size: 1rem;
+    border-radius: 12px;
+  }
+
+  .option:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  /********************************
+   * BOTÕES – PADRÃO APP
+   ********************************/
+  button {
+    font-size: 1.05rem;
+    padding: 14px;
+    border-radius: 14px;
+  }
+
+  button.secondary {
+    margin-top: 12px;
+  }
+
+  button.danger {
+    margin-top: 16px;
+  }
+
+  /********************************
+   * BOTÃO PRÓXIMA QUESTÃO
+   * Destaque máximo após responder
+   ********************************/
+  #nextBtn {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 0 8px 20px rgba(34, 197, 94, 0.35);
+  }
+
+  #nextBtn:hover {
+    transform: none;
+    box-shadow: 0 10px 22px rgba(34, 197, 94, 0.45);
+  }
+
+  /********************************
+   * FEEDBACK – ESTILO AULA
+   ********************************/
+  #feedback {
+    margin-top: 16px;
+    padding: 16px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    border-left: none;
+    border-radius: 14px;
+    background: #f8fafc;
+    box-shadow: inset 0 0 0 1px var(--border);
+  }
+
+  /********************************
+   * TIMER – DISCRETO E VISÍVEL
+   ********************************/
+  .timer {
+    margin: 10px 0;
+    font-size: 0.95rem;
+  }
+
+  /********************************
+   * DASHBOARD MOBILE
+   ********************************/
+  #dashboard {
+    padding: 16px;
+  }
+
+  #dashboard h3 {
+    font-size: 1.1rem;
+  }
+}
+
+
+

@@ -18,25 +18,20 @@ function startSimulado() {
     return;
   }
 
-  // 1️⃣ Definir quiz corretamente
   quiz =
-  subject === "ALL"
-    ? [...QUESTIONS]
-    : subject === "DETRAN"
-    ? [...DETRAN_QUESTIONS]
-    : QUESTIONS.filter(q => q.subject === subject);
-    
+    subject === "ALL"
+      ? [...QUESTIONS]
+      : subject === "DETRAN"
+      ? [...DETRAN_QUESTIONS]
+      : QUESTIONS.filter(q => q.subject === subject);
 
-  // 2️⃣ Embaralhar
   quiz.sort(() => Math.random() - 0.5);
 
-  // 3️⃣ Reset
   current = 0;
   timeLeft = 1800;
   stats = {};
   selectedAnswer = null;
 
-  // 4️⃣ Inicializar estatísticas
   quiz.forEach(q => {
     if (!stats[q.subject]) {
       stats[q.subject] = { total: 0, correct: 0, wrong: 0 };
@@ -44,12 +39,10 @@ function startSimulado() {
     stats[q.subject].total++;
   });
 
-  // 5️⃣ UI
   document.getElementById("questionCard").classList.remove("hidden");
   document.getElementById("dashboard").classList.add("hidden");
   document.getElementById("resetBtn").classList.remove("hidden");
 
-  // 6️⃣ Start
   startTimer();
   loadQuestion();
 }
@@ -77,7 +70,9 @@ function startTimer() {
 
 function updateTimerUI() {
   document.getElementById("timer").innerText =
-    `⏱️ Tempo restante: ${Math.floor(timeLeft / 60)}:${String(timeLeft % 60).padStart(2, "0")}`;
+    `⏱️ Tempo restante: ${Math.floor(timeLeft / 60)}:${String(
+      timeLeft % 60
+    ).padStart(2, "0")}`;
 }
 
 /****************************
@@ -90,6 +85,9 @@ function loadQuestion() {
   }
 
   selectedAnswer = null;
+
+  document.getElementById("feedback").classList.add("hidden");
+  document.getElementById("nextBtn").classList.add("hidden");
 
   const q = quiz[current];
   document.getElementById("questionText").innerText =
@@ -132,10 +130,11 @@ function submitAnswer() {
   const q = quiz[current];
   const feedback = document.getElementById("feedback");
   const options = document.querySelectorAll(".option");
+  const nextBtn = document.getElementById("nextBtn");
 
   feedback.classList.remove("hidden");
 
-  options.forEach(opt => opt.style.pointerEvents = "none");
+  options.forEach(opt => (opt.style.pointerEvents = "none"));
 
   if (selectedAnswer === q.correct) {
     stats[q.subject].correct++;
@@ -162,11 +161,18 @@ function submitAnswer() {
     `;
   }
 
-  setTimeout(() => {
-    feedback.classList.add("hidden");
-    current++;
-    loadQuestion();
-  }, 2000);
+  nextBtn.classList.remove("hidden");
+}
+
+/****************************
+ * PRÓXIMA QUESTÃO
+ ****************************/
+function nextQuestion() {
+  document.getElementById("feedback").classList.add("hidden");
+  document.getElementById("nextBtn").classList.add("hidden");
+
+  current++;
+  loadQuestion();
 }
 
 /****************************

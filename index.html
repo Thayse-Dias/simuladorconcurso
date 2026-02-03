@@ -37,7 +37,6 @@
     <option>Legislação de Trânsito</option>
     <option>Direito Administrativo</option>
     <option value="DETRAN">🏛️ Simulado Oficial DETRAN</option>
-
   </select>
 
   <button onclick="startSimulado()">Iniciar Simulado</button>
@@ -48,9 +47,20 @@
   <!-- Questão -->
   <section id="questionCard" class="card hidden">
     <h3 id="questionText"></h3>
+
     <div id="options"></div>
+
     <button class="secondary" onclick="submitAnswer()">
       Responder
+    </button>
+
+    <!-- ✅ NOVO BOTÃO -->
+    <button
+      id="nextBtn"
+      class="secondary hidden"
+      onclick="nextQuestion()"
+    >
+      Próxima Questão ➡️
     </button>
 
     <button class="secondary" onclick="skipQuestion()">
@@ -68,7 +78,11 @@
   </section>
 
   <!-- Reiniciar -->
-  <button id="resetBtn" class="danger hidden" onclick="resetSimulado()">
+  <button
+    id="resetBtn"
+    class="danger hidden"
+    onclick="resetSimulado()"
+  >
     Reiniciar Simulado
   </button>
 
