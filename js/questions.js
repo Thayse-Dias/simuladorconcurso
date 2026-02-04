@@ -827,7 +827,177 @@ const transitoQuestions = [
     },
     correct: "B",
     justification: "A velocidade máxima em vias urbanas é de 50 km/h, salvo indicação em contrário (art. 61 do CTB)."
-  }
+  },
+  {
+    subject: "Legislação de Trânsito",
+    question: "O uso do cinto de segurança é obrigatório para:",
+    options: {
+      A: "Apenas o motorista",
+      B: "Motorista e passageiro dianteiro",
+      C: "Todos os ocupantes do veículo",
+      D: "Apenas passageiros traseiros",
+      E: "Apenas em rodovias"
+    },
+    correct: "C",
+    justification: "O cinto de segurança é obrigatório para todos os ocupantes do veículo (art. 65 do CTB)."
+  },
+  {
+    subject: "Legislação de Trânsito",
+    question: "Em caso de acidente com vítima, o condutor deve:",
+    options: {
+      A: "Deixar o local imediatamente",
+      B: "Prestar socorro e chamar ajuda",
+      C: "Aguardar a chegada da polícia sem agir",
+      D: "Mover a vítima para outro local",
+      E: "Continuar dirigindo normalmente"
+    },
+    correct: "B",
+    justification: "O condutor deve prestar socorro e chamar ajuda (art. 176 do CTB)."
+  },
+  {
+    subject: "Legislação de Trânsito",
+    question: "O que é permitido ao condutor ao se aproximar de uma faixa de pedestres?",
+    options: {
+      A: "Acelerar para passar antes do pedestre",
+      B: "Ignorar a faixa se não houver pedestres",
+      C: "Reduzir a velocidade e parar se houver pedestres",
+      D: "Ultrapassar outros veículos na faixa",
+      E: "Buzinar para alertar os pedestres"
+    },
+    correct: "C",
+    justification: "O condutor deve reduzir a velocidade e parar se houver pedestres na faixa (art. 214 do CTB)."
+  },
+  {
+  subject: "Legislação de Trânsito",
+  question: "Dirigir sob a influência de álcool configura:",
+  options: {
+    A: "Infração média",
+    B: "Infração grave",
+    C: "Infração gravíssima",
+    D: "Apenas crime de trânsito",
+    E: "Conduta permitida"
+  },
+  correct: "C",
+  justification: "Dirigir sob influência de álcool é infração gravíssima (art. 165 do CTB)."
+},
+{
+  subject: "Legislação de Trânsito",
+  question: "Deixar de dar preferência de passagem ao pedestre que se encontra na faixa caracteriza:",
+  options: {
+    A: "Infração leve",
+    B: "Infração média",
+    C: "Infração grave",
+    D: "Infração gravíssima",
+    E: "Apenas advertência"
+  },
+  correct: "D",
+  justification: "Não dar preferência ao pedestre na faixa é infração gravíssima (art. 214 do CTB)."
+},
+{
+  subject: "Legislação de Trânsito",
+  question: "O condutor que se recusar a realizar o teste do bafômetro estará sujeito a:",
+  options: {
+    A: "Apenas advertência",
+    B: "Infração média",
+    C: "Infração grave",
+    D: "Infração gravíssima",
+    E: "Somente processo criminal"
+  },
+  correct: "D",
+  justification: "A recusa ao teste configura infração gravíssima (art. 165-A do CTB)."
+},
+{
+  subject: "Legislação de Trânsito",
+  question: "Transitar com o veículo em velocidade superior à máxima permitida em mais de 50% caracteriza:",
+  options: {
+    A: "Infração média",
+    B: "Infração grave",
+    C: "Infração gravíssima",
+    D: "Infração leve",
+    E: "Conduta permitida"
+  },
+  correct: "C",
+  justification: "Exceder em mais de 50% a velocidade máxima é infração gravíssima (art. 218, III do CTB)."
+},
+{
+  subject: "Legislação de Trânsito",
+  question: "Conduzir veículo sem possuir Carteira Nacional de Habilitação caracteriza:",
+  options: {
+    A: "Infração média",
+    B: "Infração grave",
+    C: "Infração gravíssima",
+    D: "Apenas advertência",
+    E: "Nenhuma infração"
+  },
+  correct: "C",
+  justification: "Dirigir sem CNH é infração gravíssima (art. 162, I do CTB)."
+},
+{
+  subject: "Legislação de Trânsito",
+  question: "Deixar de manter o veículo na faixa da direita quando não houver motivo para transitar na faixa da esquerda caracteriza:",
+  options: {
+    A: "Infração leve",
+    B: "Infração média",
+    C: "Infração grave",
+    D: "Infração gravíssima",
+    E: "Conduta permitida"
+  },
+  correct: "B",
+  justification: "Transitar indevidamente na faixa da esquerda é infração média (art. 198 do CTB)."
+},
+{
+  subject: "Legislação de Trânsito",
+  question: "O transporte de criança sem observância das normas de segurança caracteriza:",
+  options: {
+    A: "Infração média",
+    B: "Infração leve",
+    C: "Infração grave",
+    D: "Infração gravíssima",
+    E: "Conduta permitida"
+  },
+  correct: "D",
+  justification: "Transportar criança sem os dispositivos adequados é infração gravíssima (art. 168 do CTB)."
+},
+{
+  subject: "Legislação de Trânsito",
+  question: "Deixar de sinalizar a via após a remoção do veículo em caso de acidente caracteriza:",
+  options: {
+    A: "Infração leve",
+    B: "Infração média",
+    C: "Infração grave",
+    D: "Infração gravíssima",
+    E: "Nenhuma infração"
+  },
+  correct: "C",
+  justification: "Deixar de sinalizar a via após acidente é infração grave (art. 176, I do CTB)."
+},
+{
+  subject: "Legislação de Trânsito",
+  question: "Ultrapassar veículo parado em faixa de pedestres caracteriza:",
+  options: {
+    A: "Infração média",
+    B: "Infração grave",
+    C: "Infração leve",
+    D: "Infração gravíssima",
+    E: "Conduta permitida"
+  },
+  correct: "D",
+  justification: "Ultrapassar veículo parado na faixa de pedestres é infração gravíssima (art. 191 do CTB)."
+},
+{
+  subject: "Legislação de Trânsito",
+  question: "Dirigir ameaçando pedestres ou outros veículos caracteriza:",
+  options: {
+    A: "Infração média",
+    B: "Infração grave",
+    C: "Infração leve",
+    D: "Infração gravíssima",
+    E: "Apenas crime"
+  },
+  correct: "D",
+  justification: "Dirigir de forma ameaçadora é infração gravíssima (art. 170 do CTB)."
+}
+
 ];
 /* =====================================================
    INFORMÁTICA
@@ -910,7 +1080,657 @@ const informaticaQuestions = [
     },
     correct: "C",
     justification: "Nuvem refere-se ao armazenamento e serviços acessados via internet."
-  }
+  },
+  {
+  subject: "Informática",
+  question: "Qual é a principal função do protocolo TCP?",
+  options: {
+    A: "Garantir a entrega confiável dos dados",
+    B: "Definir endereços IP",
+    C: "Criptografar a comunicação",
+    D: "Controlar o acesso à rede",
+    E: "Converter nomes em IP"
+  },
+  correct: "A",
+  justification: "O TCP garante entrega confiável, ordenada e sem erros dos dados."
+},
+{
+  subject: "Informática",
+  question: "Qual protocolo é utilizado para envio de e-mails?",
+  options: {
+    A: "FTP",
+    B: "HTTP",
+    C: "SMTP",
+    D: "POP3",
+    E: "IMAP"
+  },
+  correct: "C",
+  justification: "O SMTP (Simple Mail Transfer Protocol) é usado para envio de e-mails."
+},
+{
+  subject: "Informática",
+  question: "O que significa a sigla IP em redes de computadores?",
+  options: {
+    A: "Internet Process",
+    B: "Internal Protocol",
+    C: "Internet Protocol",
+    D: "Information Packet",
+    E: "Interface Program"
+  },
+  correct: "C",
+  justification: "IP significa Internet Protocol, responsável pelo endereçamento dos dispositivos na rede."
+},
+{
+  subject: "Informática",
+  question: "Qual dispositivo é responsável por interligar redes diferentes?",
+  options: {
+    A: "Switch",
+    B: "Hub",
+    C: "Roteador",
+    D: "Placa de rede",
+    E: "Modem"
+  },
+  correct: "C",
+  justification: "O roteador conecta redes distintas e encaminha pacotes de dados."
+},
+{
+  subject: "Informática",
+  question: "Qual é a função do protocolo DNS?",
+  options: {
+    A: "Enviar arquivos",
+    B: "Converter nomes de domínio em endereços IP",
+    C: "Garantir segurança da rede",
+    D: "Gerenciar conexões",
+    E: "Monitorar tráfego"
+  },
+  correct: "B",
+  justification: "O DNS traduz nomes de domínio em endereços IP."
+},
+{
+  subject: "Informática",
+  question: "Qual é a topologia de rede em que todos os dispositivos se conectam a um ponto central?",
+  options: {
+    A: "Barramento",
+    B: "Anel",
+    C: "Malha",
+    D: "Estrela",
+    E: "Árvore"
+  },
+  correct: "D",
+  justification: "Na topologia em estrela, todos os dispositivos se conectam a um nó central."
+},
+{
+  subject: "Informática",
+  question: "Qual protocolo é usado para navegação na web?",
+  options: {
+    A: "FTP",
+    B: "SMTP",
+    C: "HTTP",
+    D: "SNMP",
+    E: "SSH"
+  },
+  correct: "C",
+  justification: "HTTP é o protocolo utilizado para transferência de páginas web."
+},
+{
+  subject: "Informática",
+  question: "O que é uma rede LAN?",
+  options: {
+    A: "Rede de longa distância",
+    B: "Rede sem fio pública",
+    C: "Rede local",
+    D: "Rede de internet global",
+    E: "Rede de servidores"
+  },
+  correct: "C",
+  justification: "LAN (Local Area Network) é uma rede local, como a de uma casa ou empresa."
+},
+{
+  subject: "Informática",
+  question: "Qual equipamento permite a conexão de dispositivos em uma mesma rede local?",
+  options: {
+    A: "Roteador",
+    B: "Switch",
+    C: "Firewall",
+    D: "Servidor DNS",
+    E: "Proxy"
+  },
+  correct: "B",
+  justification: "O switch conecta dispositivos dentro da mesma rede local."
+},
+{
+  subject: "Informática",
+  question: "Qual é a principal diferença entre TCP e UDP?",
+  options: {
+    A: "TCP é mais rápido que UDP",
+    B: "UDP garante entrega dos dados",
+    C: "TCP é orientado à conexão e UDP não",
+    D: "UDP é mais seguro que TCP",
+    E: "TCP não é usado na internet"
+  },
+  correct: "C",
+  justification: "TCP é orientado à conexão e confiável; UDP é mais rápido, porém não garante entrega."
+},
+{
+  subject: "Informática",
+  question: "Em uma rede TCP/IP, qual camada é responsável pelo endereçamento lógico?",
+  options: {
+    A: "Aplicação",
+    B: "Transporte",
+    C: "Internet",
+    D: "Enlace",
+    E: "Física"
+  },
+  correct: "C",
+  justification: "A camada Internet do modelo TCP/IP é responsável pelo endereçamento lógico (IP)."
+},
+{
+  subject: "Informática",
+  question: "Qual protocolo é utilizado para transferência segura de arquivos?",
+  options: {
+    A: "FTP",
+    B: "TFTP",
+    C: "SFTP",
+    D: "SMTP",
+    E: "HTTP"
+  },
+  correct: "C",
+  justification: "O SFTP utiliza criptografia para transferência segura de arquivos."
+},
+{
+  subject: "Informática",
+  question: "Qual máscara de sub-rede corresponde a um endereço /26?",
+  options: {
+    A: "255.255.255.0",
+    B: "255.255.255.192",
+    C: "255.255.255.128",
+    D: "255.255.255.224",
+    E: "255.255.255.240"
+  },
+  correct: "B",
+  justification: "/26 corresponde à máscara 255.255.255.192."
+},
+{
+  subject: "Informática",
+  question: "Qual protocolo permite configuração automática de endereços IP?",
+  options: {
+    A: "DNS",
+    B: "ARP",
+    C: "DHCP",
+    D: "ICMP",
+    E: "SNMP"
+  },
+  correct: "C",
+  justification: "O DHCP distribui automaticamente endereços IP aos dispositivos."
+},
+{
+  subject: "Informática",
+  question: "O comando 'ping' utiliza qual protocolo?",
+  options: {
+    A: "TCP",
+    B: "UDP",
+    C: "ICMP",
+    D: "HTTP",
+    E: "ARP"
+  },
+  correct: "C",
+  justification: "O ping utiliza mensagens ICMP para testar conectividade."
+},
+{
+  subject: "Informática",
+  question: "Em IPv4, quantos bits possui um endereço IP?",
+  options: {
+    A: "32",
+    B: "64",
+    C: "128",
+    D: "16",
+    E: "48"
+  },
+  correct: "A",
+  justification: "Endereços IPv4 possuem 32 bits."
+},
+{
+  subject: "Informática",
+  question: "Qual dispositivo opera predominantemente na camada 2 do modelo OSI?",
+  options: {
+    A: "Roteador",
+    B: "Switch",
+    C: "Firewall",
+    D: "Gateway",
+    E: "Proxy"
+  },
+  correct: "B",
+  justification: "O switch opera na camada de enlace (camada 2)."
+},
+{
+  subject: "Informática",
+  question: "Qual é a principal função do protocolo ARP?",
+  options: {
+    A: "Converter IP em MAC",
+    B: "Converter MAC em IP",
+    C: "Distribuir IP",
+    D: "Criptografar pacotes",
+    E: "Controlar tráfego"
+  },
+  correct: "A",
+  justification: "O ARP converte endereços IP em endereços MAC."
+},
+{
+  subject: "Informática",
+  question: "Qual tipo de ataque intercepta a comunicação entre duas partes?",
+  options: {
+    A: "DoS",
+    B: "Phishing",
+    C: "Man-in-the-middle",
+    D: "Brute force",
+    E: "Spoofing"
+  },
+  correct: "C",
+  justification: "O ataque Man-in-the-middle intercepta a comunicação entre duas entidades."
+},
+{
+  subject: "Informática",
+  question: "Qual protocolo é utilizado para gerenciamento de dispositivos de rede?",
+  options: {
+    A: "SNMP",
+    B: "SMTP",
+    C: "FTP",
+    D: "IMAP",
+    E: "POP3"
+  },
+  correct: "A",
+  justification: "O SNMP é usado para monitoramento e gerenciamento de dispositivos."
+},
+{
+  subject: "Informática",
+  question: "No modelo OSI, a camada responsável pelo controle de fluxo e pela detecção de erros é a camada de enlace.",
+  options: {
+    A: "Aplicação",
+    B: "Sessão",
+    C: "Transporte",
+    D: "Enlace",
+    E: "Física"
+  },
+  correct: "D",
+  justification: "A camada de enlace realiza controle de fluxo e detecção de erros no nível de quadro."
+},
+{
+  subject: "Informática",
+  question: "O protocolo HTTPS diferencia-se do HTTP por utilizar criptografia baseada em TLS ou SSL.",
+  options: {
+    A: "Correto",
+    B: "Errado",
+    C: "Parcialmente correto",
+    D: "Apenas em redes locais",
+    E: "Somente em IPv6"
+  },
+  correct: "A",
+  justification: "HTTPS utiliza TLS/SSL para criptografar a comunicação."
+},
+{
+  subject: "Informática",
+  question: "Em redes IPv4, a classe C possui máscara padrão 255.255.255.0.",
+  options: {
+    A: "Verdadeiro",
+    B: "Falso",
+    C: "Apenas em redes privadas",
+    D: "Somente com CIDR",
+    E: "Apenas em redes públicas"
+  },
+  correct: "A",
+  justification: "A máscara padrão da classe C é 255.255.255.0."
+},
+{
+  subject: "Informática",
+  question: "O protocolo UDP garante entrega confiável e ordenada dos pacotes.",
+  options: {
+    A: "Correto",
+    B: "Errado",
+    C: "Somente em LAN",
+    D: "Somente em WAN",
+    E: "Depende da aplicação"
+  },
+  correct: "B",
+  justification: "UDP não garante entrega nem ordenação dos pacotes."
+},
+{
+  subject: "Informática",
+  question: "O IPv6 foi criado, entre outros motivos, para resolver o problema do esgotamento de endereços IPv4.",
+  options: {
+    A: "Certo",
+    B: "Errado",
+    C: "Apenas parcialmente",
+    D: "Somente em redes privadas",
+    E: "Somente em redes corporativas"
+  },
+  correct: "A",
+  justification: "O IPv6 amplia significativamente o espaço de endereçamento."
+},
+{
+  subject: "Informática",
+  question: "Um firewall pode ser implementado tanto em hardware quanto em software.",
+  options: {
+    A: "Falso",
+    B: "Verdadeiro",
+    C: "Somente em hardware",
+    D: "Somente em software",
+    E: "Apenas em servidores"
+  },
+  correct: "B",
+  justification: "Firewalls podem ser implementados como hardware ou software."
+},
+{
+  subject: "Informática",
+  question: "O protocolo FTP utiliza, por padrão, as portas 20 e 21.",
+  options: {
+    A: "Errado",
+    B: "Certo",
+    C: "Apenas a porta 21",
+    D: "Apenas a porta 20",
+    E: "Portas dinâmicas"
+  },
+  correct: "B",
+  justification: "FTP usa a porta 21 para controle e 20 para dados."
+},
+{
+  subject: "Informática",
+  question: "O DNS é considerado um protocolo da camada de aplicação.",
+  options: {
+    A: "Falso",
+    B: "Certo",
+    C: "Camada de transporte",
+    D: "Camada de rede",
+    E: "Camada física"
+  },
+  correct: "B",
+  justification: "DNS atua na camada de aplicação do modelo TCP/IP."
+},
+{
+  subject: "Informática",
+  question: "Em uma topologia em anel, a falha de um único nó pode comprometer toda a rede.",
+  options: {
+    A: "Errado",
+    B: "Certo",
+    C: "Somente em WAN",
+    D: "Somente em LAN",
+    E: "Depende do protocolo"
+  },
+  correct: "B",
+  justification: "Na topologia em anel, a falha de um nó pode interromper a comunicação."
+},
+{
+  subject: "Informática",
+  question: "O protocolo ICMP é utilizado para envio de mensagens de erro e controle.",
+  options: {
+    A: "Certo",
+    B: "Errado",
+    C: "Apenas para e-mail",
+    D: "Apenas para arquivos",
+    E: "Somente em IPv6"
+  },
+  correct: "A",
+  justification: "ICMP é usado para mensagens de erro e diagnóstico."
+},
+{
+  subject: "Informática",
+  question: "A Engenharia da Informação tem como principal objetivo estruturar e organizar os dados de forma a apoiar a tomada de decisão nas organizações.",
+  options: {
+    A: "Correto",
+    B: "Errado",
+    C: "Apenas em sistemas distribuídos",
+    D: "Somente em bancos de dados",
+    E: "Somente em sistemas web"
+  },
+  correct: "A",
+  justification: "A Engenharia da Informação foca na organização e uso estratégico da informação."
+},
+{
+  subject: "Informática",
+  question: "O gerenciamento de memória em um sistema operacional tem como função principal controlar o uso da memória principal pelos processos em execução.",
+  options: {
+    A: "Errado",
+    B: "Correto",
+    C: "Somente em sistemas Linux",
+    D: "Somente em sistemas Windows",
+    E: "Apenas em sistemas distribuídos"
+  },
+  correct: "B",
+  justification: "O gerenciamento de memória controla alocação e liberação da memória para processos."
+},
+{
+  subject: "Informática",
+  question: "No sistema operacional Linux, o kernel é responsável pelo gerenciamento de hardware e recursos do sistema.",
+  options: {
+    A: "Correto",
+    B: "Errado",
+    C: "Somente pela interface gráfica",
+    D: "Somente pela segurança",
+    E: "Apenas pelo sistema de arquivos"
+  },
+  correct: "A",
+  justification: "O kernel gerencia CPU, memória, dispositivos e processos."
+},
+{
+  subject: "Informática",
+  question: "Uma rede WAN caracteriza-se por abranger grandes áreas geográficas, como cidades, países ou continentes.",
+  options: {
+    A: "Errado",
+    B: "Correto",
+    C: "Somente redes locais",
+    D: "Apenas redes sem fio",
+    E: "Exclusivamente redes privadas"
+  },
+  correct: "B",
+  justification: "WAN cobre grandes distâncias geográficas."
+},
+{
+  subject: "Informática",
+  question: "O protocolo TCP garante entrega confiável e ordenada dos dados transmitidos em uma rede.",
+  options: {
+    A: "Errado",
+    B: "Correto",
+    C: "Somente em redes LAN",
+    D: "Somente em redes WAN",
+    E: "Apenas em redes sem fio"
+  },
+  correct: "B",
+  justification: "TCP é orientado à conexão e garante confiabilidade."
+},
+{
+  subject: "Informática",
+  question: "A segurança em redes envolve mecanismos como autenticação, criptografia e controle de acesso.",
+  options: {
+    A: "Correto",
+    B: "Errado",
+    C: "Somente criptografia",
+    D: "Apenas firewall",
+    E: "Somente antivírus"
+  },
+  correct: "A",
+  justification: "Segurança de redes utiliza múltiplos mecanismos."
+},
+{
+  subject: "Informática",
+  question: "Pilhas são estruturas de dados que seguem o princípio LIFO (Last In, First Out).",
+  options: {
+    A: "Errado",
+    B: "Correto",
+    C: "FIFO",
+    D: "Circular",
+    E: "Hierárquico"
+  },
+  correct: "B",
+  justification: "Pilhas operam segundo o princípio LIFO."
+},
+{
+  subject: "Informática",
+  question: "Árvores são estruturas de dados não lineares que representam relações hierárquicas.",
+  options: {
+    A: "Errado",
+    B: "Correto",
+    C: "Somente lineares",
+    D: "Somente sequenciais",
+    E: "Somente ordenadas"
+  },
+  correct: "B",
+  justification: "Árvores são estruturas hierárquicas não lineares."
+},
+{
+  subject: "Informática",
+  question: "Filas utilizam o princípio FIFO (First In, First Out).",
+  options: {
+    A: "Correto",
+    B: "Errado",
+    C: "LIFO",
+    D: "Aleatório",
+    E: "Hierárquico"
+  },
+  correct: "A",
+  justification: "Filas operam pelo princípio FIFO."
+},
+{
+  subject: "Informática",
+  question: "A programação orientada a objetos baseia-se em conceitos como classes, objetos, herança e polimorfismo.",
+  options: {
+    A: "Errado",
+    B: "Correto",
+    C: "Somente funções",
+    D: "Somente variáveis",
+    E: "Somente estruturas"
+  },
+  correct: "B",
+  justification: "POO utiliza classes, objetos, herança e polimorfismo."
+},
+{
+  subject: "Informática",
+  question: "A programação estruturada utiliza estruturas de controle como sequência, decisão e repetição.",
+  options: {
+    A: "Correto",
+    B: "Errado",
+    C: "Somente repetição",
+    D: "Somente decisão",
+    E: "Somente orientação a objetos"
+  },
+  correct: "A",
+  justification: "Essas são as estruturas básicas da programação estruturada."
+},
+{
+  subject: "Informática",
+  question: "O estudo de viabilidade avalia se um sistema é técnica, econômica e operacionalmente viável.",
+  options: {
+    A: "Errado",
+    B: "Correto",
+    C: "Apenas técnica",
+    D: "Apenas econômica",
+    E: "Apenas operacional"
+  },
+  correct: "B",
+  justification: "A viabilidade considera vários aspectos antes do desenvolvimento."
+},
+{
+  subject: "Informática",
+  question: "A fase de testes tem como objetivo identificar erros antes da implantação do sistema.",
+  options: {
+    A: "Correto",
+    B: "Errado",
+    C: "Somente após implantação",
+    D: "Somente no início",
+    E: "Somente em produção"
+  },
+  correct: "A",
+  justification: "Testes buscam identificar falhas antes da implantação."
+},
+{
+  subject: "Informática",
+  question: "O levantamento de dados é uma etapa fundamental da análise de sistemas.",
+  options: {
+    A: "Errado",
+    B: "Correto",
+    C: "Apenas após testes",
+    D: "Somente na implantação",
+    E: "Apenas na manutenção"
+  },
+  correct: "B",
+  justification: "O levantamento de dados é essencial para entender os requisitos."
+},
+{
+  subject: "Informática",
+  question: "Um SGBD é responsável por armazenar, gerenciar e recuperar dados de forma eficiente.",
+  options: {
+    A: "Correto",
+    B: "Errado",
+    C: "Somente armazenar",
+    D: "Somente recuperar",
+    E: "Somente criptografar"
+  },
+  correct: "A",
+  justification: "O SGBD gerencia todo o ciclo de vida dos dados."
+},
+{
+  subject: "Informática",
+  question: "SQL é uma linguagem utilizada para criação, consulta e manipulação de dados em bancos de dados relacionais.",
+  options: {
+    A: "Errado",
+    B: "Correto",
+    C: "Somente consulta",
+    D: "Somente criação",
+    E: "Somente exclusão"
+  },
+  correct: "B",
+  justification: "SQL permite criar, consultar e manipular dados."
+},
+{
+  subject: "Informática",
+  question: "O projeto conceitual de banco de dados utiliza modelos como o entidade-relacionamento.",
+  options: {
+    A: "Correto",
+    B: "Errado",
+    C: "Modelo físico",
+    D: "Modelo lógico",
+    E: "Modelo relacional"
+  },
+  correct: "A",
+  justification: "O modelo ER é usado no projeto conceitual."
+},
+{
+  subject: "Informática",
+  question: "Ferramentas de desenvolvimento auxiliam na codificação, testes e manutenção de sistemas.",
+  options: {
+    A: "Errado",
+    B: "Correto",
+    C: "Somente na codificação",
+    D: "Somente nos testes",
+    E: "Somente na manutenção"
+  },
+  correct: "B",
+  justification: "Ferramentas apoiam várias etapas do desenvolvimento."
+},
+{
+  subject: "Informática",
+  question: "Aplicações web são acessadas por meio de navegadores e utilizam protocolos como HTTP e HTTPS.",
+  options: {
+    A: "Correto",
+    B: "Errado",
+    C: "Somente HTTP",
+    D: "Somente HTTPS",
+    E: "Somente redes locais"
+  },
+  correct: "A",
+  justification: "Aplicações web utilizam navegadores e protocolos web."
+},
+{
+  subject: "Informática",
+  question: "Uma característica das aplicações web é a independência de sistema operacional do usuário.",
+  options: {
+    A: "Errado",
+    B: "Correto",
+    C: "Somente Windows",
+    D: "Somente Linux",
+    E: "Somente mobile"
+  },
+  correct: "B",
+  justification: "Aplicações web são multiplataforma."
+}
 ];
 
 /* =====================================================
