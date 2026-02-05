@@ -23,6 +23,8 @@ function startSimulado() {
       ? [...QUESTIONS]
       : subject === "DETRAN"
       ? [...DETRAN_QUESTIONS]
+      : subject === "PETROBRAS"
+      ? [...PETROBRAS_QUESTIONS]
       : QUESTIONS.filter(q => q.subject === subject);
 
   quiz.sort(() => Math.random() - 0.5);

@@ -504,23 +504,7 @@ const portuguesQuestions = [
     correct: "C",
     justification: "O verbo 'existir' concorda com o sujeito."
   },
-  {
-    subject: "Português",
-    question: {
-      text: "A eficiência no serviço público depende não apenas de recursos materiais, mas sobretudo do comprometimento humano.",
-      itens: "A ideia central do texto é que:",
-    },
-    options: {
-      A: "Recursos materiais são suficientes para a eficiência.",
-      B: "O comprometimento humano é irrelevante.",
-      C: "A eficiência depende exclusivamente do servidor.",
-      D: "O fator humano tem papel central na eficiência.",
-      E: "O serviço público é ineficiente por natureza."
-    },
-    correct: "D",
-    justification: "O advérbio “sobretudo” indica destaque principal ao comprometimento humano, sem excluir outros fatores."
-
-  },
+  
   {
     subject: "Português",
     question: "No trecho “não apenas…, mas sobretudo…”, a estrutura estabelece ideia de:",
@@ -578,10 +562,7 @@ const portuguesQuestions = [
   },
   {
     subject: "Português",
-    question: {
-      text: "A leitura crítica permite ao cidadão interpretar informações com maior autonomia.",
-      itens: "O termo “crítica” tem sentido de:",
-    },
+    question: "A leitura crítica permite ao cidadão interpretar informações com maior autonomia.O termo “crítica” tem sentido de:",
       options: {
         A: "Julgamento negativo",
         B: "Análise reflexiva",
@@ -594,10 +575,7 @@ const portuguesQuestions = [
   },
   {
     subject: "Português",
-    question: {
-      text: "A leitura crítica permite ao cidadão interpretar informações com maior autonomia.",
-      itens: "A palavra “autonomia” indica:",
-    },
+    question: "A leitura crítica permite ao cidadão interpretar informações com maior autonomia. A palavra “autonomia” indica:",
     options: {
       A: "Dependência",
       B: "Isolamento",
@@ -659,7 +637,73 @@ const portuguesQuestions = [
     },
     correct: "C",
     justification: "'Gostar' é verbo transitivo indireto e rege preposição 'de'."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa em que o uso da vírgula está correto, segundo a norma-padrão.",
+    options: {
+      A: "Os empregados da Petrobras, que atuam em campo, recebem treinamento específico.",
+      B: "A empresa investe em inovação e, sustentabilidade.",
+      C: "Os técnicos que participaram do curso receberam, todos, certificado.",
+      D: "A Petrobras que é estatal brasileira atua no setor energético.",
+      E: "Os contratos foram assinados, ontem à noite."
+    },
+    correct: "A",
+    justification: "A vírgula está correta na alternativa A. No trecho 'que atuam em campo', a vírgula é usada para separar a oração restritiva do restante da frase."
+  },
+  {
+    subject: "Português",
+    question: "A palavra 'imprescindível' tem como sinônimo.",
+    options: {
+      A: "Opcional",
+      B: "Dispensável",
+      C: "Fundamental",
+      D: "Eventual",
+      E: "Secundário"
+    },
+    correct: "C",
+    justification: "'Imprescindível' significa algo que não pode ser dispensado, ou seja, fundamental."
+  },
+  {
+    subject: "Português",
+    question: "O uso correto do porquê está em:",
+    options: {
+      A: "Não sei o por que da decisão",
+      B: "Explique por quê você faltou",
+      C: "O motivo porque faltei é pessoal",
+      D: "Por que você não compareceu?",
+      E: "Não fui, porquê estava doente"
+    },
+    correct: "D",
+    justification: "Em 'Por que você não compareceu?', 'por que' é usado em perguntas diretas."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa com sentido denotativo.",
+    options: {
+      A: "O projeto morreu na praia",
+      B: "A empresa colheu bons frutos",
+      C: "O relatório foi entregue ontem",
+      D: "Ele tem um coração de pedra",
+      E: "O tempo voa"
+    },
+    correct: "C",
+    justification: "Sentido denotativo é o sentido literal das palavras, como em 'O relatório foi entregue ontem'."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa em que há erro de concordância verbal.",
+    options: {
+    A: "Faz dez anos que trabalho aqui",
+    B: "Existem normas claras",
+    C: "Devem haver mudanças",
+    D: "Ocorreu falha no sistema",
+    E: "Chegaram os documentos"
+  },
+    correct: "C",
+    justification: "O verbo 'haver', no sentido de existir, é impessoal e deve ser usado na 3ª pessoa do singular: 'Deve haver mudanças'."
   }
+
 ];
 
 /* =====================================================
@@ -1360,9 +1404,6 @@ const informaticaQuestions = [
   options: {
     A: "Correto",
     B: "Errado",
-    C: "Parcialmente correto",
-    D: "Apenas em redes locais",
-    E: "Somente em IPv6"
   },
   correct: "A",
   justification: "HTTPS utiliza TLS/SSL para criptografar a comunicação."
@@ -1373,9 +1414,6 @@ const informaticaQuestions = [
   options: {
     A: "Verdadeiro",
     B: "Falso",
-    C: "Apenas em redes privadas",
-    D: "Somente com CIDR",
-    E: "Apenas em redes públicas"
   },
   correct: "A",
   justification: "A máscara padrão da classe C é 255.255.255.0."
@@ -1386,9 +1424,6 @@ const informaticaQuestions = [
   options: {
     A: "Correto",
     B: "Errado",
-    C: "Somente em LAN",
-    D: "Somente em WAN",
-    E: "Depende da aplicação"
   },
   correct: "B",
   justification: "UDP não garante entrega nem ordenação dos pacotes."
@@ -1399,9 +1434,6 @@ const informaticaQuestions = [
   options: {
     A: "Certo",
     B: "Errado",
-    C: "Apenas parcialmente",
-    D: "Somente em redes privadas",
-    E: "Somente em redes corporativas"
   },
   correct: "A",
   justification: "O IPv6 amplia significativamente o espaço de endereçamento."
@@ -1412,9 +1444,6 @@ const informaticaQuestions = [
   options: {
     A: "Falso",
     B: "Verdadeiro",
-    C: "Somente em hardware",
-    D: "Somente em software",
-    E: "Apenas em servidores"
   },
   correct: "B",
   justification: "Firewalls podem ser implementados como hardware ou software."
@@ -1425,9 +1454,6 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Certo",
-    C: "Apenas a porta 21",
-    D: "Apenas a porta 20",
-    E: "Portas dinâmicas"
   },
   correct: "B",
   justification: "FTP usa a porta 21 para controle e 20 para dados."
@@ -1438,9 +1464,6 @@ const informaticaQuestions = [
   options: {
     A: "Falso",
     B: "Certo",
-    C: "Camada de transporte",
-    D: "Camada de rede",
-    E: "Camada física"
   },
   correct: "B",
   justification: "DNS atua na camada de aplicação do modelo TCP/IP."
@@ -1451,9 +1474,6 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Certo",
-    C: "Somente em WAN",
-    D: "Somente em LAN",
-    E: "Depende do protocolo"
   },
   correct: "B",
   justification: "Na topologia em anel, a falha de um nó pode interromper a comunicação."
@@ -1464,9 +1484,6 @@ const informaticaQuestions = [
   options: {
     A: "Certo",
     B: "Errado",
-    C: "Apenas para e-mail",
-    D: "Apenas para arquivos",
-    E: "Somente em IPv6"
   },
   correct: "A",
   justification: "ICMP é usado para mensagens de erro e diagnóstico."
@@ -1477,9 +1494,6 @@ const informaticaQuestions = [
   options: {
     A: "Correto",
     B: "Errado",
-    C: "Apenas em sistemas distribuídos",
-    D: "Somente em bancos de dados",
-    E: "Somente em sistemas web"
   },
   correct: "A",
   justification: "A Engenharia da Informação foca na organização e uso estratégico da informação."
@@ -1490,9 +1504,6 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Correto",
-    C: "Somente em sistemas Linux",
-    D: "Somente em sistemas Windows",
-    E: "Apenas em sistemas distribuídos"
   },
   correct: "B",
   justification: "O gerenciamento de memória controla alocação e liberação da memória para processos."
@@ -1503,9 +1514,6 @@ const informaticaQuestions = [
   options: {
     A: "Correto",
     B: "Errado",
-    C: "Somente pela interface gráfica",
-    D: "Somente pela segurança",
-    E: "Apenas pelo sistema de arquivos"
   },
   correct: "A",
   justification: "O kernel gerencia CPU, memória, dispositivos e processos."
@@ -1516,9 +1524,6 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Correto",
-    C: "Somente redes locais",
-    D: "Apenas redes sem fio",
-    E: "Exclusivamente redes privadas"
   },
   correct: "B",
   justification: "WAN cobre grandes distâncias geográficas."
@@ -1529,9 +1534,6 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Correto",
-    C: "Somente em redes LAN",
-    D: "Somente em redes WAN",
-    E: "Apenas em redes sem fio"
   },
   correct: "B",
   justification: "TCP é orientado à conexão e garante confiabilidade."
@@ -1542,9 +1544,6 @@ const informaticaQuestions = [
   options: {
     A: "Correto",
     B: "Errado",
-    C: "Somente criptografia",
-    D: "Apenas firewall",
-    E: "Somente antivírus"
   },
   correct: "A",
   justification: "Segurança de redes utiliza múltiplos mecanismos."
@@ -1555,9 +1554,6 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Correto",
-    C: "FIFO",
-    D: "Circular",
-    E: "Hierárquico"
   },
   correct: "B",
   justification: "Pilhas operam segundo o princípio LIFO."
@@ -1568,9 +1564,6 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Correto",
-    C: "Somente lineares",
-    D: "Somente sequenciais",
-    E: "Somente ordenadas"
   },
   correct: "B",
   justification: "Árvores são estruturas hierárquicas não lineares."
@@ -1581,9 +1574,6 @@ const informaticaQuestions = [
   options: {
     A: "Correto",
     B: "Errado",
-    C: "LIFO",
-    D: "Aleatório",
-    E: "Hierárquico"
   },
   correct: "A",
   justification: "Filas operam pelo princípio FIFO."
@@ -1594,9 +1584,6 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Correto",
-    C: "Somente funções",
-    D: "Somente variáveis",
-    E: "Somente estruturas"
   },
   correct: "B",
   justification: "POO utiliza classes, objetos, herança e polimorfismo."
@@ -1607,9 +1594,6 @@ const informaticaQuestions = [
   options: {
     A: "Correto",
     B: "Errado",
-    C: "Somente repetição",
-    D: "Somente decisão",
-    E: "Somente orientação a objetos"
   },
   correct: "A",
   justification: "Essas são as estruturas básicas da programação estruturada."
@@ -1620,9 +1604,6 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Correto",
-    C: "Apenas técnica",
-    D: "Apenas econômica",
-    E: "Apenas operacional"
   },
   correct: "B",
   justification: "A viabilidade considera vários aspectos antes do desenvolvimento."
@@ -1646,9 +1627,6 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Correto",
-    C: "Apenas após testes",
-    D: "Somente na implantação",
-    E: "Apenas na manutenção"
   },
   correct: "B",
   justification: "O levantamento de dados é essencial para entender os requisitos."
@@ -1659,9 +1637,6 @@ const informaticaQuestions = [
   options: {
     A: "Correto",
     B: "Errado",
-    C: "Somente armazenar",
-    D: "Somente recuperar",
-    E: "Somente criptografar"
   },
   correct: "A",
   justification: "O SGBD gerencia todo o ciclo de vida dos dados."
@@ -1672,9 +1647,6 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Correto",
-    C: "Somente consulta",
-    D: "Somente criação",
-    E: "Somente exclusão"
   },
   correct: "B",
   justification: "SQL permite criar, consultar e manipular dados."
@@ -1685,9 +1657,6 @@ const informaticaQuestions = [
   options: {
     A: "Correto",
     B: "Errado",
-    C: "Modelo físico",
-    D: "Modelo lógico",
-    E: "Modelo relacional"
   },
   correct: "A",
   justification: "O modelo ER é usado no projeto conceitual."
@@ -1698,9 +1667,6 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Correto",
-    C: "Somente na codificação",
-    D: "Somente nos testes",
-    E: "Somente na manutenção"
   },
   correct: "B",
   justification: "Ferramentas apoiam várias etapas do desenvolvimento."
@@ -1711,9 +1677,6 @@ const informaticaQuestions = [
   options: {
     A: "Correto",
     B: "Errado",
-    C: "Somente HTTP",
-    D: "Somente HTTPS",
-    E: "Somente redes locais"
   },
   correct: "A",
   justification: "Aplicações web utilizam navegadores e protocolos web."
@@ -1724,15 +1687,878 @@ const informaticaQuestions = [
   options: {
     A: "Errado",
     B: "Correto",
-    C: "Somente Windows",
-    D: "Somente Linux",
-    E: "Somente mobile"
   },
   correct: "B",
   justification: "Aplicações web são multiplataforma."
+},
+{
+  subject: "Informática",
+  question: "No Excel, a função SE permite:",
+  options: {
+    A: "Somar intervalos",
+    B: "Criar gráficos",
+    C: "Executar testes lógicos",
+    D: "Pesquisar valores",
+    E: "Contar células vazias"
+  },
+    correct: "C",
+    justification: "A função SE executa testes lógicos e retorna valores com base no resultado."
+},
+{
+    subject: "Informática",
+    question: "Qual atalho do teclado é usado para copiar um item selecionado?",
+    options: {
+      A: "Ctrl + C",
+      B: "Ctrl + V",
+      C: "Ctrl + X",
+      D: "Alt + C",
+      E: "Shift + C"
+    },
+    correct: "A",
+    justification: "O atalho Ctrl + C copia o item selecionado."
+},
+{
+    subject: "Informática",
+    question: "Qual é a extensão padrão dos arquivos do Microsoft Word?",
+    options: {
+      A: ".xls",
+      B: ".ppt",
+      C: ".docx",
+      D: ".txt",
+      E: ".pdf"
+    },
+    correct: "C",
+    justification: "A extensão padrão dos arquivos do Word é .docx."
+},
+{
+    subject: "Informática",
+    question: "Qual extensão corresponde a um arquivo compactado?",
+    options: {
+      A: ".zip",
+      B: ".docx",
+      C: ".pptx",
+      D: ".xlsx",
+      E: ".pdf"
+    },
+    correct: "A",
+    justification: "A extensão .zip é usada para arquivos compactados."
+},
+{
+    subject: "Informática",
+    question: "Qual programa é utilizado para navegar na internet?",
+    options: {
+      A: "Microsoft Word",
+      B: "Adobe Photoshop",
+      C: "Google Chrome",
+      D: "Microsoft Excel",
+      E: "VLC Media Player"
+    },
+    correct: "C",
+    justification: "Google Chrome é um navegador de internet."
+},
+{
+    subject: "Informática",
+    question: "No Windows, o atalho para alternar entre janelas é:",
+    options: {
+      A: "Ctrl + C",
+      B: "Ctrl + V",
+      C: "Alt + Tab",
+      D: "Shift + Esc",
+      E: "Ctrl + Alt + Del"
+    },
+    correct: "C",
+    justification: "O atalho Alt + Tab permite alternar entre janelas abertas."
+},
+{
+    subject: "Informática",
+    question: "No Scrum, o responsável por priorizar o backlog é:",
+    options: {
+      A: "Scrum Master",
+      B: "Product Owner",
+      C: "Development Team",
+      D: "Stakeholder",
+      E: "Project Manager"
+    },
+    correct: "B",
+    justification: "O Product Owner é responsável por priorizar o backlog do produto."
+},
+{
+    subject: "Informática",
+    question: "Qual é a principal função do Scrum Master?",
+    options: {
+      A: "Gerenciar o projeto",
+      B: "Priorizar o backlog",
+      C: "Facilitar o processo Scrum",
+      D: "Desenvolver o produto",
+      E: "Aprovar entregas"
+    },
+    correct: "C",
+    justification: "O Scrum Master facilita o processo Scrum e remove impedimentos."
+},
+{
+    subject: "Informática",
+    question: "Em Scrum, o que é uma Sprint?",
+    options: {
+      A: "Uma reunião diária",
+      B: "Um incremento do produto",
+      C: "Um ciclo de desenvolvimento com duração fixa",
+      D: "Um documento de requisitos",
+      E: "Um teste de software"
+    },
+    correct: "C",
+    justification: "Uma Sprint é um ciclo de desenvolvimento com duração fixa, geralmente de 2 a 4 semanas."
+},
+{
+    subject: "Informática",
+    question: "A chave estrangeira tem a função de:",
+    options: {
+      A: "Identificar registros",
+      B: "Garantir integridade referencial",
+      C: "Indexar colunas",
+      D: "Eliminar duplicidade",
+      E: "Criar visões"
+    },
+    correct: "B",
+    justification: "A chave estrangeira é usada para criar relações entre tabelas em bancos de dados relacionais."
+},
+{
+    subject: "Informática",
+    question: "No Excel, a função CONT.SE é usada para:",
+    options: {
+      A: "Somar valores condicionais",
+      B: "Contar células com critério",
+      C: "Executar testes lógicos",
+      D: "Pesquisar valores",
+      E: "Criar gráficos"
+    },
+    correct: "B",
+    justification: "A função CONT.SE conta o número de células que atendem a um critério específico."
+},
+{
+    subject: "Informática",
+    question: "Qual atalho do Windows alterna entre janelas abertas?",
+    options: {
+      A: "Ctrl + Alt + Del",
+      B: "Ctrl + Shift + Esc",
+      C: "Alt + Tab",
+      D: "Ctrl + C",
+      E: "Alt + F4"
+    },
+    correct: "C",
+    justification: "O atalho Alt + Tab permite alternar entre janelas abertas no Windows."
+},
+{
+    subject: "Informática",
+    question: "O protocolo TCP garante:",
+    options: {
+      A: "Entrega sem conexão",
+      B: "Alta velocidade",
+      C: "Controle de fluxo e confiabilidade",
+      D: "Menor latência",
+      E: "Transmissão sem portas"
+    },
+    correct: "C",
+    justification: "O TCP é um protocolo orientado à conexão que garante controle de fluxo e confiabilidade na transmissão de dados."
+},
+{
+    subject: "Informática",
+    question: "O ataque que visa enganar o usuário para obter informações é:",
+    options: {
+      A: "DDoS",
+      B: "Phishing",
+      C: "Malware",
+      D: "Brute Force",
+      E: "Spoofing"
+    },
+    correct: "B",
+    justification: "Phishing é um ataque que tenta enganar o usuário para obter informações confidenciais."
 }
 ];
+/* =====================================================
+   SIMULADO OFICIAL – PETRÓLEO BRASILEIRO S.A. – PETROBRAS
+===================================================== */
+const PETROBRAS_QUESTIONS = [
+  {
+  subject: "Petrobras",
+  question: "Qual é a principal atividade da Petrobras?",
+  options: {
+    A: "Produção de energia elétrica",
+    B: "Exploração e produção de petróleo e gás",
+    C: "Fabricação de veículos",
+    D: "Comércio varejista",
+    E: "Indústria têxtil"
+  },
+  correct: "B",
+  justification: "A principal atividade da Petrobras é a exploração e produção de petróleo e gás."
+},
+{
+  subject: "Petrobras",
+  question: "Em que ano a Petrobras foi fundada?",
+  options: {
+    A: "1950",
+    B: "1953",
+    C: "1960",
+    D: "1975",
+    E: "1980"
+  },
+  correct: "B",
+  justification: "A Petrobras foi fundada em 1953."
+},
+{
+  subject: "Petrobras",
+  question: "Qual é o nome do programa de sustentabilidade da Petrobras?",
+  options: {
+    A: "Petrobras Verde",
+    B: "Energia Limpa",
+    C: "Compromisso com o Futuro",
+    D: "Sustentabilidade Petrobras",
+    E: "EcoPetrobras"
+  },
+  correct: "D",
+  justification: "O programa de sustentabilidade da Petrobras é chamado 'Compromisso com o Futuro'."
+},
+{
+  subject: "Petrobras",
+  question: "Qual é o nome do maior campo de petróleo em produção da Petrobras?",
+  options: {
+    A: "Campo de Marlim",
+    B: "Campo de Roncador",
+    C: "Campo de Lula",
+    D: "Campo de Búzios",
+    E: "Campo de Sapinhoá"
+  },
+  correct: "C",
+  justification: "O Campo de Lula é o maior campo de petróleo em produção da Petrobras."
+},
+{
+  subject: "Petrobras",
+  question: "Qual é a sigla do programa de responsabilidade social da Petrobras?",
+  options: {
+    A: "PRSP",
+    B: "PRES",
+    C: "PRSPETRO",
+    D: "RESPETRO",
+    E: "PETRORESP"
+  },
+  correct: "A",
+  justification: "A sigla do programa de responsabilidade social da Petrobras é PRSP (Programa de Responsabilidade Social Petrobras)."
+},
+{
+  subject: "Petrobras",
+  question: "Qual é o principal produto refinado pela Petrobras?",
+  options: {
+    A: "Gasolina",
+    B: "Diesel",
+    C: "Querosene",
+    D: "Óleo combustível",
+    E: "Gás natural"
+  },
+  correct: "A",
+  justification: "A gasolina é o principal produto refinado pela Petrobras."
+},
+{
+  subject: "Petrobras",
+  question: "Qual é o nome do programa de inovação tecnológica da Petrobras?",
+  options: {
+    A: "InovaPetro",
+    B: "Tecnologia Petrobras",
+    C: "Petrobras Inovação",
+    D: "Inovação e Tecnologia",
+    E: "TechPetrobras"
+  },
+  correct: "C",
+  justification: "O programa de inovação tecnológica da Petrobras é chamado 'Petrobras Inovação'."
+},
+{
+  subject: "Petrobras",
+  question: "Qual é o nome do programa de segurança da Petrobras?",
+  options: {
+    A: "Segurança Petrobras",
+    B: "Petrobras Safe",
+    C: "Compromisso com a Segurança",
+    D: "Segurança em Primeiro Lugar",
+    E: "SafePetrobras"
+  },
+  correct: "C",
+  justification: "O programa de segurança da Petrobras é chamado 'Compromisso com a Segurança'."
+},
+{
+  subject: "Petrobras",
+  question: "Qual é o nome do programa de diversidade e inclusão da Petrobras?",
+  options: {
+    A: "Diversidade Petrobras",
+    B: "Inclusão Petrobras",
+    C: "Compromisso com a Diversidade",
+    D: "Diversidade e Inclusão",
+    E: "Inclusão e Diversidade"
+  },
+  correct: "C",
+  justification: "O programa de diversidade e inclusão da Petrobras é chamado 'Compromisso com a Diversidade'."
+},
+{
+  subject: "Petrobras",
+  question: "Qual é o nome do programa de eficiência energética da Petrobras?",
+  options: {
+    A: "Energia Petrobras", 
+    B: "Eficiência Petrobras",
+    C: "Compromisso com a Eficiência",
+    D: "Energia Eficiente",
+    E: "Eficiência Energética Petrobras"
+  },
+  correct: "C",
+  justification: "O programa de eficiência energética da Petrobras é chamado 'Compromisso com a Eficiência'."
+},
+{
+  subject: "Petrobras",
+  question: "Qual é o nome do programa de responsabilidade ambiental da Petrobras?",
+  options: {
+    A: "Ambiente Petrobras",
+    B: "Petrobras Verde",
+    C: "Compromisso com o Meio Ambiente",
+    D: "Responsabilidade Ambiental",
+    E: "EcoPetrobras"
+  },
+  correct: "C",
+  justification: "O programa de responsabilidade ambiental da Petrobras é chamado 'Compromisso com o Meio Ambiente'."
+},
+{
+  subject: "Petrobras",
+  question: "Durante a implantação de um novo sistema corporativo de gestão de ativos em uma refinaria da Petrobras, foi identificado que diferentes áreas solicitavam mudanças frequentes sem avaliação de impacto. Considerando boas práticas de governança de TI, a ação mais adequada para mitigar riscos é:",
+  options: {
+    A: "Atender todas as solicitações para garantir agilidade operacional",
+    B: "Suspender o projeto até que todas as áreas entrem em consenso",
+    C: "Implementar um comitê de mudanças com critérios formais de avaliação",
+    D: "Delegar as decisões exclusivamente à equipe técnica",
+    E: "Registrar as solicitações apenas para fins históricos"
+  },
+  correct: "C",
+  justification: "A governança de TI prevê controle formal de mudanças, garantindo alinhamento estratégico, mitigação de riscos e rastreabilidade."
+},
+{
+  subject: "Petrobras",
+  question: "Um sistema interno da Petrobras passou a coletar dados pessoais de empregados para análise de desempenho. À luz da LGPD, antes do início do tratamento desses dados, é obrigatório:",
+  options: {
+    A: "Solicitar autorização judicial",
+    B: "Publicar os dados em portal interno",
+    C: "Definir finalidade, base legal e medidas de segurança",
+    D: "Anonimizar todos os dados automaticamente",
+    E: "Eliminar dados antigos da base"
+  },
+  correct: "C",
+  justification: "A LGPD exige definição clara de finalidade, base legal e adoção de medidas técnicas e administrativas para proteção dos dados."
+},
+{
+  subject: "Petrobras",
+  question: "Uma aplicação crítica da Petrobras, responsável pelo monitoramento de produção offshore, precisa manter alta disponibilidade e tolerância a falhas. A arquitetura mais adequada para esse cenário é:",
+  options: {
+    A: "Monolítica centralizada",
+    B: "Cliente-servidor simples",
+    C: "Arquitetura distribuída com redundância",
+    D: "Aplicação standalone local",
+    E: "Processamento manual assistido"
+  },
+  correct: "C",
+  justification: "Ambientes críticos exigem arquiteturas distribuídas, com redundância e mecanismos de tolerância a falhas."
+},
+{
+  subject: "Petrobras",
+  question: "Após a indisponibilidade de um sistema de logística que afetou o abastecimento, a equipe de TI da Petrobras deve, segundo ITIL, priorizar inicialmente:",
+  options: {
+    A: "Identificação da causa raiz",
+    B: "Aplicação de penalidades contratuais",
+    C: "Restauração rápida do serviço",
+    D: "Documentação do incidente",
+    E: "Revisão do SLA"
+  },
+  correct: "C",
+  justification: "O gerenciamento de incidentes prioriza restaurar o serviço o mais rápido possível, reduzindo impacto no negócio."
+},
+{
+  subject: "Petrobras",
+  question: "Um analista identifica possível conflito de interesses em contratação de fornecedor de TI. De acordo com princípios de compliance, a conduta mais adequada é:",
+  options: {
+    A: "Ignorar a situação se não houver prova formal",
+    B: "Comunicar o fato pelos canais oficiais de integridade",
+    C: "Resolver diretamente com o fornecedor",
+    D: "Registrar apenas em relatório técnico",
+    E: "Aguardar auditoria externa"
+  },
+  correct: "B",
+  justification: "A política de integridade da Petrobras prevê comunicação por canais oficiais para tratamento adequado e transparente."
+},
+{
+  subject: "Petrobras",
+  question: "Durante a contratação de um sistema corporativo de grande porte, foi identificado que a área requisitante deseja flexibilizar controles para acelerar a implantação. À luz das práticas de governança e integridade da Petrobras, a decisão mais adequada é:",
+  options: {
+    A: "Aceitar a flexibilização para evitar atrasos",
+    B: "Transferir a responsabilidade para o fornecedor",
+    C: "Manter os controles e submeter exceções à instância de governança",
+    D: "Cancelar o projeto imediatamente",
+    E: "Registrar apenas em ata interna"
+  },
+  correct: "C",
+  justification: "A governança prevê que exceções sejam avaliadas formalmente, mantendo integridade, transparência e mitigação de riscos."
+},
+{
+  subject: "Petrobras",
+  question: "Um sistema de monitoramento de produção em plataformas offshore precisa operar mesmo com falhas intermitentes de comunicação. A solução arquitetural mais adequada é:",
+  options: {
+    A: "Processamento totalmente centralizado",
+    B: "Arquitetura distribuída com processamento local e sincronização posterior",
+    C: "Aplicação web tradicional dependente de conexão contínua",
+    D: "Sistema batch com atualização diária",
+    E: "Processamento manual emergencial"
+  },
+  correct: "B",
+  justification: "Ambientes offshore exigem tolerância a falhas, processamento local e sincronização assíncrona."
+},
+{
+  subject: "Petrobras",
+  question: "Um incidente expôs dados pessoais de empregados em um sistema interno. Segundo a LGPD, a Petrobras deve, prioritariamente:",
+  options: {
+    A: "Eliminar imediatamente todos os dados do sistema",
+    B: "Comunicar a ANPD e os titulares quando houver risco relevante",
+    C: "Aguardar auditoria externa para decisão",
+    D: "Aplicar sanções internas antes de qualquer ação",
+    E: "Publicar nota pública automaticamente"
+  },
+  correct: "B",
+  justification: "A LGPD exige comunicação à ANPD e aos titulares quando houver risco ou dano relevante."
+},
+{
+  subject: "Petrobras",
+  question: "Um dashboard executivo apresenta indicadores conflitantes entre produção e logística. A ação mais adequada para garantir decisão confiável é:",
+  options: {
+    A: "Escolher o indicador mais favorável",
+    B: "Atualizar manualmente os dados",
+    C: "Revisar as fontes, regras de negócio e governança de dados",
+    D: "Suspender o uso do dashboard",
+    E: "Delegar a decisão ao gestor operacional"
+  },
+  correct: "C",
+  justification: "Decisões estratégicas exigem dados consistentes, com governança e regras bem definidas."
+},
+{
+  subject: "Petrobras",
+  question: "Uma falha crítica interrompeu um sistema que impacta diretamente o abastecimento. Segundo ITIL, a prioridade inicial é:",
+  options: {
+    A: "Identificar a causa raiz",
+    B: "Restauração do serviço o mais rápido possível",
+    C: "Atualizar a base de conhecimento",
+    D: "Aplicar penalidades contratuais",
+    E: "Revisar indicadores de desempenho"
+  },
+  correct: "B",
+  justification: "Gerenciamento de incidentes prioriza restaurar o serviço para minimizar impacto ao negócio."
+},
+{
+  subject: "Petrobras",
+  question: "Se todo sistema crítico exige plano de contingência e um determinado sistema não possui plano de contingência, então é correto afirmar que:",
+  options: {
+    A: "O sistema é crítico",
+    B: "O sistema não é crítico",
+    C: "O sistema é contingenciado",
+    D: "Não há relação lógica",
+    E: "O sistema é redundante"
+  },
+  correct: "B",
+  justification: "Se todo crítico exige contingência e ele não possui, então não é crítico."
+},
+{
+  subject: "Petrobras",
+  question: "Durante auditoria interna na Petrobras, foi detectada ambiguidade em um comunicado oficial que levou a interpretação errônea de uma diretriz de segurança. A gerente responsável solicitou revisão textual para tornar a mensagem clara. Qual recurso da norma culta é mais relevante para garantir clareza da comunicação?",
+  options: {
+    A: "Uso de voz passiva",
+    B: "Emprego de jargões técnicos",
+    C: "Revisão da pontuação para segmentar ideias",
+    D: "Uso de linguagem regional",
+    E: "Inserção de termos em inglês"
+  },
+  correct: "C",
+  justification: "Revisar a pontuação ajuda a segmentar ideias de forma clara, facilitando a compreensão pelo leitor."
+},
 
+{
+  subject: "Petrobras",
+  question: "Um texto institucional da Petrobras afirmava “os colaboradores, que possuem experiência internacional acumulada, trazem valor ao projeto”, mas vários leitores entenderam como se todos tivessem essa experiência. Isso é um exemplo de:",
+  options: {
+    A: "Ambiguidade causada por oração explicativa",
+    B: "Uso correto de pontuação",
+    C: "Generalização normativa",
+    D: "Excesso de sinônimos",
+    E: "Pleonasmo vicioso"
+  },
+  correct: "A",
+  justification: "A presença da oração explicativa isolada por vírgulas pode causar ambiguidade em relação ao sujeito."
+},
+{
+  subject: "Petrobras",
+  question: "Leia o trecho: “O Comitê de Governança da Petrobras revisou o código de conduta, visando maior transparência e eficiência”. Assinale a alternativa que apresenta a ideia central corretamente expressa:",
+  options: {
+    A: "O comitê busca eficiência em detrimento da transparência",
+    B: "O código de conduta foi revisado com foco em clareza e eficácia",
+    C: "A Petrobras irá abolir todas as normas internas",
+    D: "Revisões de conduta excluem governança corporativa",
+    E: "Transparência é menos importante que eficiência"
+  },
+  correct: "B",
+  justification: "O foco principal da revisão foi tornar o código de conduta mais transparente e eficaz."
+},
+{
+  subject: "Petrobras",
+  question: "Durante a execução de um projeto estratégico de TI, um gestor solicita a supressão de uma etapa de validação para cumprir prazo político. À luz do sistema de governança da Petrobras, a conduta correta do analista é:",
+  options: {
+    A: "Atender à solicitação para evitar conflitos",
+    B: "Registrar informalmente o risco e prosseguir",
+    C: "Manter o controle e submeter a exceção às instâncias competentes",
+    D: "Transferir a responsabilidade integral ao fornecedor",
+    E: "Cancelar o projeto unilateralmente"
+  },
+  correct: "C",
+  justification: "A governança exige manutenção de controles e tratamento formal de exceções."
+},
+
+{
+  subject: "Petrobras",
+  question: "Em processos decisórios da Petrobras, a segregação de funções tem como principal objetivo:",
+  options: {
+    A: "Reduzir custos operacionais",
+    B: "Aumentar a velocidade das decisões",
+    C: "Mitigar riscos de fraude e conflito de interesses",
+    D: "Eliminar a necessidade de auditoria",
+    E: "Centralizar decisões estratégicas"
+  },
+  correct: "C",
+  justification: "Segregação de funções é princípio clássico de controle interno."
+},
+
+{
+  subject: "Petrobras",
+  question: "Um analista identifica possível conflito de interesses em contratação de software. Segundo o Código de Conduta da Petrobras, a ação mais adequada é:",
+  options: {
+    A: "Ignorar se não houver prova concreta",
+    B: "Comunicar pelos canais formais de integridade",
+    C: "Expor diretamente o envolvido",
+    D: "Registrar apenas no relatório técnico",
+    E: "Solicitar remoção imediata do gestor"
+  },
+  correct: "B",
+  justification: "A Petrobras possui canais formais para reporte de desvios éticos."
+},
+{
+  subject: "Petrobras",
+  question: "A governança corporativa da Petrobras prioriza a transparência porque ela:",
+  options: {
+    A: "Elimina riscos operacionais",
+    B: "Substitui auditorias externas",
+    C: "Fortalece a confiança dos stakeholders",
+    D: "Dispensa controles internos",
+    E: "Reduz obrigações legais"
+  },
+  correct: "C",
+  justification: "Transparência fortalece a relação com partes interessadas."
+},
+{
+  subject: "Petrobras",
+  question: "No contexto de integridade corporativa, o compliance na Petrobras é entendido como:",
+  options: {
+    A: "Apenas cumprimento de normas internas",
+    B: "Atendimento exclusivo à legislação penal",
+    C: "Conformidade com leis, normas internas e valores éticos",
+    D: "Fiscalização apenas após irregularidades",
+    E: "Atuação restrita à auditoria"
+  },
+  correct: "C",
+  justification: "Compliance envolve leis, normas e valores organizacionais."
+},
+{
+  subject: "Petrobras",
+  question: "Um sistema crítico em plataforma offshore precisa operar mesmo sem conectividade constante. A arquitetura mais adequada é:",
+  options: {
+    A: "Monolítica centralizada",
+    B: "Distribuída com processamento local",
+    C: "Totalmente baseada em nuvem pública",
+    D: "Batch noturno",
+    E: "Manual assistida"
+  },
+  correct: "B",
+  justification: "Ambientes offshore exigem autonomia local e sincronização posterior."
+},
+{
+  subject: "Petrobras",
+  question: "Em sistemas corporativos da Petrobras, a alta disponibilidade é prioritária porque:",
+  options: {
+    A: "Reduz custos de infraestrutura",
+    B: "Evita treinamento de usuários",
+    C: "Minimiza impacto ao negócio e à segurança",
+    D: "Dispensa planos de contingência",
+    E: "Elimina falhas humanas"
+  },
+  correct: "C",
+  justification: "A indisponibilidade impacta operações críticas e segurança."
+},
+{
+  subject: "Petrobras",
+  question: "Na integração entre sistemas legados e novos sistemas corporativos, o maior risco técnico é:",
+  options: {
+    A: "Aumento do número de usuários",
+    B: "Inconsistência de dados e regras de negócio",
+    C: "Uso de metodologias ágeis",
+    D: "Documentação excessiva",
+    E: "Treinamento contínuo"
+  },
+  correct: "B",
+  justification: "Integrações mal definidas geram inconsistência de dados."
+},
+{
+  subject: "Petrobras",
+  question: "Em projetos de TI da Petrobras, o versionamento de sistemas é essencial para:",
+  options: {
+    A: "Evitar auditorias",
+    B: "Permitir rastreabilidade e rollback",
+    C: "Reduzir o número de desenvolvedores",
+    D: "Eliminar testes",
+    E: "Centralizar decisões"
+  },
+  correct: "B",
+  justification: "Versionamento garante controle e recuperação."
+},
+{
+  subject: "Petrobras",
+  question: "Segundo a LGPD, o tratamento de dados pessoais na Petrobras deve observar prioritariamente:",
+  options: {
+    A: "Interesse comercial",
+    B: "Consentimento tácito",
+    C: "Finalidade, necessidade e segurança",
+    D: "Apenas contrato de trabalho",
+    E: "Livre compartilhamento interno"
+  },
+  correct: "C",
+  justification: "Esses são princípios fundamentais da LGPD."
+},
+{
+  subject: "Petrobras",
+  question: "Um vazamento de dados pessoais com risco relevante deve ser comunicado:",
+  options: {
+    A: "Somente ao jurídico interno",
+    B: "Aos titulares e à ANPD",
+    C: "Apenas ao gestor imediato",
+    D: "Somente após investigação concluída",
+    E: "Exclusivamente à mídia"
+  },
+  correct: "B",
+  justification: "A LGPD exige comunicação quando houver risco ou dano."
+},
+{
+  subject: "Petrobras",
+  question: "O controle de acessos em sistemas corporativos visa principalmente:",
+  options: {
+    A: "Aumentar a burocracia",
+    B: "Reduzir desempenho",
+    C: "Garantir confidencialidade e integridade",
+    D: "Eliminar logs",
+    E: "Facilitar auditorias externas apenas"
+  },
+  correct: "C",
+  justification: "Controle de acesso protege informações sensíveis."
+},
+{
+  subject: "Petrobras",
+  question: "Segundo ITIL, a prioridade no gerenciamento de incidentes é:",
+  options: {
+    A: "Identificar causa raiz",
+    B: "Restaurar o serviço rapidamente",
+    C: "Atualizar documentação",
+    D: "Aplicar sanções",
+    E: "Rever contratos"
+  },
+  correct: "B",
+  justification: "Incidentes visam restaurar serviço o mais rápido possível."
+},
+{
+  subject: "Petrobras",
+  question: "A gestão de mudanças na Petrobras busca:",
+  options: {
+    A: "Eliminar qualquer risco",
+    B: "Garantir mudanças controladas e rastreáveis",
+    C: "Evitar auditorias",
+    D: "Centralizar decisões políticas",
+    E: "Reduzir equipes"
+  },
+  correct: "B",
+  justification: "Mudanças devem ser avaliadas, aprovadas e controladas."
+},
+{
+  subject: "Petrobras",
+  question: "Um processo mal definido impacta diretamente:",
+  options: {
+    A: "Apenas a documentação",
+    B: "Somente o custo",
+    C: "Qualidade, prazo e risco",
+    D: "Somente a equipe de TI",
+    E: "Apenas fornecedores"
+  },
+  correct: "C",
+  justification: "Processos afetam todo o ciclo de entrega."
+},
+{
+  subject: "Petrobras",
+  question: "Se todo sistema crítico exige plano de contingência e um sistema não possui plano, conclui-se que:",
+  options: {
+    A: "O sistema é crítico",
+    B: "O sistema não é crítico",
+    C: "O sistema é redundante",
+    D: "O sistema é estratégico",
+    E: "Não há relação"
+  },
+  correct: "B",
+  justification: "Negação lógica da proposição inicial."
+},
+{
+  subject: "Petrobras",
+  question: "Em um ambiente onde segurança e disponibilidade são essenciais, priorizar apenas custo resulta em:",
+  options: {
+    A: "Otimização de recursos",
+    B: "Redução de riscos",
+    C: "Aumento da exposição operacional",
+    D: "Maior governança",
+    E: "Conformidade legal"
+  },
+  correct: "C",
+  justification: "Redução excessiva de custo aumenta riscos."
+},
+{
+  subject: "Petrobras",
+  question: "Durante a implantação de um sistema corporativo crítico, a equipe identificou que um controle de segurança pode impactar o prazo de entrega. À luz das práticas de governança da Petrobras, a decisão mais adequada é:",
+  options: {
+    A: "Remover o controle para cumprir o cronograma aprovado",
+    B: "Manter o controle e formalizar o risco residual",
+    C: "Substituir o controle por medida informal equivalente",
+    D: "Postergar a decisão até a fase de auditoria",
+    E: "Transferir integralmente a decisão ao fornecedor"
+  },
+  correct: "B",
+  justification: "A governança prioriza controles e tratamento formal de riscos, não sua supressão."
+},
+{
+  subject: "Petrobras",
+  question: "Em relação ao tratamento de dados pessoais em sistemas internos da Petrobras, a alternativa que melhor reflete os princípios da LGPD é:",
+  options: {
+    A: "Coletar apenas dados estritamente necessários à finalidade declarada",
+    B: "Coletar dados relevantes à atividade, ainda que futuramente úteis",
+    C: "Armazenar dados enquanto houver vínculo empregatício",
+    D: "Compartilhar dados internamente para ganho de eficiência",
+    E: "Tratar dados mediante autorização tácita do titular"
+  },
+  correct: "A",
+  justification: "O princípio da necessidade limita a coleta ao mínimo indispensável."
+},
+{
+  subject: "Petrobras",
+  question: "Um incidente afetou um sistema que suporta operações essenciais. Segundo ITIL, a ação inicial correta é:",
+  options: {
+    A: "Investigar detalhadamente a causa raiz",
+    B: "Restabelecer o serviço o mais rápido possível",
+    C: "Registrar o incidente para análise posterior",
+    D: "Comunicar a alta administração",
+    E: "Acionar imediatamente o processo de mudança"
+  },
+  correct: "B",
+  justification: "Incidentes visam restaurar serviço; causa raiz é tratada em problema."
+},
+{
+  subject: "Petrobras",
+  question: "Na integração entre sistemas legados e novos módulos corporativos, o maior risco quando regras de negócio não são alinhadas é:",
+  options: {
+    A: "Atraso no cronograma",
+    B: "Aumento de custo de infraestrutura",
+    C: "Inconsistência de dados operacionais",
+    D: "Dependência excessiva do fornecedor",
+    E: "Dificuldade de treinamento"
+  },
+  correct: "C",
+  justification: "Regras divergentes geram dados conflitantes e decisões erradas."
+},
+{
+  subject: "Petrobras",
+  question: "Em projetos estratégicos da Petrobras, o versionamento de sistemas contribui principalmente para:",
+  options: {
+    A: "Controle de produtividade da equipe",
+    B: "Rastreabilidade e reversão de alterações",
+    C: "Redução de documentação formal",
+    D: "Padronização visual das aplicações",
+    E: "Centralização da tomada de decisão"
+  },
+  correct: "B",
+  justification: "Versionamento permite rastrear mudanças e realizar rollback."
+},
+{
+  subject: "Petrobras",
+  question: "A segregação de funções em ambientes corporativos visa, primordialmente:",
+  options: {
+    A: "Aumentar eficiência operacional",
+    B: "Evitar sobrecarga de trabalho",
+    C: "Reduzir risco de erro e fraude",
+    D: "Diminuir dependência tecnológica",
+    E: "Simplificar processos decisórios"
+  },
+  correct: "C",
+  justification: "Separar funções reduz conflitos de interesse e fraudes."
+},
+{
+  subject: "Petrobras",
+  question: "Ao identificar possível conflito de interesses em processo de contratação, o analista deve:",
+  options: {
+    A: "Aguardar confirmação por auditoria externa",
+    B: "Comunicar formalmente pelos canais de integridade",
+    C: "Registrar apenas no relatório técnico",
+    D: "Solicitar afastamento imediato do envolvido",
+    E: "Ignorar até que haja prejuízo comprovado"
+  },
+  correct: "B",
+  justification: "A Petrobras dispõe de canais próprios para reporte ético."
+},
+{
+  subject: "Petrobras",
+  question: "No contexto de segurança da informação, o controle de acesso baseado em perfil tem como principal finalidade:",
+  options: {
+    A: "Facilitar auditorias",
+    B: "Restringir acesso conforme necessidade de trabalho",
+    C: "Eliminar falhas humanas",
+    D: "Aumentar a complexidade do sistema",
+    E: "Garantir desempenho"
+  },
+  correct: "B",
+  justification: "Acesso deve ser concedido conforme o princípio do menor privilégio."
+},
+{
+  subject: "Petrobras",
+  question: "Um dashboard corporativo apresenta indicadores divergentes entre áreas. A ação mais adequada é:",
+  options: {
+    A: "Selecionar o indicador mais recente",
+    B: "Ajustar manualmente os dados",
+    C: "Revisar fontes, regras e governança de dados",
+    D: "Suspender o uso do dashboard",
+    E: "Solicitar novo relatório"
+  },
+  correct: "C",
+  justification: "Indicadores confiáveis dependem de governança e regras claras."
+},
+{
+  subject: "Petrobras",
+  question: "Se todo sistema crítico possui plano de contingência e um sistema possui plano de contingência, conclui-se que:",
+  options: {
+    A: "O sistema é crítico",
+    B: "O sistema não é crítico",
+    C: "O sistema pode ser crítico, mas não necessariamente",
+    D: "O sistema é redundante",
+    E: "Não há qualquer relação lógica"
+  },
+  correct: "C",
+  justification: "A proposição é condição necessária, não suficiente."
+}
+
+];
 /* =====================================================
    SIMULADO OFICIAL – DETRAN
 ===================================================== */
@@ -1742,7 +2568,8 @@ const detranQuestions = [
   ...portuguesQuestions,
   ...logicaQuestions,
   ...matematicaQuestions,
-  ...informaticaQuestions
+  ...informaticaQuestions,
+  ...PETROBRAS_QUESTIONS
 ];
 
 /* =====================================================
@@ -1754,7 +2581,8 @@ const QUESTIONS = [
   ...portuguesQuestions,
   ...direitoAdmQuestions,
   ...transitoQuestions,
-  ...informaticaQuestions
+  ...informaticaQuestions,
+  ...PETROBRAS_QUESTIONS
 ];
 
 

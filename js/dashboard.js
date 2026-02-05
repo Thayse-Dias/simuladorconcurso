@@ -4,7 +4,8 @@ const SUBJECT_COLORS = {
   "Português": "#eab308",
   "Informática": "#0ea5e9",
   "Legislação de Trânsito": "#f97316",
-  "Direito Administrativo": "#ef4444"
+  "Direito Administrativo": "#ef4444",
+  "Petrobras": "#8b5cf6"
 };
 
 let chartInstance = null;
