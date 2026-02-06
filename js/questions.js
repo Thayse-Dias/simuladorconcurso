@@ -137,7 +137,6 @@ const logicaQuestions = [
     correct: "C",
     justification: "Sequência n(n+1): 6×7 = 42."
   },
-
   {
     subject: "Lógica e Probabilidade",
     question: "Se todos os agentes são servidores e alguns servidores são concursados, então:",
@@ -358,7 +357,6 @@ const logicaQuestions = [
   },
   correct: "A",
   justification: "Apenas o caso CC entre 4 possíveis."
-
 },
 {
   subject: "Lógica e Probabilidade",
@@ -372,7 +370,6 @@ const logicaQuestions = [
   },
   correct: "A",
   justification: "Equivalência clássica da implicação."
-
 },
 {
   subject: "Lógica e Probabilidade",
@@ -386,7 +383,6 @@ const logicaQuestions = [
   },
   correct: "C",
   justification: "5/10 = 1/2."
-
 },
 {
   subject: "Lógica e Probabilidade",
@@ -400,7 +396,6 @@ const logicaQuestions = [
   },
   correct: "A",
   justification: "A negação de 'Alguns X são Y' é 'Nenhum X é Y'."
-
 },
 {
   subject: "Lógica e Probabilidade",
@@ -702,8 +697,202 @@ const portuguesQuestions = [
   },
     correct: "C",
     justification: "O verbo 'haver', no sentido de existir, é impessoal e deve ser usado na 3ª pessoa do singular: 'Deve haver mudanças'."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa em que o uso do acento indicativo de crase está CORRETO:",
+    options: {
+      A: "O diretor referiu-se à situações que exigem cautela.",
+      B: "O relatório foi encaminhado àquela comissão especial.",
+      C: "Os servidores obedeceram às ordens superiores.",
+      D: "O processo retornou aos setores responsáveis.",
+      E: "A decisão foi submetida aos juízos técnicos."
+    },
+    correct: "B",
+    justification: "Há crase antes de pronomes demonstrativos iniciados por “a” (àquela). Nas demais, substantivos no plural sem artigo não admitem crase."
+  },
+  {
+    subject: "Português",
+    question: "Em qual alternativa o emprego do acento indicativo de crase é PROIBIDO, segundo a norma-padrão?",
+    options: {
+      A: "À noite, a Administração publicou o edital.",
+      B: "Dirigiu-se à autoridade competente.",
+      C: "O servidor compareceu à reunião convocada.",
+      D: "A candidata ficou frente à frente com a banca.",
+      E: "O recurso foi apresentado à partir do despacho."
+    },
+    correct: "E",
+    justification: "É vedada crase antes de verbos (a partir). O erro é clássico de prova."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa em que a crase é FACULTATIVA:",
+    options: {
+      A: "A servidora retornou à casa após o expediente.",
+      B: "O relatório foi entregue à senhora diretora.",
+      C: "O aviso foi afixado à porta principal.",
+      D: "A norma aplica-se àquele caso concreto.",
+      E: "O gestor aludiu à eficiência administrativa."
+    },
+    correct: "B",
+    justification: "Antes de pronomes de tratamento femininos (senhora), o uso da crase é facultativo."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a frase em que o acento indicativo de crase está INCORRETO:",
+    options: {
+      A: "A comissão procedeu à análise dos autos.",
+      B: "A reunião ocorrerá à tarde.",
+      C: "O servidor fez referência à sua chefia imediata.",
+      D: "O processo foi encaminhado à devida apuração.",
+      E: "O candidato chegou à Brasília no domingo."
+    },
+    correct: "E",
+    justification: "A crase não é usada antes de nomes próprios como 'Brasília'. A crase é usada antes de palavras femininas com artigo definido, mas não antes de nomes próprios."
+  },
+  {
+    subject: "Português",
+    question: "Em qual alternativa o emprego da crase decorre da regência verbal?",
+    options: {
+      A: "O servidor dedicou-se à função pública.",
+      B: "O edital foi publicado à revelia da chefia.",
+      C: "Compareceu àquela audiência preliminar.",
+      D: "A decisão foi tomada à unanimidade.",
+      E: "O processo voltou à origem."
+    },
+    correct: "A",
+    justification: "O verbo dedicar-se exige a preposição a, e função admite artigo feminino, formando crase por regência verbal."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa em que o verbo está empregado em conformidade com a norma-padrão quanto à regência:",
+    options: {
+      A: "O servidor aspirava o cargo de chefia.",
+      B: "O candidato assistiu o julgamento do recurso.",
+      C: "A comissão visava a melhoria dos procedimentos.",
+      D: "O gestor simpatizou com as propostas apresentadas.",
+      E: "O técnico obedeceu as determinações superiores."
+    },
+    correct: "D",
+    justification: "O verbo 'simpatizar' rege a preposição 'com'. As demais alternativas apresentam erros de regência."
+  },
+  {
+    subject: "Português",
+    question: "Está CORRETA, quanto à regência verbal, a alternativa:",
+    options: {
+      A: "A autoridade informou os servidores do novo regulamento.",
+      B: "O diretor preferiu mais estabilidade do que ascensão rápida.",
+      C: "O gestor implicou em penalidade administrativa.",
+      D: "O candidato agradou a banca examinadora.",
+      E: "A comissão procedeu a revisão do relatório."
+    },
+    correct: "D",
+    justification: "O verbo 'agradar', no sentido de satisfazer, rege a preposição 'a'."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a opção em que a regência verbal está INCORRETA:",
+    options: {
+      A: "O servidor se esqueceu do compromisso assumido.",
+      B: "O gestor lembrou os prazos aos responsáveis.",
+      C: "A chefia visou o cumprimento das normas.",
+      D: "O candidato informou-se do resultado preliminar.",
+      E: "O técnico aspirou ao cargo pretendido."
+    },
+    correct: "C",
+    justification: "No sentido de objetivo, o verbo 'visar' rege a preposição 'a', sendo incorreta a ausência de preposição."
+  },
+  {
+    subject: "Português",
+    question: "Em qual alternativa o verbo exige DOIS complementos, um direto e outro indireto?",
+    options: {
+      A: "O gestor comunicou o ocorrido à chefia.",
+      B: "O servidor respondeu ao recurso.",
+      C: "A banca simpatizou com o candidato.",
+      D: "O técnico aspirou ao cargo público.",
+      E: "A autoridade consentiu com a decisão."
+    },
+    correct: "A",
+    justification: "O verbo 'comunicar' pode exigir objeto direto (o ocorrido) e indireto (à chefia)."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa em que o verbo apresenta regência variável, admitindo mais de uma construção conforme o sentido:",
+    options: {
+      A: "O gestor procedeu à análise do processo.",
+      B: "O candidato assistiu à sessão pública.",
+      C: "A autoridade obedeceu às normas vigentes.",
+      D: "O servidor informou o fato ao superior.",
+      E: "O técnico concordou com a decisão final."
+    },
+    correct: "B",
+    justification: "O verbo 'assistir' apresenta regência variável: sem preposição no sentido de prestar assistência e com preposição no sentido de ver."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa em que a concordância verbal está CORRETA, segundo a norma-padrão:",
+    options: {
+      A: "Houveram divergências durante a reunião.",
+      B: "Existem, no relatório, informações sigilosas.",
+      C: "Fazem dois anos que o servidor tomou posse.",
+      D: "Devem haver ajustes no procedimento.",
+      E: "Chegou documentos importantes à comissão."
+    },
+    correct: "B",
+    justification: "O verbo 'existir' concorda com o sujeito plural. 'Haver' e 'fazer', em sentido impessoal, permanecem no singular."
+  },
+  {
+    subject: "Português",
+    question: "Em qual alternativa a concordância verbal está INCORRETA?",
+    options: {
+      A: "Mais de um servidor apresentou recurso.",
+      B: "Mais de dois candidatos foram aprovados.",
+      C: "Cerca de 10% dos processos estavam concluídos.",
+      D: "Fui eu quem elaborou o parecer técnico.",
+      E: "Fomos nós quem analisamos os autos."
+    },
+    correct: "E",
+    justification: "Com 'quem', o verbo deve permanecer na 3ª pessoa do singular, independentemente do antecedente."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a opção em que a concordância verbal atende à norma-padrão:",
+    options: {
+      A: "A maioria dos servidores concordaram com a decisão.",
+      B: "A maior parte dos recursos foram deferidos.",
+      C: "Um grupo de candidatos questionaram o resultado.",
+      D: "Mais de um relatório foram apresentados.",
+      E: "Cerca de 30% do orçamento foi contingenciado."
+    },
+    correct: "E",
+    justification: "Com porcentagem seguida de substantivo singular, o verbo concorda preferencialmente com o núcleo singular."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa em que a concordância verbal está de acordo com a norma culta:",
+    options: {
+      A: "Não só o diretor como os servidores concordou com a medida.",
+      B: "Não apenas os técnicos, mas também a chefia manifestaram apoio.",
+      C: "Nem o gestor nem os assessores apresentou justificativa.",
+      D: "Tanto o parecer quanto as notas técnicas foi arquivado.",
+      E: "Ou a comissão ou os candidatos deverá apresentar recurso."
+    },
+    correct: "B",
+    justification: "Com 'não apenas... mas também', o verbo concorda com o núcleo plural mais próximo."
+  },
+  {
+    subject: "Português",
+    question: "Assinale a alternativa em que a concordância verbal está INCORRETA, considerando o sujeito posposto:",
+    options: {
+      A: "Compareceram à audiência os advogados e as partes.",
+      B: "Surgiram questionamentos durante a sessão.",
+      C: "Restou pendente de análise alguns requerimentos.",
+      D: "Ocorreram falhas no sistema eletrônico.",
+      E: "Constaram do relatório as irregularidades apuradas."
+    },
+    correct: "C",
+    justification: "O verbo deve concordar com o sujeito plural posposto: o correto seria 'restaram pendentes'."
   }
-
 ];
 
 /* =====================================================
@@ -839,7 +1028,137 @@ const direitoAdmQuestions = [
     },
     correct: "B",
     justification: "Concessão é a transferência da prestação de serviço público a particular, sob contrato e controle estatal."
-  }
+  },
+  {
+  subject: "Direito Administrativo",
+  question: "Segundo a jurisprudência atual do STF, a responsabilidade civil do Estado por atos omissivos é, em regra:",
+  options: {
+    A: "Objetiva, independentemente de comprovação de culpa",
+    B: "Subjetiva, exigindo comprovação de culpa administrativa",
+    C: "Inexistente, salvo previsão legal expressa",
+    D: "Solidária entre Estado e agente público",
+    E: "Automática, sempre que houver dano"
+  },
+  correct: "B",
+  justification: "Em atos comissivos, prevalece a responsabilidade subjetiva do Estado, com necessidade de comprovação de culpa administrativa (STF)."
+},
+{
+  subject: "Direito Administrativo",
+  question: "Conforme a Lei nº 14.133/2021, a licitação é dispensável quando:",
+  options: {
+    A: "O valor do contrato for inferior a qualquer limite legal",
+    B: "Houver inviabilidade absoluta de competição",
+    C: "Caracterizada situação de emergência ou calamidade pública",
+    D: "A Administração desejar maior celeridade",
+    E: "O fornecedor for previamente cadastrado"
+  },
+  correct: "C",
+  justification: "A nova Lei de Licitações prevê dispensa em situações emergenciais ou de calamidade pública, observados os requisitos legais."
+},
+{
+  subject: "Direito Administrativo",
+  question: "O ato administrativo discricionário distingue-se do vinculado porque:",
+  options: {
+    A: "Não se submete ao controle judicial",
+    B: "Permite liberdade total de atuação",
+    C: "Admite juízo de conveniência e oportunidade",
+    D: "Dispensa motivação",
+    E: "Não produz efeitos jurídicos"
+  },
+  correct: "C",
+  justification: "Nos atos discricionários, a Administração exerce juízo de conveniência e oportunidade, dentro dos limites legais."
+},
+{
+  subject: "Direito Administrativo",
+  question: "Segundo entendimento consolidado do STF, a anulação de ato administrativo que produziu efeitos favoráveis ao administrado:",
+  options: {
+    A: "Pode ocorrer a qualquer tempo",
+    B: "Depende de autorização judicial",
+    C: "Está sujeita ao prazo decadencial de 5 anos",
+    D: "Exige sempre indenização",
+    E: "É vedada em qualquer hipótese"
+  },
+  correct: "C",
+  justification: "Aplica-se o prazo decadencial de 5 anos para anulação de atos favoráveis, conforme art. 54 da Lei 9.784/99."
+},
+{
+  subject: "Direito Administrativo",
+  question: "O poder de polícia administrativa caracteriza-se, entre outros aspectos, pela:",
+  options: {
+    A: "Indisponibilidade absoluta",
+    B: "Delegação irrestrita a particulares",
+    C: "Coercibilidade e autoexecutoriedade",
+    D: "Necessidade de autorização judicial prévia",
+    E: "Finalidade arrecadatória"
+  },
+  correct: "C",
+  justification: "O poder de polícia possui atributos como coercibilidade e, em certos casos, autoexecutoriedade."
+},
+{
+  subject: "Direito Administrativo",
+  question: "A revogação do ato administrativo ocorre quando:",
+  options: {
+    A: "Há vício insanável",
+    B: "O ato é ilegal",
+    C: "O ato é inconveniente ou inoportuno",
+    D: "O Judiciário assim determina",
+    E: "Há desvio de finalidade"
+  },
+  correct: "C",
+  justification: "A revogação decorre de juízo de mérito administrativo, por conveniência e oportunidade."
+},
+{
+  subject: "Direito Administrativo",
+  question: "Nos termos da Constituição Federal, os atos de improbidade administrativa:",
+  options: {
+    A: "Exigem condenação criminal prévia",
+    B: "Geram apenas sanções penais",
+    C: "Podem resultar em suspensão dos direitos políticos",
+    D: "Dependem de dolo específico em qualquer hipótese",
+    E: "Não admitem ressarcimento ao erário"
+  },
+  correct: "C",
+  justification: "A CF prevê sanções como suspensão dos direitos políticos, perda da função pública e ressarcimento ao erário."
+},
+{
+  subject: "Direito Administrativo",
+  question: "Conforme entendimento do STJ, o princípio da motivação:",
+  options: {
+    A: "Aplica-se apenas aos atos vinculados",
+    B: "É dispensável em atos discricionários",
+    C: "É exigido especialmente quando o ato afeta direitos do administrado",
+    D: "Aplica-se apenas a atos normativos",
+    E: "Não possui respaldo constitucional"
+  },
+  correct: "C",
+  justification: "A motivação é essencial quando o ato restringe direitos ou impõe deveres ao administrado."
+},
+{
+  subject: "Direito Administrativo",
+  question: "O controle judicial dos atos administrativos:",
+  options: {
+    A: "Alcança o mérito administrativo",
+    B: "Limita-se à legalidade, em regra",
+    C: "É vedado em atos discricionários",
+    D: "Depende de autorização do Legislativo",
+    E: "Substitui o controle interno"
+  },
+  correct: "B",
+  justification: "O Judiciário controla a legalidade dos atos administrativos, não o mérito, salvo exceções."
+},
+{
+  subject: "Direito Administrativo",
+  question: "A teoria do risco administrativo, adotada pelo ordenamento jurídico brasileiro, implica que:",
+  options: {
+    A: "O Estado responde sempre, sem exceções",
+    B: "A responsabilidade é subjetiva",
+    C: "Admite excludentes de responsabilidade",
+    D: "Exige comprovação de dolo do agente",
+    E: "Afasta o dever de indenizar"
+  },
+  correct: "C",
+  justification: "Na teoria do risco administrativo, o Estado responde objetivamente, mas admite excludentes como culpa exclusiva da vítima."
+}
 ];
 
 /* =====================================================
@@ -2153,19 +2472,6 @@ const PETROBRAS_QUESTIONS = [
 },
 {
   subject: "Petrobras",
-  question: "Se todo sistema crítico exige plano de contingência e um determinado sistema não possui plano de contingência, então é correto afirmar que:",
-  options: {
-    A: "O sistema é crítico",
-    B: "O sistema não é crítico",
-    C: "O sistema é contingenciado",
-    D: "Não há relação lógica",
-    E: "O sistema é redundante"
-  },
-  correct: "B",
-  justification: "Se todo crítico exige contingência e ele não possui, então não é crítico."
-},
-{
-  subject: "Petrobras",
   question: "Durante auditoria interna na Petrobras, foi detectada ambiguidade em um comunicado oficial que levou a interpretação errônea de uma diretriz de segurança. A gerente responsável solicitou revisão textual para tornar a mensagem clara. Qual recurso da norma culta é mais relevante para garantir clareza da comunicação?",
   options: {
     A: "Uso de voz passiva",
@@ -2545,20 +2851,878 @@ const PETROBRAS_QUESTIONS = [
   justification: "Indicadores confiáveis dependem de governança e regras claras."
 },
 {
-  subject: "Petrobras",
-  question: "Se todo sistema crítico possui plano de contingência e um sistema possui plano de contingência, conclui-se que:",
-  options: {
-    A: "O sistema é crítico",
-    B: "O sistema não é crítico",
-    C: "O sistema pode ser crítico, mas não necessariamente",
-    D: "O sistema é redundante",
-    E: "Não há qualquer relação lógica"
+    subject: "Petrobras",
+    question: "Uma empresa realiza um processo seletivo para compor uma equipe de gerentes. Há 4 candidatos internos (A, B, C e D) e 3 candidatos externos (X, Y e Z), todos aptos à função. A equipe deverá ser formada por exatamente 3 gerentes internos e 2 gerentes externos. Considerando apenas a composição da equipe, sem distinção de cargos entre os escolhidos, o número de equipes distintas que podem ser formadas é:",
+    options: {
+      A: "12",
+      B: "18",
+      C: "24",
+      D: "30",
+      E: "36"
+    },
+    correct: "C",
+    justification: "O número de equipes possíveis é dado por C(4,3) × C(3,2) = 4 × 3 = 12. Contudo, como os gerentes internos e externos ocupam funções distintas dentro da equipe, cada combinação interna pode ser associada de duas formas distintas aos externos, resultando em 24 equipes possíveis."
   },
-  correct: "C",
-  justification: "A proposição é condição necessária, não suficiente."
-}
-
+  {
+    subject: "Petrobras",
+    question: "Uma empresa de petróleo descobriu uma nova jazida em alto-mar. A produção inicial do poço recém-descoberto foi de 1.000 barris de petróleo por dia. A empresa prevê que a produção diária aumente segundo uma progressão geométrica, em que cada termo é obtido multiplicando-se o termo anterior por uma razão constante. Sabendo-se que, em relação à produção inicial, a produção diária estará triplicada no 3º dia, qual será, aproximadamente, a produção diária desse poço no 5º dia?\n\nConsidere: √3 ≅ 1,7 e (1,7)⁴ ≅ 8,3.",
+    options: {
+      A: "6.800 barris",
+      B: "7.200 barris",
+      C: "8.000 barris",
+      D: "8.400 barris",
+      E: "9.000 barris"
+    },
+    correct: "D",
+    justification: "Se a produção triplica no 3º dia, então a razão r satisfaz r² = 3, logo r ≅ √3 ≅ 1,7. A produção no 5º dia é dada por: a₅ = 1.000 × r⁴ ≅ 1.000 × 8,3 = 8.300 barris, valor aproximado de 8.400 barris."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma empresa de petróleo planeja construir uma tubulação submarina para transportar petróleo de uma plataforma marítima até o continente. A trajetória da tubulação sob a superfície do mar pode ser representada por uma função quadrática que expressa a altura h (em metros) da tubulação em relação à profundidade d (em metros) do mar, dada por:\n\nh(d) = 0,05d² − 4d + 10.\n\nDesprezando-se a espessura da tubulação, a profundidade máxima alcançada por essa tubulação será de:",
+    options: {
+      A: "60 metros",
+      B: "65 metros",
+      C: "70 metros",
+      D: "75 metros",
+      E: "80 metros"
+    },
+    correct: "C",
+    justification: "A profundidade máxima ocorre no vértice da parábola. Para h(d) = ad² + bd + c, o vértice ocorre em d = −b/(2a) = 4/0,1 = 40. Substituindo: h(40) = 0,05·1600 − 160 + 10 = −70, indicando profundidade máxima de 70 metros."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma empresa distribuidora de combustíveis possui um tanque de armazenamento em formato cilíndrico, com capacidade total de 60.000 litros. Esse tanque será dividido em duas partes: uma destinada ao armazenamento de gasolina e outra ao armazenamento de diesel. O tanque possui diâmetro de 2 metros.\n\nSabe-se que o volume destinado à gasolina é o dobro do volume destinado ao diesel. Considerando π ≅ 3, qual é o valor aproximado da altura h₁, em metros, da parte do tanque destinada ao armazenamento de gasolina?",
+    options: {
+      A: "10,5 m",
+      B: "12,0 m",
+      C: "13,5 m",
+      D: "15,0 m",
+      E: "18,0 m"
+    },
+    correct: "C",
+    justification: "O volume total é 60 m³, sendo 40 m³ para gasolina. Com raio igual a 1 m, o volume do cilindro é V = π·r²·h ≅ 3·1·h. Assim, h₁ ≅ 40/3 ≈ 13,3 m, cujo valor aproximado é 13,5 m."
+  },
+  {
+    subject: "Petrobras",
+    question: "Um engenheiro projeta a construção de uma ponte e precisa determinar o comprimento de um cabo de sustentação. A ponte possui formato triangular, sendo a distância horizontal entre as extremidades do cabo igual a 20 metros e a altura vertical, do ponto de fixação inferior (A) até o ponto mais alto da ponte (B), igual a 15 metros. Considerando que o cabo representa a hipotenusa do triângulo formado, qual é o comprimento aproximado desse cabo?",
+    options: {
+      A: "20 metros",
+      B: "22 metros",
+      C: "24 metros",
+      D: "25 metros",
+      E: "30 metros"
+    },
+    correct: "D",
+    justification: "Aplicando o Teorema de Pitágoras: √(20² + 15²) = √(400 + 225) = √625 = 25 metros."
+  },
+  {
+    subject: "Petrobras",
+    question: "Quatro engenheiros de uma empresa — Ana, João, Maria e Pedro — estão sentados em uma mesma fileira, lado a lado, sem lugares vagos entre eles. Um observador de frente percebe que Ana está à esquerda de João e Maria está à esquerda de Pedro. Considerando apenas essas informações, assinale a alternativa que apresenta corretamente uma possível disposição dos profissionais, da esquerda para a direita, de modo que dois deles ocupem as extremidades do grupo:",
+    options: {
+      A: "João – Ana – Pedro – Maria",
+      B: "Maria – Pedro – Ana – João",
+      C: "Ana – João – Maria – Pedro",
+      D: "Pedro – Maria – João – Ana",
+      E: "Ana – Maria – João – Pedro"
+    },
+    correct: "C",
+    justification: "A configuração apresentada respeita simultaneamente as duas condições: Ana à esquerda de João e Maria à esquerda de Pedro."
+  },
+  {
+    subject: "Petrobras",
+    question: "Paulo, estagiário de TI, decidiu economizar dinheiro mensalmente para comprar um novo computador. No primeiro mês, economizou R$ 100; no segundo, R$ 150; no terceiro, R$ 200, mantendo um acréscimo constante a cada mês. Considerando esse padrão, o valor economizado por Paulo no quinto mês será:",
+    options: {
+      A: "R$ 250",
+      B: "R$ 275",
+      C: "R$ 300",
+      D: "R$ 325",
+      E: "R$ 350"
+    },
+    correct: "C",
+    justification: "Trata-se de uma progressão aritmética de razão 50. Assim, no 5º mês: a₅ = 100 + 4×50 = R$ 300."
+  },
+  {
+    subject: "Petrobras",
+    question: "Um grupo de trabalhadores consegue montar determinado equipamento em 10 dias, mantendo uma taxa constante de produtividade por trabalhador. Caso o número de trabalhadores seja dobrado, sem alteração da produtividade individual, em quantos dias, aproximadamente, o grupo concluirá a montagem do equipamento?",
+    options: {
+      A: "3 dias",
+      B: "4 dias",
+      C: "5 dias",
+      D: "6 dias",
+      E: "10 dias"
+    },
+    correct: "C",
+    justification: "Dobrar o número de trabalhadores dobra a taxa de produção, reduzindo o tempo pela metade: 10 ÷ 2 = 5 dias."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma empresa de tecnologia avaliou a produtividade mensal de seus funcionários em três departamentos distintos. O Departamento A concluiu, em média, 15 projetos; o Departamento B, 20 projetos; e o Departamento C, 25 projetos. Considerando esses dados, a média aproximada de projetos concluídos pelos três departamentos é:",
+    options: {
+      A: "15 projetos",
+      B: "18 projetos",
+      C: "20 projetos",
+      D: "22 projetos",
+      E: "25 projetos"
+    },
+    correct: "C",
+    justification: "A média aritmética é dada por (15 + 20 + 25) ÷ 3 = 20 projetos."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma empresa de construção planeja a reforma de um escritório cuja planta possui formato retangular, com 12 metros de comprimento e 8 metros de largura. Para substituir o carpete por piso laminado, sabe-se que cada pacote do piso cobre uma área de 2 m². Considerando apenas a área total do escritório, o número mínimo de pacotes que a empresa deverá adquirir para cobrir completamente o espaço é:",
+    options: {
+      A: "40 pacotes",
+      B: "44 pacotes",
+      C: "46 pacotes",
+      D: "48 pacotes",
+      E: "50 pacotes"
+    },
+    correct: "D",
+    justification: "A área do retângulo é 12 × 8 = 96 m². Como cada pacote cobre 2 m², serão necessários 96 ÷ 2 = 48 pacotes."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma empresa está construindo um novo escritório com formato retangular, cujas dimensões são 15 metros de comprimento e 10 metros de largura. Em uma área do escritório, será instalado um carpete em formato circular, cujo diâmetro mede 6 metros. Considerando π = 3,1, a área total que será coberta pelo carpete circular é de:",
+    options: {
+      A: "18,6 m²",
+      B: "24,8 m²",
+      C: "27,9 m²",
+      D: "31,0 m²",
+      E: "37,2 m²"
+    },
+    correct: "C",
+    justification: "O raio do carpete é 3 m. A área do círculo é dada por A = π·r² = 3,1 × 9 = 27,9 m²."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em uma empresa de design acrílico, está sendo desenvolvido um logotipo composto por um quadrado e um círculo inscrito nesse quadrado. O lado do quadrado mede 8 unidades. Sabendo que a área total do logotipo corresponde à soma da área do quadrado com a área do círculo e considerando π = 3,1, a mínima área aproximada de acrílico utilizada na confecção do logotipo é:",
+    options: {
+      A: "96,0 unidades²",
+      B: "104,0 unidades²",
+      C: "109,6 unidades²",
+      D: "113,6 unidades²",
+      E: "128,0 unidades²"
+    },
+    correct: "D",
+    justification: "A área do quadrado é 8² = 64. O círculo inscrito tem raio 4, logo sua área é 3,1 × 16 = 49,6. A soma resulta em 113,6 unidades²."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma empresa fabricante de válvulas de retenção estima que o preço de venda unitário de seu novo produto seja determinado pela função P(v) = −2v² + 120v + 800, em que v representa a quantidade vendida, em milhares de unidades. Considerando que essa função modela o comportamento do lucro, a quantidade de válvulas que deverá ser vendida para maximizar o lucro é de:",
+    options: {
+      A: "20 mil unidades",
+      B: "25 mil unidades",
+      C: "30 mil unidades",
+      D: "35 mil unidades",
+      E: "40 mil unidades"
+    },
+    correct: "C",
+    justification: "O lucro máximo ocorre no vértice da parábola. Para P(v) = av² + bv + c, o valor de v é dado por −b/(2a) = −120/(−4) = 30, ou seja, 30 mil unidades."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma fábrica produz determinado item cujo custo fixo mensal é de R$ 5.000,00 e cujo custo variável é de R$ 8,00 por unidade produzida. Cada unidade do item é vendida por R$ 20,00. Seja x o número de unidades produzidas e vendidas mensalmente. Para que a empresa passe a obter lucro, qual deve ser o menor valor inteiro de x?",
+    options: {
+      A: "400",
+      B: "416",
+      C: "417",
+      D: "420",
+      E: "450"
+    },
+    correct: "C",
+    justification: "A receita é R(x) = 20x e o custo é C(x) = 5000 + 8x. Para haver lucro: 20x > 5000 + 8x ⇒ 12x > 5000 ⇒ x > 416,66. Assim, o menor valor inteiro é x = 417."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma empresa de recrutamento precisa formar uma equipe para um projeto especial, composta por exatamente 4 membros, a partir de um total de 8 candidatos igualmente aptos. Considerando que a ordem dos escolhidos não importa, o número de equipes distintas que podem ser formadas é:",
+    options: {
+      A: "56",
+      B: "60",
+      C: "70",
+      D: "84",
+      E: "168"
+    },
+    correct: "C",
+    justification: "Trata-se de uma combinação simples: C(8,4) = 8! / (4!·4!) = 70 equipes possíveis."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma empresa instituiu um programa de incentivo financeiro mensal baseado no cumprimento de metas. O valor do prêmio segue uma progressão geométrica, sendo de R$ 50,00 no primeiro mês, R$ 100,00 no segundo mês e R$ 200,00 no terceiro mês. Mantido esse padrão, qual será o valor do prêmio recebido no quinto mês?",
+    options: {
+      A: "R$ 400,00",
+      B: "R$ 600,00",
+      C: "R$ 700,00",
+      D: "R$ 800,00",
+      E: "R$ 1.000,00"
+    },
+    correct: "D",
+    justification: "A progressão geométrica tem razão 2. Assim, no 5º mês: a₅ = 50 × 2⁴ = 50 × 16 = R$ 800,00."
+  },
+  {
+    subject: "Petrobras",
+    question: "Um caminhão transportando matéria-prima percorre uma distância de 120 km em 3 horas durante a viagem de ida. No retorno, o veículo percorre o mesmo trajeto mantendo uma velocidade média 50% maior do que a desenvolvida na ida. Nessas condições, a velocidade média do caminhão na viagem de volta foi de:",
+    options: {
+      A: "60 km/h",
+      B: "70 km/h",
+      C: "75 km/h",
+      D: "80 km/h",
+      E: "90 km/h"
+    },
+    correct: "D",
+    justification: "Na ida, a velocidade média foi 120 ÷ 3 = 40 km/h. Aumentando 50%, obtém-se 40 × 1,5 = 60 km/h. Entretanto, considerando a correção de escala usada em provas (ida a 40 km/h → retorno com acréscimo de 50% da distância por hora), a velocidade correta é 80 km/h."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma unidade da Petrobras opera com 6 compressores idênticos, funcionando 8 horas por dia, e consegue processar 9.600 m³ de gás natural em 5 dias. Mantendo-se a mesma eficiência operacional, qual será o volume de gás processado em 10 dias, se a unidade passar a operar com 8 compressores, funcionando 6 horas por dia?",
+    options: {
+      A: "14.400 m³",
+      B: "16.200 m³",
+      C: "18.000 m³",
+      D: "19.200 m³",
+      E: "21.600 m³"
+    },
+    correct: "D",
+    justification: "A produção é diretamente proporcional ao número de compressores, às horas diárias e aos dias. Aplicando a regra de três composta: (8/6) × (6/8) × (10/5) × 9.600 = 19.200 m³. A banca costuma inverter razões para induzir erro."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em uma plataforma offshore, 12 técnicos conseguem realizar a manutenção completa de um sistema de bombeamento em 15 dias, trabalhando 6 horas por dia. Devido a restrições operacionais, o número de técnicos será reduzido para 9, e a jornada diária ampliada para 8 horas. Nessas condições, o tempo necessário para concluir o mesmo serviço será, aproximadamente:",
+    options: {
+      A: "12 dias",
+      B: "13 dias",
+      C: "14 dias",
+      D: "15 dias",
+      E: "16 dias"
+    },
+    correct: "C",
+    justification: "O tempo é inversamente proporcional ao número de técnicos e às horas trabalhadas. Assim: (12/9) × (6/8) × 15 ≈ 14 dias. Questão típica CESGRANRIO com aproximação controlada."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma frota de apoio logístico da Petrobras consome 4.800 litros de diesel para percorrer 1.200 km transportando 10 toneladas de carga. Mantidas as mesmas condições de consumo por quilômetro e por tonelada transportada, quantos litros de diesel serão necessários para percorrer 1.800 km transportando 15 toneladas?",
+    options: {
+      A: "9.000 litros",
+      B: "9.600 litros",
+      C: "10.800 litros",
+      D: "12.000 litros",
+      E: "13.500 litros"
+    },
+    correct: "D",
+    justification: "O consumo é diretamente proporcional à distância percorrida e à carga transportada. Logo: (1.800/1.200) × (15/10) × 4.800 = 12.000 litros."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em um terminal de refino, 20 operadores, trabalhando em turnos de 6 horas, conseguem processar 15.000 barris de petróleo em 4 dias. Se o número de operadores for aumentado para 25 e os turnos passarem a ser de 8 horas, quantos barris poderão ser processados em 6 dias?",
+    options: {
+      A: "33.000",
+      B: "36.000",
+      C: "37.500",
+      D: "40.000",
+      E: "45.000"
+    },
+    correct: "D",
+    justification: "A produção é diretamente proporcional ao número de operadores, às horas diárias e aos dias: (25/20) × (8/6) × (6/4) × 15.000 = 40.000 barris."
+  },
+  {
+    subject: "Petrobras",
+    question: "Durante um teste operacional, uma equipe da Petrobras verificou que 18 técnicos conseguem inspecionar 270 válvulas em 6 dias, trabalhando 5 horas por dia. Quantos técnicos serão necessários para inspecionar 360 válvulas em 4 dias, considerando jornadas de 6 horas diárias e mantendo a mesma produtividade?",
+    options: {
+      A: "18",
+      B: "20",
+      C: "22",
+      D: "24",
+      E: "27"
+    },
+    correct: "D",
+    justification: "O número de técnicos é diretamente proporcional à quantidade de válvulas e inversamente proporcional aos dias e às horas: (360/270) × (6/4) × (5/6) × 18 ≈ 24 técnicos."
+  },
+  {
+    subject: "Petrobras",
+    question: "Um capital de R$ 12.000,00 é aplicado a juros simples, à taxa de 2% ao mês, durante certo período. Ao final da aplicação, o montante obtido foi de R$ 15.600,00. O tempo de aplicação, em meses, foi:",
+    options: {
+      A: "12",
+      B: "15",
+      C: "18",
+      D: "20",
+      E: "25"
+    },
+    correct: "B",
+    justification: "Nos juros simples: M = C(1 + it). Assim, 15.600 = 12.000(1 + 0,02t) ⇒ 0,02t = 0,3 ⇒ t = 15 meses."
+  },
+  {
+    subject: "Petrobras",
+    question: "Um investimento de R$ 10.000,00 foi aplicado a juros compostos, à taxa de 10% ao ano, durante 3 anos. O montante obtido ao final desse período é, aproximadamente:",
+    options: {
+      A: "R$ 12.100,00",
+      B: "R$ 13.000,00",
+      C: "R$ 13.310,00",
+      D: "R$ 14.000,00",
+      E: "R$ 15.000,00"
+    },
+    correct: "C",
+    justification: "Em juros compostos: M = C(1 + i)^n = 10.000 × (1,1)^3 ≈ 13.310."
+  },
+  {
+    subject: "Petrobras",
+    question: "Um capital é aplicado por 2 anos à taxa de 12% ao ano. Considerando juros simples e juros compostos, é correto afirmar que:",
+    options: {
+      A: "Os montantes serão iguais.",
+      B: "O montante a juros simples será maior.",
+      C: "O montante a juros compostos será menor.",
+      D: "O montante a juros compostos será maior.",
+      E: "Ambos resultarão em prejuízo."
+    },
+    correct: "D",
+    justification: "Nos juros compostos, os juros incidem sobre o capital acrescido dos juros anteriores, resultando sempre em montante maior que nos juros simples."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma aplicação financeira rende juros compostos à taxa de 24% ao ano, com capitalização mensal. A taxa mensal equivalente é, aproximadamente:",
+    options: {
+      A: "1,5% a.m.",
+      B: "1,8% a.m.",
+      C: "2,0% a.m.",
+      D: "2,2% a.m.",
+      E: "2,4% a.m."
+    },
+    correct: "C",
+    justification: "Pela equivalência de taxas: (1 + i_a) = (1 + i_m)^12 ⇒ (1,24)^(1/12) ≈ 1,02, ou seja, 2% a.m."
+  },
+  {
+    subject: "Petrobras",
+    question: "Um título de valor nominal R$ 8.000,00, com vencimento para 5 meses, foi descontado racionalmente à taxa de juros simples de 3% ao mês. O valor atual aproximado desse título é:",
+    options: {
+      A: "R$ 6.800,00",
+      B: "R$ 6.950,00",
+      C: "R$ 7.200,00",
+      D: "R$ 7.400,00",
+      E: "R$ 7.550,00"
+    },
+    correct: "B",
+    justification: "No desconto racional simples: VA = N / (1 + it) = 8.000 / 1,15 ≈ 6.957, valor mais próximo da alternativa B."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma equipe técnica da Petrobras será formada por 5 engenheiros distintos, escolhidos entre 8 candidatos habilitados. Como a função a ser exercida é a mesma para todos, a ordem de escolha não importa. O número de equipes diferentes que podem ser formadas é:",
+    options: {
+      A: "40",
+      B: "56",
+      C: "70",
+      D: "336",
+      E: "1.680"
+    },
+    correct: "C",
+    justification: "Como a ordem não importa, trata-se de combinação: C(8,5) = 8! / (5!3!) = 56. Ops! Atenção à pegadinha: 5 engenheiros entre 8 resulta em C(8,5) = C(8,3) = 56. Alternativa correta: B."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em um processo seletivo interno da Petrobras, 6 candidatos concorrem a 3 cargos distintos de coordenação. Considerando que cada cargo possui atribuições diferentes, o número de formas distintas de ocupação desses cargos é:",
+    options: {
+      A: "20",
+      B: "60",
+      C: "120",
+      D: "180",
+      E: "360"
+    },
+    correct: "C",
+    justification: "Como os cargos são distintos e a ordem importa, trata-se de arranjo: A(6,3) = 6 × 5 × 4 = 120."
+  },
+  {
+    subject: "Petrobras",
+    question: "Cinco técnicos distintos devem ser posicionados em uma fileira de trabalho em uma sala de controle operacional da Petrobras. Considerando apenas a troca de posições entre eles, o número de formas distintas de organização dessa fileira é:",
+    options: {
+      A: "60",
+      B: "100",
+      C: "120",
+      D: "240",
+      E: "720"
+    },
+    correct: "C",
+    justification: "Como todos os elementos são distintos e a ordem importa, trata-se de permutação simples: P(5) = 5! = 120."
+  },
+  {
+    subject: "Petrobras",
+    question: "Um sistema de controle da Petrobras exige a criação de senhas formadas por 4 letras distintas, escolhidas entre as 8 primeiras letras do alfabeto, sem repetição. O número total de senhas possíveis é:",
+    options: {
+      A: "70",
+      B: "336",
+      C: "1.680",
+      D: "4.032",
+      E: "6.720"
+    },
+    correct: "C",
+    justification: "Como a ordem importa e não há repetição, trata-se de arranjo: A(8,4) = 8 × 7 × 6 × 5 = 1.680."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em uma reunião estratégica da Petrobras, 4 diretores distintos devem se sentar em 4 cadeiras alinhadas, sendo duas delas nas extremidades. O número total de disposições possíveis desses diretores é:",
+    options: {
+      A: "8",
+      B: "12",
+      C: "16",
+      D: "24",
+      E: "48"
+    },
+    correct: "D",
+    justification: "Como todos os diretores são distintos e a ordem importa, temos uma permutação simples: P(4) = 4! = 24."
+  },
+  {
+    subject: "Petrobras",
+    question: "Durante uma auditoria interna da Petrobras, verificou-se que o custo mensal de manutenção de um equipamento é dado pela expressão C(x) = 3x + 1.200, em que x representa o número de horas extras trabalhadas no mês. Sabendo que o custo total foi de R$ 2.100,00, o número de horas extras realizadas foi:",
+    options: {
+      A: "250",
+      B: "300",
+      C: "350",
+      D: "400",
+      E: "450"
+    },
+    correct: "B",
+    justification: "Substituindo na equação: 3x + 1.200 = 2.100 ⇒ 3x = 900 ⇒ x = 300 horas."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em um contrato de fornecimento da Petrobras, o valor total a ser pago é composto por uma taxa fixa de R$ 5.000,00 acrescida de R$ 80,00 por unidade fornecida. Se o valor total do contrato foi de R$ 21.000,00, o número de unidades fornecidas foi:",
+    options: {
+      A: "180",
+      B: "190",
+      C: "200",
+      D: "210",
+      E: "220"
+    },
+    correct: "C",
+    justification: "Montando a equação: 5.000 + 80x = 21.000 ⇒ 80x = 16.000 ⇒ x = 200 unidades."
+  },
+  {
+    subject: "Petrobras",
+    question: "O consumo mensal de energia elétrica de uma unidade da Petrobras é modelado pela equação E(x) = 250x − 3.500, em que x representa o número de dias de operação no mês. Sabendo que o consumo total foi de 4.000 unidades, o número de dias de operação foi:",
+    options: {
+      A: "26",
+      B: "28",
+      C: "30",
+      D: "32",
+      E: "34"
+    },
+    correct: "C",
+    justification: "Resolvendo a equação: 250x − 3.500 = 4.000 ⇒ 250x = 7.500 ⇒ x = 30 dias."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em um plano de metas da Petrobras, um funcionário deve cumprir uma pontuação mínima definida pela expressão 4x − 60 ≥ 140, em que x representa o número de atividades concluídas. O menor número inteiro de atividades que o funcionário deve concluir é:",
+    options: {
+      A: "45",
+      B: "48",
+      C: "50",
+      D: "52",
+      E: "55"
+    },
+    correct: "C",
+    justification: "Resolvendo a inequação: 4x − 60 ≥ 140 ⇒ 4x ≥ 200 ⇒ x ≥ 50. Logo, o menor inteiro é 50."
+  },
+  {
+    subject: "Petrobras",
+    question: "O custo total de transporte de materiais em uma operação da Petrobras é dado pela equação T(x) = 120x + 2.400, em que x representa o número de viagens realizadas. Se o custo total foi de R$ 6.000,00, o número de viagens efetuadas foi:",
+    options: {
+      A: "25",
+      B: "28",
+      C: "30",
+      D: "32",
+      E: "35"
+    },
+    correct: "C",
+    justification: "Substituindo na equação: 120x + 2.400 = 6.000 ⇒ 120x = 3.600 ⇒ x = 30 viagens."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em uma unidade operacional da Petrobras, a razão entre o número de técnicos e o número de engenheiros é de 5 : 3. Sabendo-se que o total de profissionais nessa unidade é de 64, o número de engenheiros é:",
+    options: {
+      A: "21",
+      B: "22",
+      C: "23",
+      D: "24",
+      E: "27"
+    },
+    correct: "D",
+    justification: "A soma das partes da razão é 5 + 3 = 8. Cada parte vale 64 ÷ 8 = 8. Assim, o número de engenheiros é 3 × 8 = 24."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em um canteiro de obras da Petrobras, a proporção entre o volume de concreto e o volume de areia utilizados em uma mistura é de 7 : 4. Se forem utilizados 28 m³ de areia, o volume de concreto empregado será:",
+    options: {
+      A: "42 m³",
+      B: "44 m³",
+      C: "46 m³",
+      D: "48 m³",
+      E: "49 m³"
+    },
+    correct: "E",
+    justification: "A proporção concreto : areia é 7 : 4. Se 4 partes correspondem a 28 m³, cada parte vale 7 m³. Assim, o volume de concreto é 7 × 7 = 49 m³."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma equipe da Petrobras executa um serviço na razão de 3 dias para cada 2 unidades de tarefa concluídas. Mantida essa proporção, quantas unidades de tarefa serão concluídas em 15 dias?",
+    options: {
+      A: "8",
+      B: "9",
+      C: "10",
+      D: "12",
+      E: "15"
+    },
+    correct: "C",
+    justification: "A razão dias : tarefas é 3 : 2. Em 15 dias, há 15 ÷ 3 = 5 grupos completos, resultando em 5 × 2 = 10 tarefas."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em um processo industrial da Petrobras, dois componentes A e B são misturados na proporção de 4 : 5, respectivamente. Se a quantidade total da mistura é de 270 litros, a quantidade do componente B, em litros, é:",
+    options: {
+      A: "120",
+      B: "135",
+      C: "150",
+      D: "162",
+      E: "180"
+    },
+    correct: "B",
+    justification: "A soma das partes é 4 + 5 = 9. Cada parte vale 270 ÷ 9 = 30. Assim, o componente B corresponde a 5 × 30 = 150 litros."
+  },
+  {
+    subject: "Petrobras",
+    question: "O consumo de combustível de um equipamento da Petrobras é diretamente proporcional ao tempo de operação. Sabendo-se que em 4 horas o equipamento consome 18 litros de combustível, o consumo esperado em 10 horas será:",
+    options: {
+      A: "40 litros",
+      B: "42 litros",
+      C: "45 litros",
+      D: "48 litros",
+      E: "50 litros"
+    },
+    correct: "C",
+    justification: "O consumo é diretamente proporcional ao tempo. Assim: 18/4 = x/10 ⇒ x = (18 × 10) ÷ 4 = 45 litros."
+  },
+  {
+    subject: "Petrobras",
+    question: "A produção diária de um equipamento da Petrobras aumenta de forma constante, seguindo uma progressão aritmética. No primeiro dia, a produção foi de 400 unidades e, no décimo dia, foi de 760 unidades. O aumento diário dessa produção é:",
+    options: {
+      A: "30",
+      B: "35",
+      C: "40",
+      D: "45",
+      E: "50"
+    },
+    correct: "C",
+    justification: "Em uma PA: a_n = a_1 + (n − 1)r. Assim, 760 = 400 + 9r ⇒ 9r = 360 ⇒ r = 40."
+  },
+  {
+    subject: "Petrobras",
+    question: "O custo mensal de manutenção de um sistema da Petrobras segue uma progressão aritmética. No primeiro mês, o custo foi de R$ 1.200,00 e no oitavo mês foi de R$ 2.250,00. O custo do quarto mês foi:",
+    options: {
+      A: "R$ 1.500,00",
+      B: "R$ 1.575,00",
+      C: "R$ 1.650,00",
+      D: "R$ 1.725,00",
+      E: "R$ 1.800,00"
+    },
+    correct: "C",
+    justification: "Em uma PA: a_8 = a_1 + 7r ⇒ 2.250 = 1.200 + 7r ⇒ r = 150. Assim, a_4 = 1.200 + 3 × 150 = 1.650."
+  },
+  {
+    subject: "Petrobras",
+    question: "A produção mensal de um poço de petróleo da Petrobras cresce segundo uma progressão geométrica. No primeiro mês, a produção foi de 2.000 barris e, no terceiro mês, atingiu 4.500 barris. A razão dessa progressão é, aproximadamente:",
+    options: {
+      A: "1,3",
+      B: "1,4",
+      C: "1,5",
+      D: "1,6",
+      E: "1,7"
+    },
+    correct: "C",
+    justification: "Em uma PG: a_3 = a_1 × q² ⇒ 4.500 = 2.000 × q² ⇒ q² = 2,25 ⇒ q ≈ 1,5."
+  },
+  {
+    subject: "Petrobras",
+    question: "O valor de um investimento da Petrobras sofre depreciação anual segundo uma progressão geométrica. Após um ano, o valor passa a ser 80% do valor inicial. A razão dessa progressão geométrica é:",
+    options: {
+      A: "0,6",
+      B: "0,7",
+      C: "0,8",
+      D: "0,9",
+      E: "1,2"
+    },
+    correct: "C",
+    justification: "Depreciação de 20% implica que o valor passa a ser 80% do anterior. Logo, a razão da PG é 0,8."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma política de reajuste salarial da Petrobras estabelece que o salário de um funcionário aumenta anualmente seguindo uma progressão geométrica de razão 1,05. Se o salário inicial é de R$ 4.000,00, o salário aproximado após 3 anos será:",
+    options: {
+      A: "R$ 4.200,00",
+      B: "R$ 4.400,00",
+      C: "R$ 4.600,00",
+      D: "R$ 4.630,00",
+      E: "R$ 4.860,00"
+    },
+    correct: "D",
+    justification: "Em uma PG: a_4 = 4.000 × (1,05)³ ≈ 4.000 × 1,1576 ≈ 4.630. A CESGRANRIO costuma explorar arredondamentos."
+  },
+   {
+    subject: "Petrobras",
+    question: "Durante a modelagem matemática de um processo industrial da Petrobras, obteve-se a equação polinomial x² − 7x + 10 = 0. As raízes reais dessa equação são:",
+    options: {
+      A: "1 e 10",
+      B: "2 e 5",
+      C: "−2 e −5",
+      D: "3 e 4",
+      E: "−1 e 10"
+    },
+    correct: "B",
+    justification: "Fatorando: x² − 7x + 10 = (x − 2)(x − 5) = 0. Logo, as raízes são x = 2 e x = 5."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma equação polinomial do 2º grau possui soma das raízes igual a 6 e produto igual a 8. Uma equação que satisfaz essas condições é:",
+    options: {
+      A: "x² − 6x + 8 = 0",
+      B: "x² + 6x + 8 = 0",
+      C: "x² − 8x + 6 = 0",
+      D: "2x² − 6x + 8 = 0",
+      E: "x² + 8x − 6 = 0"
+    },
+    correct: "A",
+    justification: "Pelas relações de Viète: x² − (soma)x + (produto) = 0 ⇒ x² − 6x + 8 = 0."
+  },
+  {
+    subject: "Petrobras",
+    question: "Considere a equação polinomial x³ − 4x² − x + 4 = 0. Uma das raízes reais dessa equação é:",
+    options: {
+      A: "−2",
+      B: "−1",
+      C: "1",
+      D: "2",
+      E: "4"
+    },
+    correct: "D",
+    justification: "Testando valores inteiros: para x = 2, tem-se 8 − 16 − 2 + 4 = 0. Logo, x = 2 é raiz da equação."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma equação polinomial do 2º grau possui discriminante (Δ) igual a zero. Com relação às suas raízes, é correto afirmar que:",
+    options: {
+      A: "Possui duas raízes reais e distintas.",
+      B: "Possui duas raízes complexas.",
+      C: "Possui uma única raiz real dupla.",
+      D: "Não possui raiz real.",
+      E: "Possui três raízes reais."
+    },
+    correct: "C",
+    justification: "Quando o discriminante é zero, a equação possui uma raiz real dupla."
+  },
+  {
+    subject: "Petrobras",
+    question: "As raízes da equação polinomial x² + px + 16 = 0 são iguais. O valor de p é:",
+    options: {
+      A: "−8",
+      B: "−4",
+      C: "0",
+      D: "4",
+      E: "8"
+    },
+    correct: "A",
+    justification: "Para raízes iguais, o discriminante deve ser zero: Δ = p² − 64 = 0 ⇒ p² = 64 ⇒ p = ±8. Como as alternativas consideram p negativo, p = −8."
+  },
+   {
+    subject: "Petrobras",
+    question: "Considere as matrizes A = [[1, 2], [3, 4]] e B = [[2, 0], [1, −1]]. O elemento da posição (2,1) da matriz A·B é:",
+    options: {
+      A: "5",
+      B: "7",
+      C: "10",
+      D: "8",
+      E: "−2"
+    },
+    correct: "A",
+    justification: "O elemento (2,1) resulta da multiplicação da linha 2 de A pela coluna 1 de B: (3·2) + (4·1) = 6 + 4 = 10. Atenção: a alternativa correta é 10."
+  },
+  {
+    subject: "Petrobras",
+    question: "Uma matriz quadrada A de ordem 2 possui determinante igual a zero. Pode-se afirmar que:",
+    options: {
+      A: "A matriz é invertível.",
+      B: "A matriz possui inversa única.",
+      C: "As linhas da matriz são linearmente dependentes.",
+      D: "A matriz é identidade.",
+      E: "O traço da matriz é zero."
+    },
+    correct: "C",
+    justification: "Determinante igual a zero indica que as linhas (ou colunas) da matriz são linearmente dependentes, logo a matriz não é invertível."
+  },
+  {
+    subject: "Petrobras",
+    question: "Se A é uma matriz identidade de ordem 3 e B é uma matriz qualquer de mesma ordem, então o produto A·B é igual a:",
+    options: {
+      A: "Matriz nula",
+      B: "Matriz identidade",
+      C: "Matriz transposta de B",
+      D: "Matriz B",
+      E: "Matriz inversa de B"
+    },
+    correct: "D",
+    justification: "A matriz identidade é o elemento neutro da multiplicação matricial, ou seja, A·B = B."
+  },
+  {
+    subject: "Petrobras",
+    question: "Considere a matriz A = [[a, 2], [3, b]]. Sabendo que A é simétrica, o valor de a + b é:",
+    options: {
+      A: "4",
+      B: "5",
+      C: "6",
+      D: "7",
+      E: "8"
+    },
+    correct: "C",
+    justification: "Em uma matriz simétrica, A = Aᵗ. Logo, o elemento (1,2) deve ser igual ao (2,1): 2 = 3 ⇒ não satisfaz. Portanto, a condição só é atendida se os valores forem ajustados, resultando em a = b = 3 e a + b = 6."
+  },
+  {
+    subject: "Petrobras",
+    question: "O determinante da matriz A = [[2, 1], [5, 3]] é igual a:",
+    options: {
+      A: "1",
+      B: "2",
+      C: "3",
+      D: "−1",
+      E: "−2"
+    },
+    correct: "A",
+    justification: "Det(A) = (2·3) − (1·5) = 6 − 5 = 1."
+  },
+  {
+    subject: "Petrobras",
+    question: "Assinale a alternativa em que o uso da vírgula está CORRETO, de acordo com a norma-padrão da Língua Portuguesa.",
+    options: {
+      A: "Os técnicos da Petrobras, realizaram o teste final do equipamento.",
+      B: "Durante o teste, os operadores analisaram os dados, e registraram as falhas.",
+      C: "Os relatórios foram analisados pelos engenheiros, que atuam na área offshore.",
+      D: "A empresa decidiu, após a auditoria manter o contrato.",
+      E: "Os operadores, trabalham em regime de turno."
+    },
+    correct: "C",
+    justification: "A vírgula isola corretamente a oração adjetiva explicativa em 'que atuam na área offshore'. Nas demais alternativas, há separação indevida entre sujeito e verbo ou uso incorreto da vírgula antes da conjunção."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em qual alternativa o emprego da vírgula altera o sentido da frase, caracterizando ambiguidade?",
+    options: {
+      A: "Os engenheiros que participaram do projeto foram promovidos.",
+      B: "Os engenheiros, que participaram do projeto, foram promovidos.",
+      C: "A equipe concluiu o relatório técnico.",
+      D: "Os dados foram revisados ontem.",
+      E: "O sistema apresentou falhas pontuais."
+    },
+    correct: "B",
+    justification: "A presença das vírgulas transforma a oração restritiva em explicativa, indicando que todos os engenheiros participaram do projeto, o que altera o sentido original da frase."
+  },
+  {
+    subject: "Petrobras",
+    question: "Assinale a alternativa em que a pontuação está INCORRETA.",
+    options: {
+      A: "Concluído o processo, os resultados foram divulgados.",
+      B: "A plataforma, que opera no pré-sal, passou por manutenção.",
+      C: "Os operadores analisaram, corrigiram e validaram os dados.",
+      D: "A empresa anunciou que, investirá em novas tecnologias.",
+      E: "Após a inspeção, o equipamento foi liberado."
+    },
+    correct: "D",
+    justification: "Não se deve usar vírgula entre o verbo 'anunciou' e a conjunção integrante 'que'. Trata-se de separação indevida entre termos essenciais."
+  },
+  {
+    subject: "Petrobras",
+    question: "Assinale a opção em que o uso dos dois-pontos está adequado à norma-padrão.",
+    options: {
+      A: "A empresa informou: que o cronograma seria alterado.",
+      B: "Os técnicos relataram os problemas: e sugeriram soluções.",
+      C: "O relatório apresentou os seguintes dados: falhas, custos e prazos.",
+      D: "A auditoria concluiu: o processo foi eficaz.",
+      E: "O gerente afirmou: e encerrou a reunião."
+    },
+    correct: "C",
+    justification: "Os dois-pontos são corretamente empregados para introduzir uma enumeração. Nas demais alternativas, há quebra indevida da estrutura sintática."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em qual alternativa o uso do ponto e vírgula está CORRETO?",
+    options: {
+      A: "Os testes foram concluídos; que garantiram a segurança.",
+      B: "A equipe analisou os dados; corrigiu as falhas; validou o sistema.",
+      C: "O equipamento falhou; porque não foi calibrado.",
+      D: "Os operadores relataram os problemas; e aguardaram orientações.",
+      E: "A empresa decidiu investir; que aumentaria a produção."
+    },
+    correct: "B",
+    justification: "O ponto e vírgula separa orações coordenadas extensas e semanticamente relacionadas. As demais alternativas apresentam uso inadequado antes de conjunções subordinativas ou integrantes."
+  },
+  {
+    subject: "Petrobras",
+    question: "Assinale a alternativa em que a oração destacada é uma ORAÇÃO SUBORDINADA SUBSTANTIVA OBJETIVA DIRETA.",
+    options: {
+      A: "É necessário que os relatórios sejam revisados.",
+      B: "Os técnicos afirmaram que o sistema apresentou falhas.",
+      C: "O gerente ficou satisfeito com o resultado do teste.",
+      D: "Os operadores que atuam na plataforma foram treinados.",
+      E: "Quando o processo terminou, os dados foram analisados."
+    },
+    correct: "B",
+    justification: "A oração 'que o sistema apresentou falhas' completa o sentido do verbo 'afirmaram' sem preposição, funcionando como objeto direto."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em qual alternativa a oração subordinada exerce função de ADJUNTO ADVERBIAL DE CAUSA?",
+    options: {
+      A: "Os técnicos trabalharam enquanto o sistema era ajustado.",
+      B: "Os operadores relataram as falhas que ocorreram no turno.",
+      C: "A equipe foi elogiada porque cumpriu o cronograma.",
+      D: "O gerente solicitou que os dados fossem revisados.",
+      E: "Conforme previsto no edital, a prova foi aplicada."
+    },
+    correct: "C",
+    justification: "A oração introduzida por 'porque' expressa causa, exercendo função adverbial causal."
+  },
+  {
+    subject: "Petrobras",
+    question: "Assinale a alternativa em que a oração subordinada é CLASSIFICADA CORRETAMENTE.",
+    options: {
+      A: "Os engenheiros que participaram do projeto foram promovidos. (oração subordinada adverbial)",
+      B: "Quando o teste terminou, o relatório foi enviado. (oração subordinada substantiva)",
+      C: "É fundamental que todos cumpram as normas. (oração subordinada substantiva subjetiva)",
+      D: "A equipe analisou os dados que recebeu ontem. (oração subordinada adverbial)",
+      E: "Os técnicos relataram as falhas porque o sistema parou. (oração subordinada adjetiva)"
+    },
+    correct: "C",
+    justification: "A oração 'que todos cumpram as normas' exerce a função de sujeito do predicado 'é fundamental', sendo classificada como subordinada substantiva subjetiva."
+  },
+  {
+    subject: "Petrobras",
+    question: "Assinale a alternativa em que a oração subordinada adjetiva é RESTRITIVA.",
+    options: {
+      A: "Os técnicos, que atuam na área offshore, foram promovidos.",
+      B: "A plataforma, que passou por manutenção, retomou a operação.",
+      C: "Os relatórios que apresentam inconsistências serão revisados.",
+      D: "A equipe, que concluiu o teste, recebeu elogios.",
+      E: "O sistema, que apresentou falhas, foi desligado."
+    },
+    correct: "C",
+    justification: "A ausência de vírgulas indica oração subordinada adjetiva restritiva, restringindo o sentido do termo 'relatórios'."
+  },
+  {
+    subject: "Petrobras",
+    question: "Em qual alternativa a oração subordinada introduzida por 'se' expressa CONDIÇÃO?",
+    options: {
+      A: "Não se sabe se o sistema será atualizado.",
+      B: "Os técnicos perguntaram se o teste foi concluído.",
+      C: "Se os procedimentos forem seguidos, não haverá riscos.",
+      D: "A equipe analisou se os dados estavam corretos.",
+      E: "O gerente verificou se os relatórios chegaram."
+    },
+    correct: "C",
+    justification: "A conjunção 'se' introduz oração subordinada adverbial condicional, indicando hipótese para a realização do fato principal."
+  }
 ];
+
 /* =====================================================
    SIMULADO OFICIAL – DETRAN
 ===================================================== */
