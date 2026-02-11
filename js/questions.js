@@ -456,7 +456,7 @@ const logicaQuestions = [
   },
   {
     id: 33,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "A negação da proposição “Maria é médica ou Maria é engenheira” é:",
     options: {
       A: "Maria não é médica e não é engenheira.",
@@ -470,7 +470,7 @@ const logicaQuestions = [
   },
   {
     id: 34,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Seja a proposição p → q. Ela será falsa quando:",
     options: {
       A: "p for falsa e q verdadeira.",
@@ -484,7 +484,7 @@ const logicaQuestions = [
   },
   {
     id: 35,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "A proposição “Se chove, então a rua fica molhada” é logicamente equivalente a:",
     options: {
       A: "Se a rua fica molhada, então chove.",
@@ -498,7 +498,7 @@ const logicaQuestions = [
   },
   {
     id: 36,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "A negação de “Se estudo, então passo” é:",
     options: {
       A: "Estudo e não passo.",
@@ -512,7 +512,7 @@ const logicaQuestions = [
   },
   {
     id: 37,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere p: Hoje é segunda-feira. q: Tenho aula. A proposição “Tenho aula somente se hoje for segunda-feira” é:",
     options: {
       A: "q → p",
@@ -526,7 +526,7 @@ const logicaQuestions = [
   },
   {
     id: 38,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "A proposição “Pedro não estuda e passa no concurso” pode ser simbolizada por:",
     options: {
       A: "¬(p ∧ q)",
@@ -540,7 +540,7 @@ const logicaQuestions = [
   },
   {
     id: 39,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Qual das proposições abaixo é uma tautologia?",
     options: {
       A: "p ∧ ¬p",
@@ -554,7 +554,7 @@ const logicaQuestions = [
   },
   {
     id: 40,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "A proposição “Ou Ana estuda, ou Ana trabalha”, no sentido exclusivo, é representada por:",
     options: {
       A: "p ∨ q",
@@ -568,7 +568,7 @@ const logicaQuestions = [
   },
   {
     id: 41,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere a proposição: “Não é verdade que João estuda ou trabalha.” Uma forma equivalente é:",
     options: {
       A: "João não estuda ou não trabalha.",
@@ -582,7 +582,7 @@ const logicaQuestions = [
   },
   {
     id: 42,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere as premissas: I. Se estudo, então passo no concurso. II. Estudo. A conclusão logicamente correta é:",
     options: {
       A: "Não passo no concurso.",
@@ -596,7 +596,7 @@ const logicaQuestions = [
   },
   {
     id: 43,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere as premissas: I. Se chove, então a rua fica molhada. II. A rua não está molhada. Pode-se concluir que:",
     options: {
       A: "Choveu.",
@@ -610,7 +610,7 @@ const logicaQuestions = [
   },
   {
     id: 44,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere o argumento: “Se João estuda, então ele passa. João não passou. Logo, João não estudou.” Esse argumento é:",
     options: {
       A: "Inválido, pois nega o antecedente.",
@@ -624,7 +624,7 @@ const logicaQuestions = [
   },
   {
     id: 45,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Qual das alternativas apresenta um argumento inválido?",
     options: {
       A: "Se p, então q. p. Logo, q.",
@@ -638,7 +638,7 @@ const logicaQuestions = [
   },
   {
     id: 46,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere as premissas: I. Todo servidor público é responsável. II. Ana é servidora pública. A conclusão correta é:",
     options: {
       A: "Ana não é responsável.",
@@ -652,7 +652,7 @@ const logicaQuestions = [
   },
   {
     id: 47,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere o argumento: “Alguns estudantes são atletas. Logo, todos os estudantes são atletas.” Esse argumento é:",
     options: {
       A: "Válido, pois parte de uma premissa universal.",
@@ -666,7 +666,7 @@ const logicaQuestions = [
   },
   {
     id: 48,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Assinale a alternativa que representa corretamente a forma lógica do argumento: “Se há investimento, então há crescimento. Há crescimento. Logo, há investimento.”",
     options: {
       A: "Modus Ponens",
@@ -680,7 +680,7 @@ const logicaQuestions = [
   },
   {
     id: 49,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere as premissas: I. Se estudo, então passo. II. Se passo, então sou aprovado. Conclui-se corretamente que:",
     options: {
       A: "Se sou aprovado, então estudo.",
@@ -694,7 +694,7 @@ const logicaQuestions = [
   },
   {
     id: 50,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Qual das alternativas apresenta um argumento válido?",
     options: {
       A: "Se p, então q. ¬p. Logo, ¬q.",
@@ -708,7 +708,7 @@ const logicaQuestions = [
   },
   {
     id: 51,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere o argumento: “Todos os professores estudam. Alguns professores são pesquisadores. Logo, alguns pesquisadores estudam.” Esse argumento é:",
     options: {
       A: "Inválido, pois a conclusão não decorre das premissas.",
@@ -722,7 +722,7 @@ const logicaQuestions = [
   },
   {
     id: 52,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere os conjuntos A = {1, 2, 3} e B = {3, 4, 5}. Qual é o conjunto A ∩ B?",
     options: {
       A: "{1, 2}",
@@ -736,7 +736,7 @@ const logicaQuestions = [
   },
   {
     id: 53,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Se A = {x ∈ ℕ | x é par e x < 8}, então A é igual a:",
     options: {
       A: "{2, 4, 6}",
@@ -750,7 +750,7 @@ const logicaQuestions = [
   },
   {
     id: 54,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere os conjuntos A = {a, b, c} e B = {b, c, d}. Qual é o conjunto A ∪ B?",
     options: {
       A: "{b, c}",
@@ -764,7 +764,7 @@ const logicaQuestions = [
   },
   {
     id: 55,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Se A = {1, 2, 3, 4} e B = {2, 4}, então B é:",
     options: {
       A: "igual a A",
@@ -778,7 +778,7 @@ const logicaQuestions = [
   },
   {
     id: 56,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere o conjunto universo U = {1, 2, 3, 4, 5} e o conjunto A = {2, 4}. O complementar de A em relação a U é:",
     options: {
       A: "{2, 4}",
@@ -792,7 +792,7 @@ const logicaQuestions = [
   },
   {
     id: 57,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere os conjuntos A = {1, 2, 3} e B = {4, 5, 6}. Pode-se afirmar que:",
     options: {
       A: "A ∩ B = {1}",
@@ -806,7 +806,7 @@ const logicaQuestions = [
   },
   {
     id: 58,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Se |A| = 5 e |B| = 3, sendo A e B disjuntos, então |A ∪ B| é igual a:",
     options: {
       A: "2",
@@ -820,7 +820,7 @@ const logicaQuestions = [
   },
   {
     id: 59,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere os conjuntos A = {x ∈ ℤ | -2 ≤ x ≤ 2} e B = {0, 1, 2}. Qual é o conjunto A − B?",
     options: {
       A: "{-2, -1}",
@@ -834,7 +834,7 @@ const logicaQuestions = [
   },
   {
     id: 60,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere os conjuntos A e B tais que A ⊂ B e A ≠ B. Pode-se afirmar que:",
     options: {
       A: "A = B",
@@ -848,7 +848,7 @@ const logicaQuestions = [
   },
   {
     id: 61,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere dois conjuntos A e B. Se A ∪ B = A, então:",
     options: {
       A: "A ⊂ B",
@@ -862,7 +862,7 @@ const logicaQuestions = [
   },
   {
     id: 62,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere a proposição: “Todo servidor público é responsável.” A negação correta dessa proposição é:",
     options: {
       A: "Todo servidor público não é responsável.",
@@ -876,7 +876,7 @@ const logicaQuestions = [
   },
   {
     id: 63,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "A proposição “Existe ao menos um estudante aprovado” pode ser representada simbolicamente por:",
     options: {
       A: "∀x, x é estudante aprovado",
@@ -890,7 +890,7 @@ const logicaQuestions = [
   },
   {
     id: 64,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "A negação da proposição “Alguns alunos estudam” é:",
     options: {
       A: "Alguns alunos não estudam.",
@@ -904,7 +904,7 @@ const logicaQuestions = [
   },
   {
     id: 65,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere a proposição: “Todos os funcionários são pontuais.” Qual alternativa é logicamente equivalente a essa proposição?",
     options: {
       A: "Existe funcionário pontual.",
@@ -918,7 +918,7 @@ const logicaQuestions = [
   },
   {
     id: 66,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "A proposição “Não existe aluno reprovado” é equivalente a:",
     options: {
       A: "Todos os alunos são reprovados.",
@@ -932,7 +932,7 @@ const logicaQuestions = [
   },
   {
     id: 67,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere a proposição: “Todo número natural é positivo.” Essa proposição é:",
     options: {
       A: "Verdadeira, pois todo natural é maior que zero.",
@@ -946,7 +946,7 @@ const logicaQuestions = [
   },
   {
     id: 68,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "A proposição “Algum número inteiro é negativo” pode ser classificada como:",
     options: {
       A: "Falsa",
@@ -960,7 +960,7 @@ const logicaQuestions = [
   },
   {
     id: 69,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "A negação correta da proposição “Existe funcionário que não cumpre o horário” é:",
     options: {
       A: "Todos os funcionários cumprem o horário.",
@@ -974,7 +974,7 @@ const logicaQuestions = [
   },
   {
     id: 70,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere a proposição: “Para todo x, se x é médico então x é formado.” Essa proposição afirma que:",
     options: {
       A: "Existe médico que não é formado.",
@@ -988,7 +988,7 @@ const logicaQuestions = [
   },
   {
     id: 71,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "A proposição “Alguns políticos não são honestos” é a negação de:",
     options: {
       A: "Alguns políticos são honestos.",
@@ -1002,7 +1002,7 @@ const logicaQuestions = [
   },
   {
     id: 72,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere a proposição: ∀x (Aluno(x) → ∃y Professor(y) ∧ Orienta(y, x)). A negação lógica correta dessa proposição é:",
     options: {
       A: "∃x (Aluno(x) ∧ ∀y ¬Orienta(y, x))",
@@ -1016,7 +1016,7 @@ const logicaQuestions = [
   },
   {
     id: 73,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "A proposição ∃x ∀y (Servidor(y) → Trabalha(x, y)) afirma que:",
     options: {
       A: "Todo servidor trabalha com todos.",
@@ -1030,7 +1030,7 @@ const logicaQuestions = [
   },
   {
     id: 74,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere a proposição: ∀x ∃y (x < y). Essa proposição é:",
     options: {
       A: "Falsa, pois não existe número maior que todos.",
@@ -1044,7 +1044,7 @@ const logicaQuestions = [
   },
   {
     id: 75,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Qual alternativa representa corretamente a negação da proposição: ∃x ∀y (x ≥ y)?",
     options: {
       A: "∀x ∃y (x < y)",
@@ -1058,7 +1058,7 @@ const logicaQuestions = [
   },
   {
     id: 76,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere a proposição: ∀x (Pessoa(x) → ∃y (Pessoa(y) ∧ y ≠ x)). Essa proposição afirma que:",
     options: {
       A: "Existe uma única pessoa.",
@@ -1072,7 +1072,7 @@ const logicaQuestions = [
   },
   {
     id: 77,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere a proposição: ∀x (p(x) → q(x)). Sabe-se que existe um elemento a tal que p(a) é verdadeira e q(a) é falsa. A proposição dada é:",
     options: {
       A: "Verdadeira, pois existe ao menos um caso verdadeiro.",
@@ -1086,7 +1086,7 @@ const logicaQuestions = [
   },
   {
     id: 78,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere a proposição: ∃x (p(x) ∧ q(x)). Sabendo-se que para todo elemento do domínio p(x) é verdadeira e q(x) é falsa, conclui-se que a proposição é:",
     options: {
       A: "Verdadeira, pois p(x) é sempre verdadeira.",
@@ -1100,7 +1100,7 @@ const logicaQuestions = [
   },
   {
     id: 79,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere a proposição: ∀x (p(x) ∨ q(x)). Sabendo-se que existe um elemento a tal que p(a) é falsa e q(a) é falsa, pode-se afirmar que a proposição é:",
     options: {
       A: "Verdadeira, pois a disjunção admite ao menos um verdadeiro.",
@@ -1114,7 +1114,7 @@ const logicaQuestions = [
   },
   {
     id: 80,
-    subject: "Logica e Probabilidade",
+    subject: "Lógica e Probabilidade",
     question: "Considere a proposição: ∃x (p(x) → q(x)). Sabendo-se que para todo elemento do domínio p(x) é verdadeira e q(x) é falsa, conclui-se que:",
     options: {
       A: "A proposição é falsa, pois a implicação é sempre falsa.",
@@ -1212,7 +1212,7 @@ const matematicaQuestions = [
       D: "R$ 190,00",
       E: "R$ 200,00"
     },
-    correct: "B",
+    correct: "A",
     justification: "15% de 200 é 30. Subtraindo o desconto: 200 − 30 = 170."
   },
   {
@@ -1254,8 +1254,8 @@ const matematicaQuestions = [
       D: "R$ 2.750,00",
       E: "R$ 2.800,00"
     },
-    correct: "B",
-    justification: "8% de 2.500 é 200. Logo, 2.500 + 200 = 2.700. (Alternativa correta: C)."
+    correct: "C",
+    justification: "8% de 2.500 é 200. Logo, 2.500 + 200 = 2.700."
   },
   {
     id: 90,
@@ -1282,7 +1282,7 @@ const matematicaQuestions = [
       D: "56",
       E: "70"
     },
-    correct: "D",
+    correct: "E",
     justification: "A soma das partes é 2 + 7 = 9. Cada parte vale 90 ÷ 9 = 10. O maior número é 7 × 10 = 70."
   },
   {
@@ -1380,7 +1380,7 @@ const matematicaQuestions = [
       D: "4%",
       E: "5%"
     },
-    correct: "C",
+    correct: "B",
     justification: "J = C × i × t ⇒ 180 = 1500 × i × 6 ⇒ i = 180 / 9000 = 0,02 = 2%."
   },
   {
@@ -1422,7 +1422,7 @@ const matematicaQuestions = [
       D: "R$ 440,00",
       E: "R$ 450,00"
     },
-    correct: "C",
+    correct: "B",
     justification: "M = 4000 × (1,05)^2 = 4000 × 1,1025 = 4410. Juros = 4410 − 4000 = 410."
   },
   {
@@ -1436,7 +1436,7 @@ const matematicaQuestions = [
       D: "7%",
       E: "8%"
     },
-    correct: "C",
+    correct: "B",
     justification: "J = 6000 − 5000 = 1000. Assim, 1000 = 5000 × i × 4 ⇒ i = 0,05 = 5%."
   },
   {
@@ -1478,7 +1478,7 @@ const matematicaQuestions = [
       D: "12",
       E: "15"
     },
-    correct: "D",
+    correct: "C",
     justification: "J = C × i × t ⇒ 240 = 800 × 0,03 × t ⇒ t = 240 / 24 = 10 meses."
   },
   {
@@ -1580,20 +1580,6 @@ const matematicaQuestions = [
     justification: "Substituindo x = 0, temos f(0) = 5·0 = 0, logo o gráfico passa pela origem."
   },
   {
-    id: 113,
-    subject: "Matemática",
-    question: "Se a função quadrática f(x) = ax² + bx + c tem a > 0, então ela possui:",
-    options: {
-      A: "Máximo",
-      B: "Mínimo",
-      C: "Duas raízes negativas",
-      D: "Concavidade para baixo",
-      E: "Nenhum extremo"
-    },
-    correct: "B",
-    justification: "Quando a > 0, a parábola tem concavidade para cima e possui ponto de mínimo."
-  },
-  {
     id: 114,
     subject: "Matemática",
     question: "A função f(x) = x² + 2x + 5 possui:",
@@ -1678,20 +1664,6 @@ const matematicaQuestions = [
     justification: "O coeficiente angular é (7 − 1) / (3 − 0) = 6 / 3 = 2, indicando crescimento de 2 unidades em y para cada 1 em x."
   },
   {
-    id: 120,
-    subject: "Matemática",
-    question: "Em um gráfico de função quadrática, observa-se que a parábola intercepta o eixo x em dois pontos distintos. Essa informação permite concluir que:",
-    options: {
-      A: "A função não possui vértice",
-      B: "O discriminante é igual a zero",
-      C: "O coeficiente c é nulo",
-      D: "A função possui duas raízes reais distintas",
-      E: "A concavidade é necessariamente para cima"
-    },
-    correct: "D",
-    justification: "Quando o gráfico intercepta o eixo x em dois pontos distintos, o discriminante é positivo, indicando duas raízes reais distintas."
-  },
-  {
     id: 121,
     subject: "Matemática",
     question: "Resolva a equação: 3x − 7 = 11. O valor de x é:",
@@ -1716,7 +1688,7 @@ const matematicaQuestions = [
       D: "{8}",
       E: "{10}"
     },
-    correct: "D",
+    correct: "E",
     justification: "2x − 6 = x + 4 ⇒ x = 10."
   },
   {
@@ -1772,7 +1744,7 @@ const matematicaQuestions = [
       D: "5",
       E: "6"
     },
-    correct: "C",
+    correct: "B",
     justification: "Subtraindo a segunda da primeira: x = 3."
   },
   {
@@ -1837,7 +1809,7 @@ const matematicaQuestions = [
     question: "Uma papelaria vende canetas e cadernos. Dois cadernos e uma caneta custam R$ 14,00, enquanto três canetas e um caderno custam R$ 11,00. O preço de uma caneta é:",
     options: {
       A: "R$ 2,00",
-      B: "R$ 2,50",
+      B: "R$ 1,60",
       C: "R$ 3,00",
       D: "R$ 3,50",
       E: "R$ 4,00"
@@ -1860,20 +1832,6 @@ const matematicaQuestions = [
     justification: "Sejam x acertos e y erros. Sistema: x + y = 20 e 5x − 2y = 56. Substituindo y = 20 − x: 5x − 40 + 2x = 56 ⇒ 7x = 96 ⇒ x = 13."
   },
   {
-    id: 133,
-    subject: "Matemática",
-    question: "A soma das idades de um pai e de um filho é 50 anos. Daqui a 10 anos, a idade do pai será o dobro da idade do filho. A idade atual do pai é:",
-    options: {
-      A: "30",
-      B: "32",
-      C: "34",
-      D: "36",
-      E: "38"
-    },
-    correct: "C",
-    justification: "Sejam p e f as idades atuais. Sistema: p + f = 50 e p + 10 = 2(f + 10). Da segunda: p = 2f + 10. Substituindo: 2f + 10 + f = 50 ⇒ 3f = 40 ⇒ f ≈ 13,3 e p ≈ 36,7."
-  },
-  {
     id: 134,
     subject: "Matemática",
     question: "Uma empresa produz dois tipos de combustível A e B. O total produzido em um dia é 500 litros. Sabendo que o combustível A custa R$ 4,00 por litro e o B custa R$ 3,00, e que a receita total foi de R$ 1.800,00, quantos litros do combustível A foram produzidos?",
@@ -1884,7 +1842,7 @@ const matematicaQuestions = [
       D: "350",
       E: "400"
     },
-    correct: "A",
+    correct: "C",
     justification: "Sejam x litros de A e y de B. Sistema: x + y = 500 e 4x + 3y = 1800. Substituindo y = 500 − x: 4x + 1500 − 3x = 1800 ⇒ x = 300."
   },
   {
@@ -1898,7 +1856,7 @@ const matematicaQuestions = [
       D: "8",
       E: "9"
     },
-    correct: "D",
+    correct: "C",
     justification: "A média é a soma dos valores dividida pela quantidade: (4 + 6 + 8 + 12) / 4 = 30 / 4 = 7,5."
   },
   {
@@ -1940,7 +1898,7 @@ const matematicaQuestions = [
       D: "9",
       E: "10"
     },
-    correct: "B",
+    correct: "C",
     justification: "Média = (5 + 7 + 9 + 13) / 4 = 34 / 4 = 8,5."
   },
   {
@@ -2150,7 +2108,7 @@ const matematicaQuestions = [
       D: "300",
       E: "360"
     },
-    correct: "E",
+    correct: "A",
     justification: "Escolha dos supervisores: C(4,2) = 6. Escolha dos operadores: C(6,3) = 20. Total: 6×20 = 120."
   },
   {
@@ -2248,7 +2206,7 @@ const matematicaQuestions = [
       D: "14",
       E: "16"
     },
-    correct: "B",
+    correct: "C",
     justification: "Número de pessoas e tempo são inversamente proporcionais. x = (6 × 20) / 10 = 12 dias."
   },
   {
@@ -2276,7 +2234,7 @@ const matematicaQuestions = [
       D: "9",
       E: "10"
     },
-    correct: "D",
+    correct: "C",
     justification: "Número de torneiras e tempo são inversamente proporcionais. x = (4 × 6) / 3 = 8 horas."
   },
   {
@@ -2318,7 +2276,7 @@ const matematicaQuestions = [
       D: "1.800",
       E: "1.920"
     },
-    correct: "E",
+    correct: "B",
     justification: "Produção é diretamente proporcional ao número de operários, horas e dias. Fator total: (12/8) × (8/6) × (15/10) = 1,5 × 1,333 × 1,5 = 3. Logo, 480 × 3 = 1440."
   },
   {
@@ -2332,7 +2290,7 @@ const matematicaQuestions = [
       D: "1.800",
       E: "2.400"
     },
-    correct: "D",
+    correct: "B",
     justification: "Produção ∝ máquinas, dias e horas. Fator: (10/5) × (6/4) × (8/6) = 2 × 1,5 × 1,333 = 4. Logo, 300 × 4 = 1200."
   },
   {
@@ -2346,7 +2304,7 @@ const matematicaQuestions = [
       D: "18",
       E: "20"
     },
-    correct: "B",
+    correct: "C",
     justification: "Trabalho fixo. Dias são inversamente proporcionais a trabalhadores e horas. x = (12 × 15 × 5) / (10 × 6) = 15 dias."
   },
   {
@@ -2388,7 +2346,7 @@ const matematicaQuestions = [
       D: "58",
       E: "63"
     },
-    correct: "D",
+    correct: "B",
     justification: "O termo geral da PA é a_n = a_1 + (n − 1)r. Assim, a_10 = 3 + 9 × 5 = 48."
   },
   {
@@ -2399,7 +2357,7 @@ const matematicaQuestions = [
       A: "1.140",
       B: "1.160",
       C: "1.180",
-      D: "1.200",
+      D: "1.220",
       E: "1.240"
     },
     correct: "D",
@@ -2416,7 +2374,7 @@ const matematicaQuestions = [
       D: "486",
       E: "486"
     },
-    correct: "A",
+    correct: "C",
     justification: "O termo geral da PG é a_n = a_1 × q^(n−1). Assim, a_6 = 2 × 3^5 = 2 × 243 = 486."
   },
   {
@@ -2430,7 +2388,7 @@ const matematicaQuestions = [
       D: "63",
       E: "64"
     },
-    correct: "A",
+    correct: "B",
     justification: "A soma de uma PG finita é S_n = a_1 × (q^n − 1) / (q − 1). Logo, S_5 = (2^5 − 1) / (2 − 1) = 31."
   },
   {
@@ -2458,7 +2416,7 @@ const matematicaQuestions = [
       D: "R$ 4.000,00",
       E: "R$ 4.250,00"
     },
-    correct: "B",
+    correct: "C",
     justification: "O salário forma uma PA com a1 = 2000 e razão r = 250. O 8º termo é a8 = 2000 + 7×250 = 2000 + 1750 = 3750."
   },
   {
@@ -2472,22 +2430,8 @@ const matematicaQuestions = [
       D: "2.820",
       E: "2.940"
     },
-    correct: "C",
+    correct: "B",
     justification: "A produção mensal forma uma PA com a1 = 1500 e r = 120. Logo, a10 = 1500 + 9×120 = 1500 + 1080 = 2580."
-  },
-  {
-    id: 177,
-    subject: "Matemática",
-    question: "Um investimento financeiro rende 5% ao mês, com capital inicial de R$ 2.000,00. Qual será o valor aproximado desse capital após 4 meses?",
-    options: {
-      A: "R$ 2.315,00",
-      B: "R$ 2.400,00",
-      C: "R$ 2.420,00",
-      D: "R$ 2.431,00",
-      E: "R$ 2.500,00"
-    },
-    correct: "D",
-    justification: "O capital segue uma PG com a1 = 2000 e razão q = 1,05. Assim, a4 = 2000 × 1,05³ ≈ 2000 × 1,1576 ≈ 2315,20."
   },
   {
     id: 178,
@@ -2506,16 +2450,16 @@ const matematicaQuestions = [
   {
     id: 179,
     subject: "Matemática",
-    question: "Uma empresa adota um plano de economia em que reduz seus custos mensais em R$ 1.200,00 a cada mês. Sabendo que no primeiro mês o custo foi de R$ 20.000,00, qual será o custo no 7º mês?",
+    question: "Se 6 metros de um tecido custam R$ 30,00, quanto custará 18 metros ?",
     options: {
-      A: "R$ 11.600,00",
-      B: "R$ 12.400,00",
-      C: "R$ 13.200,00",
-      D: "R$ 14.000,00",
-      E: "R$ 14.800,00"
+      A: "R$ 36,00",
+      B: "R$ 60,00",
+      C: "R$ 90,00",
+      D: "R$ 120,00", 
+      E: "R$ 150,00"
     },
-    correct: "A",
-    justification: "Os custos formam uma PA decrescente com a1 = 20000 e r = −1200. O 7º termo é a7 = 20000 − 6×1200 = 20000 − 7200 = 12.800."
+    correct: "C",
+    justification: "O custo é diretamente proporcional à quantidade. x = (18 × 30) / 6 = 90."
   }
 ];
 
