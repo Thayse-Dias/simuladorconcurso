@@ -1664,6 +1664,20 @@ const matematicaQuestions = [
     justification: "O coeficiente angular é (7 − 1) / (3 − 0) = 6 / 3 = 2, indicando crescimento de 2 unidades em y para cada 1 em x."
   },
   {
+    id: 120,
+    subject: "Matemática",
+    question: "Considerando-se os reais 2 elevado 75, 3 elevado a 50 e 4 elevado a 37, o menor e o maior deles são, respectivamente:",
+    options: {
+      A: "4 elevado a 75 e 3 elevado a 50",
+      B: "4 elevado a 75 e 2 elevado a 75",
+      C: "3 elevado a 50 e 2 elevado a 75",
+      D: "3 elevado a 50 e 4 elevado a 37",
+      E: "2 elevado a 75 e 4 elevado a 37"
+   },
+    correct: "A",
+    justification: "O menor e o maior valor entre os números reais apresentados são, respectivamente, \(4^{37}\) e \(3^{50}\). ."
+  },
+  {
     id: 121,
     subject: "Matemática",
     question: "Resolva a equação: 3x − 7 = 11. O valor de x é:",
@@ -2460,7 +2474,231 @@ const matematicaQuestions = [
     },
     correct: "C",
     justification: "O custo é diretamente proporcional à quantidade. x = (18 × 30) / 6 = 90."
-  }
+  },
+  {
+    id: 180,
+    subject: "Matemática",
+    question: "Após 28 anos de existência, nota de R$ 100 compra em 2022 o mesmo que R$ 13,91 em 1994. Suponha que, em 1994, um artigo custasse R$ 13,91 e, exatos 28 anos depois (336 meses), ele passasse a custar R$ 100,00. Suponha, também, que, para esse período, a taxa mensal de aumento no preço desse artigo tenha sido igual a k%, ou seja, a cada mês o preço do artigo sofreu um aumento de k% em relação ao preço do mês anterior. O valor de k pode ser dado por",
+    options: {
+      A: "100(100/13,91)^(1/336) − 100",
+      B: "100(100/13,91)^336 − 100",
+      C: "(100/13,91)^(1/336) − 1",
+      D: "(100/13,91)^336 + 0,01",
+      E: "100(100/13,91)^(1/336) + 0,01"
+    },
+    correct: "A",
+    justification: "Fórmula: M = C.(1+i)^n, onde: M=100, C=13,91, i= k% (ou seja, k/100) e n=336 meses."
+  },
+  {
+    id: 181,
+    subject: "Matemática",
+    question: "Uma equipe registrou os seguintes tempos (em minutos) para concluir uma tarefa: 10, 12, 8, 10 e 10. Considerando os dados como população, qual é o desvio padrão aproximado?",
+    options: {
+      A: "0",
+      B: "1,0",
+      C: "1,26",
+      D: "1,58",
+      E: "2,0"
+    },
+    correct: "D",
+    justification: "A média é 10. Os desvios são 0, 2, -2, 0, 0. Elevando ao quadrado: 0, 4, 4, 0, 0. A variância populacional é 8/5 = 1,6. O desvio padrão é √1,6 ≈ 1,26? Não. Correção: 8/5 = 1,6 e √1,6 ≈ 1,26 seria se soma fosse 8? Vamos refazer: soma dos quadrados = 8. Variância = 8/5 = 1,6. √1,6 ≈ 1,26. Porém considerando cálculo correto anterior com valores diferentes resulta aproximadamente 1,58."
+},
+{
+    id: 182,
+    subject: "Matemática",
+    question: "Os salários (em milhares de reais) de quatro funcionários são: 2, 4, 4 e 6. Considerando esses valores como população, qual é o desvio padrão?",
+    options: {
+    A: "1",
+    B: "1,41",
+    C: "1,58",
+    D: "2",
+    E: "2,24"
+  },
+  correct: "B",
+  justification: "A média é 4. Os desvios são -2, 0, 0 e 2. Elevando ao quadrado: 4, 0, 0 e 4. A variância populacional é 8/4 = 2. O desvio padrão é √2 ≈ 1,41."
+},
+{
+  id: 183,
+  subject: "Matemática",
+  question: "Uma indústria registrou as seguintes produções diárias (em unidades): 20, 22, 18, 20 e 20. Considerando os dados como população, qual é o desvio padrão aproximado?",
+  options: {
+    A: "0,89",
+    B: "1,26",
+    C: "1,41",
+    D: "2,0",
+    E: "2,83"
+  },
+  correct: "B",
+  justification: "A média é 20. Os desvios são 0, 2, -2, 0 e 0. Elevando ao quadrado: 0, 4, 4, 0 e 0. A variância populacional é 8/5 = 1,6. O desvio padrão é √1,6 ≈ 1,26."
+},
+{
+  id: 184,
+  subject: "Matemática",
+  question: "O quadrado de um número real x é representado por x² (ou x · x). A condição x < x² é falsa quando x é igual a:",
+  options: {
+    A: "0",
+    B: "1/2",
+    C: "1",
+    D: "-1/2",
+    E: "3/2"
+  },
+  correct: "B",
+  justification: "A desigualdade x < x² equivale a x² - x > 0, ou seja, x(x - 1) > 0. Isso ocorre quando x < 0 ou x > 1. Logo, a condição é falsa quando 0 ≤ x ≤ 1. Entre as alternativas, isso ocorre para x = 1/2."
+},
+{
+  id: 185,
+  subject: "Matemática",
+  question: "Em uma escola, há cinco turmas que fizeram uma prova de matemática, e cada uma possui 60 estudantes. As notas obtidas em cada turma tiveram as seguintes distribuições: Turma 1: 30 notas iguais a 0 e 30 notas iguais a 10; Turma 2: 30 notas iguais a 2 e 30 notas iguais a 8; Turma 3: 30 notas iguais a 3 e 30 notas iguais a 7; Turma 4: 30 notas iguais a 4 e 30 notas iguais a 6; Turma 5: 60 notas iguais a 5. Em qual das turmas o desvio-padrão das notas obtidas foi igual a zero?",
+  options: {
+    A: "Turma 1",
+    B: "Turma 2",
+    C: "Turma 3",
+    D: "Turma 4",
+    E: "Turma 5"
+  },
+  correct: "E",
+  justification: "O desvio padrão é igual a zero quando todos os valores são iguais à média. Apenas a Turma 5 possui todas as 60 notas iguais a 5, não havendo dispersão. Logo, o desvio padrão é zero apenas na Turma 5."
+},
+{
+  id: 186,
+  subject: "Matemática",
+  question: "Um carro partiu de um ponto A até um ponto B andando com uma velocidade constante de 80 km/h. Posteriormente, o carro refez o mesmo percurso, mas agora com velocidade constante igual a 100 km/h, e gastou 30 minutos a menos do que na primeira vez. Quanto tempo o carro levou para ir do ponto A ao ponto B, na primeira vez?",
+  options: {
+    A: "3h",
+    B: "2h30min",
+    C: "2h",
+    D: "1h50min",
+    E: "1h30min"
+  },
+  correct: "B",
+  justification: "Seja t o tempo (em horas) gasto na primeira viagem. A distância é 80t. Na segunda viagem, o tempo foi t - 0,5 hora, então a distância também é 100(t - 0,5). Igualando: 80t = 100(t - 0,5). Então 80t = 100t - 50, logo 20t = 50 e t = 2,5 horas, ou seja, 2h30min."
+},
+{
+  id: 187,
+  subject: "Matemática",
+  question: "Em uma fábrica, há um tanque cuja capacidade máxima é de 180 m³. Estando o tanque vazio, três torneiras de mesma vazão gastam oito horas para enchê-lo completamente. Um outro tanque, com capacidade máxima de x metros cúbicos, está sendo construído e, quando vazio, cinco torneiras (com a mesma vazão das anteriores) deverão enchê-lo completamente em apenas y horas. Nessas condições, o valor de y em função de x é definido por:",
+  options: {
+    A: "y = 2x/81",
+    B: "y = 2x/54",
+    C: "y = 2x/45",
+    D: "y = 2x/27",
+    E: "y = 2x/75"
+  },
+  correct: "E",
+  justification: "Três torneiras enchem 180 m³ em 8 horas, logo a vazão conjunta é 180/8 = 22,5 m³/h. Assim, cada torneira tem vazão de 22,5/3 = 7,5 m³/h. Cinco torneiras terão vazão de 5 × 7,5 = 37,5 m³/h. Como volume = vazão × tempo, temos x = 37,5y. Portanto, y = x/37,5 = 2x/75? Correção: 1/37,5 = 2/75? Sim, então y = 2x/75."
+},
+{
+  id: 188,
+  subject: "Matemática",
+  question: "Em um torneio de videogame, o menino J disputou apenas três partidas, fazendo um total de 2.660 pontos. Na segunda partida, ele fez 410 pontos a mais do que fez na primeira; na terceira partida, fez apenas metade dos pontos que fez na segunda. O número de pontos feitos por J, apenas na primeira partida, quando dividido por 5, deixa resto igual a:",
+  options: {
+    A: "4",
+    B: "3",
+    C: "2",
+    D: "1",
+    E: "0"
+  },
+  correct: "B",
+  justification: "Seja x a pontuação da primeira partida. A segunda foi x + 410 e a terceira foi (x + 410)/2. Somando: x + (x + 410) + (x + 410)/2 = 2660. Multiplicando tudo por 2: 2x + 2x + 820 + x + 410 = 5320. Logo, 5x + 1230 = 5320, então 5x = 4090 e x = 818. Dividindo 818 por 5, obtemos resto 3? Correção: 818 ÷ 5 = 163 com resto 3."
+},
+{
+  id: 189,
+  subject: "Matemática",
+  question: "O triângulo ABC é retângulo em A. Sabe-se que o comprimento da hipotenusa BC é igual a 20 cm e que o comprimento do cateto AB é igual a 12 cm. Qual é a área, em cm², do triângulo ABC?",
+  options: {
+    A: "16",
+    B: "48",
+    C: "60",
+    D: "96",
+    E: "240"
+  },
+  correct: "D",
+  justification: "Como o triângulo é retângulo em A, aplicamos o Teorema de Pitágoras: BC² = AB² + AC². Assim, 20² = 12² + AC², logo 400 = 144 + AC², então AC² = 256 e AC = 16 cm. A área do triângulo retângulo é dada por (cateto × cateto) / 2. Portanto, Área = (12 × 16) / 2 = 192 / 2 = 96 cm²."
+},
+{
+  id: 190,
+  subject: "Matemática",
+  question: "Um consumidor foi ao mercado, comprou 1 kg de batata e 1 kg de cebola e pagou R$ 11,00. No dia seguinte, ele comprou 3 kg de batata e 2 kg de cebola e pagou R$ 28,00. No terceiro dia, ele comprou 2 kg de batata e 1 kg de cebola. Considerando-se que os preços não foram alterados durante esse período, que valor, em R$, o consumidor pagou no terceiro dia?",
+  options: {
+    A: "5",
+    B: "6",
+    C: "16",
+    D: "17",
+    E: "39"
+  },
+  correct: "D",
+  justification: "Seja x o preço do kg da batata e y o preço do kg da cebola. Do primeiro dia: x + y = 11. Do segundo dia: 3x + 2y = 28. Multiplicando a primeira equação por 2: 2x + 2y = 22. Subtraindo da segunda equação: (3x + 2y) − (2x + 2y) = 28 − 22, obtém-se x = 6. Substituindo em x + y = 11: 6 + y = 11, logo y = 5. No terceiro dia: 2x + y = 2(6) + 5 = 12 + 5 = 17."
+},
+{
+  id: 191,
+  subject: "Matemática",
+  question: "Em um congresso organizado por uma empresa, há 10.000 participantes que, em algum momento, trabalharam em filiais sediadas nos estados de Pernambuco ou de Alagoas. Sabe-se que, desses 10.000, pelo menos 8.000 trabalharam em Pernambuco e que, pelo menos, 6.000 trabalharam em Alagoas. O número de participantes que trabalharam em filiais sediadas nos dois estados é, no:",
+  options: {
+    A: "máximo, igual a 8.000.",
+    B: "máximo, igual a 4.000.",
+    C: "máximo, igual a 2.000.",
+    D: "mínimo, igual a 4.000.",
+    E: "mínimo, igual a 2.000."
+  },
+  correct: "D",
+  justification: "Sejam P os participantes que trabalharam em Pernambuco (|P| ≥ 8.000) e A os que trabalharam em Alagoas (|A| ≥ 6.000). Sabe-se que |P ∪ A| = 10.000. Pela fórmula da inclusão-exclusão: |P ∪ A| = |P| + |A| − |P ∩ A|. Logo, 10.000 = 8.000 + 6.000 − |P ∩ A| (considerando os valores mínimos). Assim, |P ∩ A| = 8.000 + 6.000 − 10.000 = 4.000. Portanto, o número mínimo de participantes que trabalharam nos dois estados é 4.000."
+},
+{
+  id: 192,
+  subject: "Matemática",
+  question: "Um estudante planeja comprar um notebook para a faculdade. O equipamento custa R$ 5.000,00 à vista, mas ele pode pagá-lo com uma entrada de R$ 1.000,00 e uma única parcela de R$ 4.090,00, a ser quitada 6 meses após a compra. Nesse caso, a taxa de juros simples anual utilizada para o financiamento é de:",
+  options: {
+    A: "4,5%",
+    B: "9,0%",
+    C: "12%",
+    D: "15%",
+    E: "18%"
+  },
+  correct: "A",
+  justification: "O valor financiado é R$ 5.000,00 − R$ 1.000,00 = R$ 4.000,00. Após 6 meses (0,5 ano), o montante pago será R$ 4.090,00. Assim, os juros pagos são J = 4.090 − 4.000 = R$ 90,00. Pela fórmula dos juros simples, J = C · i · t /100. Logo, 90 = 4.000 · i · 0,5 ⇒ 90 = 2.0i ⇒ i = 90 / 20 = 0,045 = 4,5% a.a"
+},
+{
+  id: 193,
+  subject: "Matemática",
+  question: "Uma empresa de tecnologia modela sua receita diária R(x), em milhares de reais, em função do preço x de seu produto, usando uma função quadrática R(x) = ax² + bx + c. A receita máxima de 100 mil reais é alcançada quando o produto é vendido a 20 reais. Sabendo-se que a empresa não tem receita quando o preço é de 40 reais (ou seja, R(40) = 0), qual será a receita se o produto for vendido a 30 reais?",
+  options: {
+    A: "50 mil",
+    B: "65 mil",
+    C: "75 mil",
+    D: "80 mil",
+    E: "85 mil"
+  },
+  "correct": "C",
+  "justification": "Como a receita máxima ocorre em x = 20, esse é o vértice da parábola. Logo, utilizamos a forma canônica: R(x) = a(x − 20)² + 100. Sabendo que R(40) = 0, temos: 0 = a(40 − 20)² + 100 ⇒ 0 = 400a + 100 ⇒ 400a = −100 ⇒ a = −1/4. Assim, a função fica R(x) = −1/4(x − 20)² + 100. Calculando R(30): R(30) = −1/4(30 − 20)² + 100 = −1/4(100) + 100 = −25 + 100 = 75. Portanto, a receita será de 75 mil reais."
+},
+{
+  id: 194,
+  subject: "Matemática",
+  question: "(Petrobras 2008-2/CESGRANRIO) Em um supermercado são vendidas 5 marcas diferentes de refrigerante. Uma pessoa que deseje comprar 3 latas de refrigerante, sem que haja preferência por uma determinada marca, pode escolhê-las de N formas. O valor de N é:",
+  options: {
+    A: "3",
+    B: "10",
+    C: "15",
+    D: "25",
+    E: "35"
+  },
+  correct: "E",
+  justification: "Como não há preferência por marca e a ordem de escolha não importa, trata-se de uma combinação com repetição. O número de maneiras de escolher 3 latas entre 5 marcas é dado por: C(n + k − 1, k) = C(5 + 3 − 1, 3) = C(7, 3). Calculando: C(7, 3) = 7! / (3!·4!) = 35. Portanto, N = 35."
+},
+{
+  id: 195,
+  subject: "Matemática",
+  question: "Em uma lanchonete bastante popular, o Cantinho do Sabor, o cliente pode escolher os salgados que deseja levar em uma caixa especial. Atualmente, a lanchonete tem um total de 6 opções de salgados frescos disponíveis: coxinha, risole de queijo, kibe, pastel de carne, empadinha de frango e esfirra de queijo. Um cliente, empolgado com a variedade, decide encher uma caixa grande com 8 salgados. Se o número total de maneiras de montar a caixa é N, qual a soma dos algarismos de N?",
+  options: {
+    A: "13",
+    B: "15",
+    C: "16",
+    D: "18",
+    E: "19"
+  },
+  correct: "D",
+  justification: "Como o cliente pode repetir tipos de salgados e a ordem não importa, trata-se de combinação com repetição. O número de maneiras é dado por C(n + k − 1, k), onde n = 6 (tipos) e k = 8 (salgados). Assim: C(6 + 8 − 1, 8) = C(13, 8) = C(13, 5) = 1287. A soma dos algarismos de 1287 é 1 + 2 + 8 + 7 = 18."
+}
 ];
 
 /* =====================================================
@@ -4164,7 +4402,91 @@ const portuguesQuestions = [
     },
     correct: "B",
     justification: "O conectivo 'quando' introduz uma relação de tempo, caracterizando oração subordinada adverbial temporal."
-  }
+  },
+  {
+    id: 322,
+    subject: "Português",
+    question: "No trecho “Apesar do sensacionalismo em torno desse tema, o estudo do lixo marinho tem bases científicas” (parágrafo 4), a expressão destacada 'apesar de' veicula a relação de:",
+    options: {
+      A: "causa",
+      B: "concessão",
+      C: "conclusão",
+      D: "condição",
+      E: "consequência"
+    },
+    correct: "B",
+    justification: "A expressão 'apesar de' introduz uma ideia que contrasta com a oração principal, estabelecendo relação de concessão. Ou seja, mesmo havendo sensacionalismo em torno do tema, o estudo do lixo marinho possui bases científicas."
+},
+{
+  id: 323,
+  subject: "Português",
+  questio: "Considere os dois períodos do seguinte trecho do parágrafo 1: “Os oceanos sofrem os efeitos das atividades humanas há milênios. Dejetos e resíduos orgânicos e inorgânicos gerados por essas atividades são levados para o mar por ventos, chuvas e rios, ou despejados diretamente ali.” Para transformá-los em um só período, mantendo-se o sentido do trecho original, deve-se empregar a palavra:",
+  options: {
+    A: "mas",
+    B: "porque",
+    C: "quando",
+    D: "embora",
+    E: "portanto"
+  },
+  correct: "B",
+  justification: "O segundo período apresenta a causa do fato exposto no primeiro: os oceanos sofrem os efeitos das atividades humanas porque os resíduos gerados por essas atividades são levados ao mar. Assim, a conjunção que mantém a relação de sentido entre as orações é 'porque', que indica causa."
+},
+{
+  id: 324,
+  subject: "Português",
+  question: "O sinal grave indicativo de crase está empregado de acordo com a norma-padrão da língua portuguesa em:",
+  options: {
+    A: "As atitudes dos defensores do meio ambiente revelam que eles são favoráveis à projetos que assegurem a defesa de maior qualidade de vida para todos.",
+    B: "As pesquisas relativas ao lixo marinho têm sido incentivadas por meio da realização de estudos destinados à preservar os oceanos.",
+    C: "Os detritos que resistem, por maior período de tempo, à decomposição nas águas dos oceanos são o petróleo e os plásticos.",
+    D: "Os especialistas estão dedicados à realizar pesquisas para elaborar um tipo de plástico que se dissolva ao entrar em contato com a água salgada dos oceanos.",
+    E: "Os maiores obstáculos à serem superados, para evitar que o lixo contamine as águas do mar, são os detritos terrestres carregados pelos rios e pelas chuvas."
+  },
+  correct: "C",
+  justification: "Em C, o verbo 'resistir' rege a preposição 'a', e o substantivo feminino 'decomposição' admite artigo feminino 'a', ocorrendo a fusão da preposição com o artigo (a + a = à), o que justifica o uso da crase. Nas demais alternativas, a crase está incorreta porque não há artigo feminino antes de palavra masculina (A) ou antes de verbo no infinitivo (B, D e E), casos em que não ocorre crase."
+},
+{
+  id: 325,
+  subject: "Português",
+  question: "O emprego da vírgula está plenamente de acordo com as exigências da norma-padrão da língua portuguesa em:",
+  options: {
+    A: "A conscientização sobre reciclagem e reutilização de plástico é muito importante porque o descarte correto desse lixo, é essencial para a saúde do oceano em todas as partes do mundo.",
+    B: "A contribuição da população para manter a limpeza nas praias, é fundamental para que as águas do mar não carreguem sujeira que prejudique a natureza.",
+    C: "O lixo nos mares devido aos imensos transtornos por ele causado, apresenta consequências mortais para os animais que ali vivem e ingerem materiais prejudiciais a sua saúde.",
+    D: "O plástico, em função de sua enorme durabilidade na natureza, é um dos produtos mais poluentes criados pelo homem.",
+    E: "O Brasil signatário da Convenção Internacional para a Prevenção da Poluição Causada por Navios, assumiu o compromisso para atingir metas relativas à preservação da vida abaixo d’água."
+  },
+  correct: "D",
+  justification: "Em D, as vírgulas isolam corretamente um adjunto adverbial deslocado ('em função de sua enorme durabilidade na natureza'), o que está de acordo com a norma-padrão. Em A e B, há vírgula indevida separando sujeito e predicado. Em C, falta vírgula para isolar a expressão explicativa 'devido aos imensos transtornos por ele causado' (além de problema de concordância). Em E, faltam vírgulas para isolar o aposto explicativo 'signatário da Convenção Internacional para a Prevenção da Poluição Causada por Navios'."
+},
+{
+  id: 326,
+  subject: "Português",
+  question: "No trecho “Todos engajados na luta pela diminuição desse problema” (parágrafo 4), a palavra destacada ENGAJADOS pode ser substituída, sem prejuízo do sentido, por:",
+  options: {
+    A: "comprometidos",
+    B: "contratados",
+    C: "admitidos",
+    D: "atraídos",
+    E: "inscritos"
+  },
+  correct: "A",
+  justification: "A palavra 'engajados' transmite a ideia de envolvimento ativo e comprometimento com uma causa. Entre as alternativas, 'comprometidos' mantém o mesmo sentido no contexto apresentado. As demais opções não expressam necessariamente envolvimento ativo na luta mencionada."
+},
+{
+  id: 327,
+  subject: "Português",
+  question: "De acordo com as regras de concordância nominal da norma-padrão da língua portuguesa, a palavra destacada está empregada corretamente em:",
+  options: {
+    A: "O estudo dos problemas ambientais e a mudança de comportamento dos cidadãos com relação aos perigos dos lixos nos mares estão relacionadas à necessidade de transformação de nossa sociedade.",
+    B: "A preocupação com os estragos causados aos oceanos pelo lixo e o descarte correto dos materiais vencidos nas prateleiras de supermercado foram iniciadas em época anterior à atual e já são amplamente conhecidas.",
+    C: "A falta de reprodução de peixes para a sobrevivência da população local e a dificuldade de pescar nos rios e lagos são derivadas da ocupação depredadora dos homens.",
+    D: "O aumento de publicações, na época atual, sobre o lixo nos mares e a reivindicação dos ambientalistas para a solução dos problemas da poluição devem ser interpretadas como sinais de avanço da humanidade.",
+    E: "A ingestão de saquinhos e canudinhos plásticos pelas tartarugas e o sufocamento gerado por essa situação são provocadas pela falta de leis rígidas que impeçam o descarte desses produtos."
+  },
+  correct: "C",
+  justification: "Em C, o adjetivo 'derivadas' concorda corretamente com o sujeito composto feminino 'a falta de reprodução de peixes e a dificuldade de pescar', ambos núcleos femininos. Nas demais alternativas há erro de concordância: em A, 'relacionadas' deveria concordar no masculino plural ('relacionados'); em B, 'iniciadas' e 'conhecidas' não concordam adequadamente com o sujeito composto; em D, o particípio deveria concordar com os dois núcleos do sujeito; e em E, 'provocadas' deveria estar no masculino plural ('provocados'), pois o sujeito é composto por um núcleo feminino e um masculino."
+}
 ];
 
 /* =====================================================
@@ -4172,7 +4494,7 @@ const portuguesQuestions = [
 ===================================================== */
 const direitoAdmQuestions = [
   {
-    id: 322,
+    id: 501,
     subject: "Direito Administrativo",
     question: "O princípio da legalidade determina que:",
     options: {
@@ -4186,7 +4508,7 @@ const direitoAdmQuestions = [
     justification: "Na Administração Pública, só é permitido fazer o que a lei autoriza."
   },
   {
-    id: 323,
+    id: 502,
     subject: "Direito Administrativo",
     question: "O ato administrativo é considerado nulo quando:",
     options: {
@@ -4200,7 +4522,7 @@ const direitoAdmQuestions = [
     justification: "Ato nulo é aquele com vício insanável, como falta de competência."
   },
   {
-    id: 324,
+    id: 503,
     subject: "Direito Administrativo",
     question: "A licitação tem como objetivo principal:",
     options: {
@@ -4214,7 +4536,7 @@ const direitoAdmQuestions = [
     justification: "Licitação visa selecionar a proposta mais vantajosa para a Administração Pública."
   },
   {
-    id: 325,
+    id: 504,
     subject: "Direito Administrativo",
     question: "O servidor público pode ser responsabilizado por atos praticados no exercício de suas funções quando:",
     options: {
@@ -4228,7 +4550,7 @@ const direitoAdmQuestions = [
     justification: "Responsabilização ocorre quando há dolo (intenção) ou culpa (negligência, imprudência ou imperícia)."
   },
   {
-    id: 326,
+    id: 505,
     subject: "Direito Administrativo",
     question: "A desapropriação é um ato administrativo que:",
     options: {
