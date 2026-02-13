@@ -2718,8 +2718,7 @@ const portuguesQuestions = [
     },
     correct: "C",
     justification: "O verbo 'existir' concorda com o sujeito."
-  },
-  
+  }, 
   {
     id: 202,
     subject: "Português",
@@ -2733,7 +2732,6 @@ const portuguesQuestions = [
     },
     correct: "D",
     justification: "O advérbio “sobretudo” indica destaque principal ao comprometimento humano, sem excluir outros fatores."
-
   },
   {
     id: 203,
@@ -4486,7 +4484,26 @@ const portuguesQuestions = [
   },
   correct: "C",
   justification: "Em C, o adjetivo 'derivadas' concorda corretamente com o sujeito composto feminino 'a falta de reprodução de peixes e a dificuldade de pescar', ambos núcleos femininos. Nas demais alternativas há erro de concordância: em A, 'relacionadas' deveria concordar no masculino plural ('relacionados'); em B, 'iniciadas' e 'conhecidas' não concordam adequadamente com o sujeito composto; em D, o particípio deveria concordar com os dois núcleos do sujeito; e em E, 'provocadas' deveria estar no masculino plural ('provocados'), pois o sujeito é composto por um núcleo feminino e um masculino."
+},
+{
+  id: 328,
+  subject: "No texto, o referente da palavra ou expressão em destaque está corretamente explicitado, entre colchetes, no trecho do",
+  options: {
+    A: "parágrafo 1 – “Dejetos e resíduos orgânicos e inorgânicos gerados por essas atividades são levados para o mar por ventos, chuvas e rios, ou despejados diretamente ali.” [mar]",
+    B: "parágrafo 1 – “Os oceanos suportam toda essa sobrecarga?” [atividades humanas]",
+    C: "parágrafo 3 – “depósitos e descartes incorretos feitos em terra e levados para os rios pelas chuvas e daí para o mar” [chuvas]",
+    D: "parágrafo 6 – “Esse aumento se deve a três processos.” [lixo marinho]",
+    E: "parágrafo 6 – “a contínua e crescente substituição, em vários tipos de utensílios, de materiais naturais pelos sintéticos – estes, como o plástico, resistem por mais tempo” [utensílios]"
+  },
+  correct: "A",
+  justification: "Na alternativa A, o advérbio “ali” retoma corretamente o termo “mar”, mencionado anteriormente na mesma frase. Trata-se de um mecanismo de coesão referencial anafórica, em que o termo destacado faz referência a um elemento já expresso no enunciado. Nas demais alternativas, o referente indicado entre colchetes não corresponde adequadamente ao termo destacado no trecho."
 }
+
+
+
+
+
+
 ];
 
 /* =====================================================
@@ -6327,6 +6344,146 @@ const informaticaQuestions = [
     },
     correct: "B",
     justification: "Phishing é um ataque que tenta enganar o usuário para obter informações confidenciais."
+},
+{
+    id: 578,
+    subject: "Informática",
+    question: "No Excel, o símbolo usado no ínicio de uma fórmula é:",
+    options: {
+      A: "#",
+      B: "=",
+      C: "@",
+      D: "%",
+      E: "$"
+    },
+    correct: "B",
+    justification: "É obrigatório o uso do sinal de = em todas as fómulas."
+},
+{
+    id: 579,
+    subject: "Informática",
+    question: "O navegador desenvolvido pela Microsoft para substituir o Internet Explorer é:",
+    options: {
+      A: "Google Chrome",
+      B: "Mozila Firefox",
+      C: "Microsoft Edge",
+      D: "Opera",
+      E: "Nenhuma das alternativas"
+    },
+    correct: "C",
+    justification: "O Microsoft Edge foi desenvolvido pela Microsoft para substituir o Internet Explorer como navegador padrão do Windows. Lançado inicialmente em 2015, ele trouxe melhorias significativas em desempenho, segurança e compatibilidade com padrões modernos da web, sendo posteriormente reconstruído com base no projeto Chromium."
+},
+{
+    id: 580,
+    subject: "Informática",
+    question: "Tipo de Malware que criptografa arquivos e exige pagamento para liberá-los:",
+    options: {
+      A: "Spyware",
+      B: "Adware",
+      C: "Ransomware",
+      D: "Firewall",
+      E: "Nenhuma das alternativas"
+    },
+    correct: "C",
+    justification: "Ransomware é um tipo de malware que bloqueia o acesso aos arquivos da vítima por meio de criptografia e exige o pagamento de um resgate (ransom) para que o acesso seja restabelecido. Diferentemente do spyware, que coleta informações, e do adware, que exibe anúncios indesejados, o ransomware tem como principal objetivo a extorsão financeira."
+},
+{
+    id: 581,
+    subject: "Informática",
+    question: "No Windows, a tecla de atalho Ctrl+Esc executa a seguinte ação:",
+    options: {
+      A: "Abre o Gerenciador de Tarefas",
+      B: "Abre o Menu Iniciar",
+      C: "Fecha a janela ativa",
+      D: "Bloqueia o computador",
+      E: "Alterna entre janelas abertas"
+    },
+    "correct": "B",
+    "justification": "No Windows, o atalho Ctrl+Esc tem a função de abrir o Menu Iniciar. Ele realiza a mesma ação que pressionar a tecla Windows no teclado, permitindo acesso rápido a programas, configurações e opções do sistema."
+},
+{
+    id: 582,
+    subject: "Informática",
+    question: "No Word, a tecla de atalho Ctrl+T executa a seguinte ação:",
+    options: {
+      A: "Salva o documento",
+      B: "Seleciona todo o texto",
+      C: "Fechar documento",
+      D: "Alinha o texto à esquerda",
+      E: "Insere uma tabela"
+    },
+    correct: "B",
+    justification: "No Microsoft Word configurado em português (Brasil), o atalho Ctrl+T é utilizado para selecionar todo o texto do documento. Esse comando corresponde à função “Selecionar Tudo”, que também pode ser executada por meio da opção disponível na guia Página Inicial."
+},
+{
+    id: 583,
+    subject: "Informática",
+    question: "A menor unidade de informação de um computador é chamada de:",
+    options: {
+      A: "Byte",
+      B: "Bit",
+      C: "Kilobyte",
+      D: "Megabyte",
+      E: "Arquivo"
+    },
+    correct: "B",
+    justification: "A menor unidade de informação em um computador é o bit (binary digit), que pode assumir apenas dois valores: 0 ou 1. O byte é formado por 8 bits, e as demais unidades, como kilobyte e megabyte, são múltiplos do byte."
+},
+{
+    id: 584,
+    subject: "Informática",
+    question: "Dispositivo que armazena dados de forma temporária e perde as informações ao desligar o computador:",
+    options: {
+      A: "HD (Disco Rígido)",
+      B: "SSD",
+      C: "Memória RAM",
+      D: "Pen Drive",
+      E: "ROM"
+    },
+    correct: "C",
+    justification: "A Memória RAM (Random Access Memory) é um tipo de memória volátil, ou seja, armazena dados temporariamente enquanto o computador está ligado. Ao desligar o equipamento, as informações armazenadas na RAM são perdidas. Diferentemente do HD, SSD, Pen Drive e ROM, que são memórias não voláteis."
+},
+{
+    id: 585,
+    subject: "Informática",
+    question: "No Windows, a Lixeira armazena arquivos excluídos de:",
+    options: {
+      A: "Qualquer dispositivo conectado ao computador",
+      B: "Pastas e arquivos excluídos do disco local",
+      C: "Pen drives e cartões de memória",
+      D: "Arquivos apagados permanentemente com Shift+Delete",
+      E: "Arquivos removidos da internet"
+    },
+    correct: "B",
+    justification: "No Windows, a Lixeira armazena temporariamente arquivos e pastas excluídos do disco local do computador. Arquivos excluídos de dispositivos removíveis, como pen drives, ou apagados com o comando Shift+Delete não passam pela Lixeira e são removidos diretamente."
+},
+{
+    id: 586,
+    subject: "Informática",
+    question: "Um Escriturário recebeu por e-mail um arquivo infectado com vírus. Esse vírus",
+    options: {
+      A: "já infectou o computador, assim que a mensagem foi recebida.",
+      B: "infectará o computador, se o Escriturário executar (abrir) o arquivo.",
+      C: "infectará o computador, se o Escriturário abrir a mensagem de e-mail.",
+      D: "não infectará o computador, pois todas as ferramentas de e-mail são programadas para remover vírus automaticamente.",
+      E: "infectará o computador, se o Escriturário baixar o arquivo, mesmo que ele não o execute."
+    },
+    correct: "B",
+    justification: "De modo geral, um vírus precisa ser executado para infectar o sistema. Apenas receber ou visualizar a mensagem de e-mail não é suficiente para causar a infecção. O computador será infectado se o usuário executar (abrir) o arquivo contaminado, permitindo que o código malicioso seja ativado."
+},
+{
+    id: 587,
+    subject: "Informática",
+    question: "João ativou o firewall do Windows em seu computador. Sobre a função desse recurso de segurança, assinale a alternativa correta:",
+    options: {
+      A: "O firewall não detecta vírus no arquivo, mas controla o tráfego de rede, bloqueando conexões não autorizadas.",
+      B: "O firewall só funciona em computadores conectados à internet via cabo de rede.",
+      C: "O firewall tem como principal função excluir arquivos infectados do computador.",
+      D: "O firewall substitui a necessidade de antivírus no sistema.",
+      E: "O firewall impede a instalação de qualquer programa no computador."
+    },
+    correct: "A",
+    justification: "O firewall é um recurso de segurança responsável por monitorar e controlar o tráfego de rede, permitindo ou bloqueando conexões conforme regras estabelecidas. Ele não substitui o antivírus nem tem como função principal detectar ou remover vírus de arquivos, mas sim proteger o sistema contra acessos e comunicações não autorizadas."
 }
 ];
 /* =====================================================
