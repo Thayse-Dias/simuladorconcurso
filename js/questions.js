@@ -2736,9 +2736,7 @@ const portuguesQuestions = [
   {
     id: 203,
     subject: "Português",
-    question: "Assinale a alternativa em que a frase está correta.",
-      text: "Embora os avanços tecnológicos sejam evidentes, a capacitação profissional ainda é indispensável.",
-      itens: "Infere-se que:",
+    question: "Assinale a alternativa em que a frase está correta. Embora os avanços tecnológicos sejam evidentes, a capacitação profissional ainda é indispensável. Infere-se que:",
     options: {
       A: "A tecnologia substitui o profissional.",
       B: "A capacitação perdeu importância.",
@@ -2766,20 +2764,6 @@ const portuguesQuestions = [
   {
     id: 205,
     subject: "Português",
-    question: "A intenção do texto é:",
-    options: {
-      A: "Ironizar o avanço tecnológico",
-      B: "Defender apenas o ensino formal",
-      C: "Alertar sobre a irrelevância da tecnologia",
-      D: "Valorizar o equilíbrio entre tecnologia e formação",
-      E: "Criticar profissionais desatualizados"
-    },
-    correct: "D",
-    justification: "O texto não exclui a tecnologia, mas reforça a formação humana."
-  },
-  {
-    id: 206,
-    subject: "Português",
     question: "A leitura crítica permite ao cidadão interpretar informações com maior autonomia.O termo “crítica” tem sentido de:",
       options: {
         A: "Julgamento negativo",
@@ -2792,7 +2776,7 @@ const portuguesQuestions = [
       justification: "Leitura crítica = análise consciente e reflexiva."   
   },
   {
-    id: 207,
+    id: 206,
     subject: "Português",
     question: "A leitura crítica permite ao cidadão interpretar informações com maior autonomia. A palavra “autonomia” indica:",
     options: {
@@ -2806,21 +2790,7 @@ const portuguesQuestions = [
     justification: "Autonomia = capacidade de agir por conta própria, especialmente intelectualmente."
   },
   {
-    id: 208,
-    subject: "Português",
-    question: "Assinale a alternativa correta:",
-    options: {
-      A: "Excessão",
-      B: "Pretensão",
-      C: "Reinvindicar",
-      D: "Conciderar",
-      E: "Excesivo"
-    },
-    correct: "B",
-    justification: "'Pretensão' está correto; as outras palavras estão grafadas incorretamente."
-  },
-  {
-    id: 209,
+    id: 207,
     subject: "Português",
     question: "Assinale a alternativa correta:",
     options: {
@@ -2834,7 +2804,7 @@ const portuguesQuestions = [
     justification: "'Autoestima' está correta; as outras palavras estão grafadas incorretamente."
   },
   {
-    id: 210,
+    id: 208,
     subject: "Português",
     question: "Assinale a alternativa correta:",
     options: {
@@ -2848,7 +2818,7 @@ const portuguesQuestions = [
     justification: "'Assistiu ao filme' está correta; assistir (ver) rege preposição a."
   },
   {
-    id: 211,
+    id: 209,
     subject: "Português",
     question: "O verbo gostar rege:",
     options: {
@@ -2862,7 +2832,7 @@ const portuguesQuestions = [
     justification: "'Gostar' é verbo transitivo indireto e rege preposição 'de'."
   },
   {
-    id: 212,
+    id: 210,
     subject: "Português",
     question: "Assinale a alternativa em que o uso da vírgula está correto, segundo a norma-padrão.",
     options: {
@@ -2876,7 +2846,7 @@ const portuguesQuestions = [
     justification: "A vírgula está correta na alternativa A. No trecho 'que atuam em campo', a vírgula é usada para separar a oração restritiva do restante da frase."
   },
   {
-    id: 213,
+    id: 211,
     subject: "Português",
     question: "A palavra 'imprescindível' tem como sinônimo.",
     options: {
@@ -2890,7 +2860,7 @@ const portuguesQuestions = [
     justification: "'Imprescindível' significa algo que não pode ser dispensado, ou seja, fundamental."
   },
   {
-    id: 214,
+    id: 212,
     subject: "Português",
     question: "O uso correto do porquê está em:",
     options: {
@@ -2904,7 +2874,7 @@ const portuguesQuestions = [
     justification: "Em 'Por que você não compareceu?', 'por que' é usado em perguntas diretas."
   },
   {
-    id: 215,
+    id: 213,
     subject: "Português",
     question: "Assinale a alternativa com sentido denotativo.",
     options: {
@@ -2918,7 +2888,7 @@ const portuguesQuestions = [
     justification: "Sentido denotativo é o sentido literal das palavras, como em 'O relatório foi entregue ontem'."
   },
   {
-    id: 216,
+    id: 214,
     subject: "Português",
     question: "Assinale a alternativa em que há erro de concordância verbal.",
     options: {
@@ -2932,7 +2902,7 @@ const portuguesQuestions = [
     justification: "O verbo 'haver', no sentido de existir, é impessoal e deve ser usado na 3ª pessoa do singular: 'Deve haver mudanças'."
   },
   {
-    id: 217,
+    id: 215,
     subject: "Português",
     question: "Assinale a alternativa em que o uso do acento indicativo de crase está CORRETO:",
     options: {
@@ -2946,7 +2916,7 @@ const portuguesQuestions = [
     justification: "Há crase antes de pronomes demonstrativos iniciados por “a” (àquela). Nas demais, substantivos no plural sem artigo não admitem crase."
   },
   {
-    id: 218,
+    id: 216,
     subject: "Português",
     question: "Em qual alternativa o emprego do acento indicativo de crase é PROIBIDO, segundo a norma-padrão?",
     options: {
@@ -2960,7 +2930,7 @@ const portuguesQuestions = [
     justification: "É vedada crase antes de verbos (a partir). O erro é clássico de prova."
   },
   {
-    id: 219,
+    id: 217,
     subject: "Português",
     question: "Assinale a alternativa em que a crase é FACULTATIVA:",
     options: {
@@ -2974,7 +2944,7 @@ const portuguesQuestions = [
     justification: "Antes de pronomes de tratamento femininos (senhora), o uso da crase é facultativo."
   },
   {
-    id: 220,
+    id: 218,
     subject: "Português",
     question: "Assinale a frase em que o acento indicativo de crase está INCORRETO:",
     options: {
@@ -2988,7 +2958,7 @@ const portuguesQuestions = [
     justification: "A crase não é usada antes de nomes próprios como 'Brasília'. A crase é usada antes de palavras femininas com artigo definido, mas não antes de nomes próprios."
   },
   {
-    id: 221,
+    id: 219,
     subject: "Português",
     question: "Em qual alternativa o emprego da crase decorre da regência verbal?",
     options: {
@@ -3002,7 +2972,7 @@ const portuguesQuestions = [
     justification: "O verbo dedicar-se exige a preposição a, e função admite artigo feminino, formando crase por regência verbal."
   },
   {
-    id: 222,
+    id: 220,
     subject: "Português",
     question: "Assinale a alternativa em que o verbo está empregado em conformidade com a norma-padrão quanto à regência:",
     options: {
@@ -3016,7 +2986,7 @@ const portuguesQuestions = [
     justification: "O verbo 'simpatizar' rege a preposição 'com'. As demais alternativas apresentam erros de regência."
   },
   {
-    id: 223,
+    id: 221,
     subject: "Português",
     question: "Está CORRETA, quanto à regência verbal, a alternativa:",
     options: {
@@ -3030,7 +3000,7 @@ const portuguesQuestions = [
     justification: "O verbo 'agradar', no sentido de satisfazer, rege a preposição 'a'."
   },
   {
-    id: 224,
+    id: 222,
     subject: "Português",
     question: "Assinale a opção em que a regência verbal está INCORRETA:",
     options: {
@@ -3044,7 +3014,7 @@ const portuguesQuestions = [
     justification: "No sentido de objetivo, o verbo 'visar' rege a preposição 'a', sendo incorreta a ausência de preposição."
   },
   {
-    id: 225,
+    id: 223,
     subject: "Português",
     question: "Em qual alternativa o verbo exige DOIS complementos, um direto e outro indireto?",
     options: {
@@ -3058,7 +3028,7 @@ const portuguesQuestions = [
     justification: "O verbo 'comunicar' pode exigir objeto direto (o ocorrido) e indireto (à chefia)."
   },
   {
-    id: 226,
+    id: 224,
     subject: "Português",
     question: "Assinale a alternativa em que o verbo apresenta regência variável, admitindo mais de uma construção conforme o sentido:",
     options: {
@@ -3072,7 +3042,7 @@ const portuguesQuestions = [
     justification: "O verbo 'assistir' apresenta regência variável: sem preposição no sentido de prestar assistência e com preposição no sentido de ver."
   },
   {
-    id: 227,
+    id: 225,
     subject: "Português",
     question: "Assinale a alternativa em que a concordância verbal está CORRETA, segundo a norma-padrão:",
     options: {
@@ -3086,7 +3056,7 @@ const portuguesQuestions = [
     justification: "O verbo 'existir' concorda com o sujeito plural. 'Haver' e 'fazer', em sentido impessoal, permanecem no singular."
   },
   {
-    id: 228,
+    id: 226,
     subject: "Português",
     question: "Em qual alternativa a concordância verbal está INCORRETA?",
     options: {
@@ -3100,7 +3070,7 @@ const portuguesQuestions = [
     justification: "Com 'quem', o verbo deve permanecer na 3ª pessoa do singular, independentemente do antecedente."
   },
   {
-    id: 229,
+    id: 227,
     subject: "Português",
     question: "Assinale a opção em que a concordância verbal atende à norma-padrão:",
     options: {
@@ -3114,7 +3084,7 @@ const portuguesQuestions = [
     justification: "Com porcentagem seguida de substantivo singular, o verbo concorda preferencialmente com o núcleo singular."
   },
   {
-    id: 230,
+    id: 228,
     subject: "Português",
     question: "Assinale a alternativa em que a concordância verbal está de acordo com a norma culta:",
     options: {
@@ -3128,7 +3098,7 @@ const portuguesQuestions = [
     justification: "Com 'não apenas... mas também', o verbo concorda com o núcleo plural mais próximo."
   },
   {
-    id: 231,
+    id: 229,
     subject: "Português",
     question: "Assinale a alternativa em que a concordância verbal está INCORRETA, considerando o sujeito posposto:",
     options: {
@@ -3142,7 +3112,7 @@ const portuguesQuestions = [
     justification: "O verbo deve concordar com o sujeito plural posposto: o correto seria 'restaram pendentes'."
   },
   {
-    id: 232,
+    id: 230,
     subject: "Português",
     question: "No trecho hipotético: “Os avanços tecnológicos, que transformaram profundamente a indústria, exigem profissionais cada vez mais qualificados.” A oração destacada tem valor:",
     options: {
@@ -3156,7 +3126,7 @@ const portuguesQuestions = [
     justification: "A oração introduzida por 'que', isolada por vírgulas, é uma oração subordinada adjetiva explicativa, acrescentando informação acessória ao termo 'avanços tecnológicos'."
   },
   {
-    id: 233,
+    id: 231,
     subject: "Português",
     question: "No trecho: “É necessário que as empresas invistam continuamente em inovação”, a forma verbal destacada indica:",
     options: {
@@ -3170,7 +3140,7 @@ const portuguesQuestions = [
     justification: "O verbo 'investam' está no modo subjuntivo, empregado para expressar necessidade, possibilidade ou desejo, coerente com a ideia de exigência apresentada pelo autor."
   },
   {
-    id: 234,
+    id: 232,
     subject: "Português",
     question: "Em um texto argumentativo, ao empregar a expressão “por conseguinte”, o autor estabelece uma relação lógica de:",
     options: {
@@ -3184,7 +3154,7 @@ const portuguesQuestions = [
     justification: "A locução 'por conseguinte' é um conectivo conclusivo, utilizado para introduzir uma consequência lógica das ideias anteriores."
   },
   {
-    id: 235,
+    id: 233,
     subject: "Português",
     question: "No trecho: “A eficiência dos processos depende da forma como os recursos são utilizados”, o termo destacado exerce a função de:",
     options: {
@@ -3198,7 +3168,7 @@ const portuguesQuestions = [
     justification: "O termo 'como' retoma 'forma' e introduz uma oração subordinada adjetiva, exercendo função de pronome relativo."
   },
   {
-    id: 236,
+    id: 234,
     subject: "Português",
     question: "Em um texto técnico, a escolha por frases na voz passiva, como em “os resultados foram analisados”, contribui principalmente para:",
     options: {
@@ -3212,7 +3182,7 @@ const portuguesQuestions = [
     justification: "A voz passiva é frequente em textos técnicos e científicos por reforçar a impessoalidade e a objetividade, desviando o foco do agente."
   },
   {
-    id: 237,
+    id: 235,
     subject: "Português",
     question: "No trecho: “Embora os custos sejam elevados, o investimento é necessário”, a conjunção destacada expressa ideia de:",
     options: {
@@ -3226,7 +3196,7 @@ const portuguesQuestions = [
     justification: "A conjunção 'embora' introduz uma oração subordinada adverbial concessiva, indicando contraste em relação à ideia principal."
   },
   {
-    id: 238,
+    id: 236,
     subject: "Português",
     question: "Em um texto dissertativo, a substituição do termo 'portanto' por 'todavia' acarretaria:",
     options: {
@@ -3240,7 +3210,7 @@ const portuguesQuestions = [
     justification: "'Portanto' é conclusivo, enquanto 'todavia' é adversativo. A substituição altera a relação lógica entre as ideias."
   },
   {
-    id: 239,
+    id: 237,
     subject: "Português",
     question: "No trecho: “Há fatores que influenciam diretamente o desempenho profissional”, o verbo 'há' poderia ser substituído, sem prejuízo de sentido, por:",
     options: {
@@ -3254,7 +3224,7 @@ const portuguesQuestions = [
     justification: "O verbo 'haver', com sentido de existir, pode ser substituído por 'existem', mantendo o sentido do enunciado."
   },
   {
-    id: 240,
+    id: 238,
     subject: "Português",
     question: "Em um texto jornalístico, o uso predominante do tempo presente do indicativo contribui para:",
     options: {
@@ -3268,9 +3238,9 @@ const portuguesQuestions = [
     justification: "O presente do indicativo é frequentemente usado para transmitir atualidade e proximidade dos fatos narrados."
   },
   {
-    id: 241,
+    id: 239,
     subject: "Português",
-    question: "No trecho: “A capacitação contínua é essencial para que os profissionais se mantenham competitivos”, a oração destacada indica:",
+    question: "No trecho: “A capacitação contínua é essencial PARA QUE os profissionais se mantenham competitivos”, a oração destacada indica:",
     options: {
       A: "Causa",
       B: "Condição",
@@ -3282,7 +3252,7 @@ const portuguesQuestions = [
     justification: "A locução 'para que' introduz uma oração subordinada adverbial final, expressando a finalidade da ação mencionada."
   },
   {
-    id: 242,
+    id: 240,
     subject: "Português",
     question: "TEXTO BASE:\n\"A crescente automação dos processos industriais tem transformado significativamente o mercado de trabalho. Embora gere ganhos expressivos de produtividade, esse avanço também impõe desafios à qualificação profissional. Nesse contexto, torna-se indispensável o investimento contínuo em educação e treinamento, a fim de que os trabalhadores acompanhem as mudanças tecnológicas e permaneçam competitivos.\" \n\nCom base no texto, a expressão \"Embora gere ganhos expressivos de produtividade\" introduz uma ideia de:",
     options: {
@@ -3296,7 +3266,7 @@ const portuguesQuestions = [
     justification: "A conjunção 'embora' introduz uma oração subordinada adverbial concessiva, indicando contraste entre os ganhos de produtividade e os desafios impostos."
   },
   {
-    id: 243,
+    id: 241,
     subject: "Português",
     question: "TEXTO BASE:\n\"A crescente automação dos processos industriais tem transformado significativamente o mercado de trabalho. Embora gere ganhos expressivos de produtividade, esse avanço também impõe desafios à qualificação profissional. Nesse contexto, torna-se indispensável o investimento contínuo em educação e treinamento, a fim de que os trabalhadores acompanhem as mudanças tecnológicas e permaneçam competitivos.\" \n\nO emprego da forma verbal \"torna-se\" contribui para:",
     options: {
@@ -3310,7 +3280,7 @@ const portuguesQuestions = [
     justification: "A construção 'torna-se indispensável' confere tom impessoal e objetivo ao texto, característica de textos técnicos e argumentativos."
   },
   {
-    id: 244,
+    id: 242,
     subject: "Português",
     question: "TEXTO BASE:\n\"A eficiência energética passou a ocupar lugar central nas políticas industriais. À medida que os custos de produção aumentam, cresce também a necessidade de soluções sustentáveis, capazes de equilibrar desenvolvimento econômico e preservação ambiental. Assim, investimentos em tecnologias limpas deixaram de ser opcionais para se tornarem estratégicos.\" \n\nNo texto, a expressão \"À medida que\" estabelece uma relação de:",
     options: {
@@ -3324,7 +3294,7 @@ const portuguesQuestions = [
     justification: "A locução 'à medida que' indica proporcionalidade entre o aumento dos custos e a necessidade de soluções sustentáveis."
   },
   {
-    id: 245,
+    id: 243,
     subject: "Português",
     question: "TEXTO BASE:\n\"A eficiência energética passou a ocupar lugar central nas políticas industriais. À medida que os custos de produção aumentam, cresce também a necessidade de soluções sustentáveis, capazes de equilibrar desenvolvimento econômico e preservação ambiental. Assim, investimentos em tecnologias limpas deixaram de ser opcionais para se tornarem estratégicos.\" \n\nA oração \"capazes de equilibrar desenvolvimento econômico e preservação ambiental\" tem a função de:",
     options: {
@@ -3338,7 +3308,7 @@ const portuguesQuestions = [
     justification: "Trata-se de uma oração subordinada adjetiva explicativa, que esclarece o sentido de 'soluções sustentáveis'."
   },
   {
-    id: 246,
+    id: 244,
     subject: "Português",
     question: "TEXTO BASE:\n\"Em ambientes corporativos cada vez mais dinâmicos, a comunicação eficiente assume papel decisivo no desempenho das equipes. Quando informações não são transmitidas de forma clara, surgem retrabalhos, falhas operacionais e conflitos internos, comprometendo os resultados organizacionais.\" \n\nA relação estabelecida entre os períodos do texto é predominantemente de:",
     options: {
@@ -3352,7 +3322,7 @@ const portuguesQuestions = [
     justification: "O segundo período apresenta as consequências decorrentes da causa indicada no primeiro: a falha na comunicação."
   },
   {
-    id: 247,
+    id: 245,
     subject: "Português",
     question: "TEXTO BASE:\n\"A adoção de novas tecnologias exige, das empresas, planejamento estratégico e investimento contínuo em capacitação. A falta de preparo, muitas vezes, leva à resistência dos profissionais às mudanças, comprometendo a eficiência organizacional.\" \n\nConsiderando o texto, a retirada das vírgulas que isolam a expressão \"das empresas\" acarretaria:",
     options: {
@@ -3366,7 +3336,7 @@ const portuguesQuestions = [
     justification: "As vírgulas isolam o complemento nominal deslocado. Sua retirada pode gerar ambiguidade quanto ao termo exigido pela ação verbal."
   },
   {
-    id: 248,
+    id: 246,
     subject: "Português",
     question: "TEXTO BASE:\n\"A implementação de políticas sustentáveis depende de gestores comprometidos com a responsabilidade ambiental e atentos às demandas sociais.\" \n\nNo trecho, o verbo \"depender\" está corretamente empregado porque rege:",
     options: {
@@ -3380,7 +3350,7 @@ const portuguesQuestions = [
     justification: "O verbo 'depender' exige complemento introduzido pela preposição 'de', conforme a norma-padrão."
   },
   {
-    id: 249,
+    id: 247,
     subject: "Português",
     question: "TEXTO BASE:\n\"Os profissionais que se dedicam à inovação tendem a obter melhores resultados, pois respondem às exigências de um mercado em constante transformação.\" \n\nO uso da vírgula antes da conjunção \"pois\" justifica-se porque:",
     options: {
@@ -3394,7 +3364,7 @@ const portuguesQuestions = [
     justification: "A conjunção 'pois', com valor explicativo, deve ser precedida de vírgula, conforme a norma gramatical."
   },
   {
-    id: 250,
+    id: 248,
     subject: "Português",
     question: "TEXTO BASE:\n\"A eficiência dos processos está associada à forma como os recursos são aplicados, obedecendo às normas estabelecidas.\" \n\nNo trecho, o emprego da crase em \"à forma\" decorre da regência:",
     options: {
@@ -3408,7 +3378,7 @@ const portuguesQuestions = [
     justification: "O verbo 'associar' rege a preposição 'a', que, somada ao artigo feminino 'a', resulta no uso da crase."
   },
   {
-    id: 251,
+    id: 249,
     subject: "Português",
     question: "TEXTO BASE:\n\"A clareza na comunicação contribui para a redução de conflitos e melhora o desempenho das equipes, que passam a atuar de forma mais integrada.\" \n\nA vírgula antes do pronome relativo \"que\" indica que a oração é:",
     options: {
@@ -3422,7 +3392,7 @@ const portuguesQuestions = [
     justification: "A presença da vírgula indica que a oração introduzida por 'que' é explicativa, acrescentando informação acessória ao termo 'equipes'."
   },
   {
-    id: 252,
+    id: 250,
     subject: "Português",
     question: "No contexto de um texto, a substituição da palavra 'essencial' por 'dispensável' provocaria:",
     options: {
@@ -3436,7 +3406,7 @@ const portuguesQuestions = [
     justification: "‘Essencial’ e ‘dispensável’ são termos semanticamente opostos, de modo que a substituição altera o sentido do texto."
   },
   {
-    id: 253,
+    id: 251,
     subject: "Português",
     question: "Em um texto técnico, o emprego da palavra 'avaliar' indica, predominantemente:",
     options: {
@@ -3450,7 +3420,7 @@ const portuguesQuestions = [
     justification: "O verbo 'avaliar' expressa a ideia de examinar criteriosamente, especialmente em contextos técnicos ou formais."
   },
   {
-    id: 254,
+    id: 252,
     subject: "Português",
     question: "A expressão 'quebrar um galho', quando usada fora do sentido literal, exemplifica:",
     options: {
@@ -3464,7 +3434,7 @@ const portuguesQuestions = [
     justification: "A expressão é utilizada em sentido figurado, caracterizando uma metáfora."
   },
   {
-    id: 255,
+    id: 253,
     subject: "Português",
     question: "No trecho: “O projeto foi engavetado pela diretoria”, o verbo 'engavetado' assume sentido:",
     options: {
@@ -3478,7 +3448,7 @@ const portuguesQuestions = [
     justification: "O verbo é empregado em sentido figurado, indicando que o projeto foi interrompido ou deixado de lado."
   },
   {
-    id: 256,
+    id: 254,
     subject: "Português",
     question: "O fenômeno semântico em que uma mesma palavra assume sentidos diferentes conforme o contexto denomina-se:",
     options: {
@@ -3492,7 +3462,7 @@ const portuguesQuestions = [
     justification: "Polissemia ocorre quando uma palavra apresenta múltiplos significados, dependendo do contexto em que é utilizada."
   },
   {
-    id: 257,
+    id: 255,
     subject: "Português",
     question: "No contexto textual, a palavra 'viável' pode ser corretamente interpretada como:",
     options: {
@@ -3506,7 +3476,7 @@ const portuguesQuestions = [
     justification: "‘Viável’ indica algo que pode ser realizado ou executado, conforme o contexto."
   },
   {
-    id: 258,
+    id: 256,
     subject: "Português",
     question: "Em um texto argumentativo, o uso de palavras com forte carga avaliativa tem como efeito principal:",
     options: {
@@ -3520,7 +3490,7 @@ const portuguesQuestions = [
     justification: "Palavras avaliativas reforçam o ponto de vista do autor, contribuindo para a persuasão."
   },
   {
-    id: 259,
+    id: 257,
     subject: "Português",
     question: "No trecho: “A decisão foi tomada de forma criteriosa”, o termo 'criteriosa' pode ser substituído, sem alteração de sentido, por:",
     options: {
@@ -3534,7 +3504,7 @@ const portuguesQuestions = [
     justification: "‘Criteriosa’ é sinônimo de ‘cuidadosa’, mantendo o sentido do enunciado."
   },
   {
-    id: 260,
+    id: 258,
     subject: "Português",
     question: "O uso de ironia em um texto ocorre quando:",
     options: {
@@ -3548,21 +3518,7 @@ const portuguesQuestions = [
     justification: "A ironia caracteriza-se pela discrepância entre o que se diz literalmente e o que se pretende comunicar."
   },
   {
-    id: 261,
-    subject: "Português",
-    question: "No contexto da comunicação, a ambiguidade ocorre quando:",
-    options: {
-      A: "O texto apresenta clareza total",
-      B: "Uma palavra possui apenas um sentido",
-      C: "Há mais de uma interpretação possível",
-      D: "O texto é excessivamente técnico",
-      E: "O autor utiliza termos científicos"
-    },
-    correct: "C",
-    justification: "Ambiguidade ocorre quando o enunciado permite mais de uma interpretação, comprometendo a clareza."
-  },
-  {
-    id: 262,
+    id: 259,
     subject: "Português",
     question: "A palavra 'cabeça' é polissêmica. Em qual alternativa ela é empregada em sentido figurado?",
     options: {
@@ -3576,7 +3532,7 @@ const portuguesQuestions = [
     justification: "Em 'cabeça do projeto', o termo assume sentido figurado, indicando liderança ou responsabilidade, caracterizando a polissemia."
   },
   {
-    id: 263,
+    id: 260,
     subject: "Português",
     question: "No trecho: 'O banco anunciou novas linhas de crédito', a palavra 'banco' apresenta sentido:",
     options: {
@@ -3590,7 +3546,7 @@ const portuguesQuestions = [
     justification: "Nesse contexto, 'banco' refere-se à instituição financeira, demonstrando um dos sentidos possíveis da palavra."
   },
   {
-    id: 264,
+    id: 261,
     subject: "Português",
     question: "A palavra 'manga' é polissêmica. Em qual alternativa o sentido é diferente dos demais?",
     options: {
@@ -3604,7 +3560,7 @@ const portuguesQuestions = [
     justification: "Na alternativa B, 'manga' refere-se à fruta, enquanto nas demais indica parte da roupa."
   },
   {
-    id: 265,
+    id: 262,
     subject: "Português",
     question: "No trecho: 'O juiz apitou o fim do jogo', a palavra 'juiz' assume o sentido de:",
     options: {
@@ -3618,7 +3574,7 @@ const portuguesQuestions = [
     justification: "No contexto esportivo, 'juiz' refere-se ao árbitro da partida, evidenciando um dos sentidos polissêmicos do termo."
   },
   {
-    id: 266,
+    id: 263,
     subject: "Português",
     question: "A palavra 'ponto' é polissêmica. Em qual alternativa ela significa 'assunto principal'?",
     options: {
@@ -3632,7 +3588,7 @@ const portuguesQuestions = [
     justification: "Em 'ponto da discussão', o termo 'ponto' assume sentido figurado de tema central ou assunto principal."
   },
   {
-    id: 267,
+    id: 264,
     subject: "Português",
     question: "TEXTO BASE:\n\"Durante a reunião, o diretor afirmou que o projeto precisava de mais cabeça fria para avançar.\" \n\nNo contexto do texto, a expressão 'cabeça fria' indica:",
     options: {
@@ -3646,7 +3602,7 @@ const portuguesQuestions = [
     justification: "A expressão 'cabeça fria' é empregada em sentido figurado, indicando racionalidade e controle emocional, caracterizando polissemia."
   },
   {
-    id: 268,
+    id: 265,
     subject: "Português",
     question: "TEXTO BASE:\n\"Após meses de discussão, o banco decidiu apoiar financeiramente a iniciativa.\" \n\nNesse contexto, a palavra 'banco' assume o sentido de:",
     options: {
@@ -3660,7 +3616,7 @@ const portuguesQuestions = [
     justification: "No contexto econômico, 'banco' refere-se à instituição financeira, sendo um dos sentidos polissêmicos da palavra."
   },
   {
-    id: 269,
+    id: 266,
     subject: "Português",
     question: "TEXTO BASE:\n\"O gerente pediu que todos vestissem a camisa da empresa para enfrentar os desafios do mercado.\" \n\nA expressão 'vestir a camisa' é utilizada no texto para indicar:",
     options: {
@@ -3674,7 +3630,7 @@ const portuguesQuestions = [
     justification: "A expressão é empregada em sentido figurado, indicando engajamento e comprometimento, caracterizando a polissemia."
   },
   {
-    id: 270,
+    id: 267,
     subject: "Português",
     question: "TEXTO BASE:\n\"O relatório final será apresentado na próxima mesa de negociação.\" \n\nNo contexto, a palavra 'mesa' refere-se a:",
     options: {
@@ -3688,7 +3644,7 @@ const portuguesQuestions = [
     justification: "Em 'mesa de negociação', o termo 'mesa' assume sentido figurado, referindo-se ao grupo responsável pelas negociações."
   },
   {
-    id: 271,
+    id: 268,
     subject: "Português",
     question: "TEXTO BASE:\n\"O projeto ganhou força após receber apoio institucional.\" \n\nNo texto, a palavra 'força' assume sentido de:",
     options: {
@@ -3702,7 +3658,7 @@ const portuguesQuestions = [
     justification: "No contexto, 'força' é empregada em sentido figurado, indicando maior relevância ou impulso, evidenciando a polissemia."
   },
   {
-    id: 272,
+    id: 269,
     subject: "Português",
     question: "Em um texto, o uso adequado de conectivos contribui principalmente para:",
     options: {
@@ -3716,7 +3672,7 @@ const portuguesQuestions = [
     justification: "Os conectivos são elementos responsáveis por ligar ideias, garantindo coesão textual e clareza das relações lógicas."
   },
   {
-    id: 273,
+    id: 270,
     subject: "Português",
     question: "No trecho: “O projeto foi aprovado. Portanto, será implementado em breve.”, a palavra 'portanto' assegura a coesão ao indicar:",
     options: {
@@ -3730,7 +3686,7 @@ const portuguesQuestions = [
     justification: "O conectivo 'portanto' introduz uma ideia conclusiva, ligando logicamente os períodos."
   },
   {
-    id: 274,
+    id: 271,
     subject: "Português",
     question: "A coerência textual está diretamente relacionada:",
     options: {
@@ -3744,7 +3700,7 @@ const portuguesQuestions = [
     justification: "A coerência diz respeito à lógica interna do texto e à relação adequada entre as ideias apresentadas."
   },
   {
-    id: 275,
+    id: 272,
     subject: "Português",
     question: "No trecho: “Maria estudou bastante. No entanto, foi bem na prova.”, a incoerência ocorre porque:",
     options: {
@@ -3758,7 +3714,7 @@ const portuguesQuestions = [
     justification: "O conectivo 'no entanto' indica oposição, o que é incoerente, pois estudar bastante leva a ir bem na prova."
   },
   {
-    id: 276,
+    id: 273,
     subject: "Português",
     question: "O emprego de pronomes para retomar termos anteriormente mencionados contribui para a:",
     options: {
@@ -3772,7 +3728,7 @@ const portuguesQuestions = [
     justification: "A retomada de termos por pronomes evita repetições e garante coesão referencial no texto."
   },
   {
-    id: 277,
+    id: 274,
     subject: "Português",
     question: "TEXTO BASE:\n\"A modernização dos serviços públicos exige planejamento contínuo. Embora os investimentos iniciais sejam elevados, os resultados tendem a aparecer a médio e longo prazo. Por isso, interromper projetos estruturantes por razões políticas compromete não apenas os recursos já aplicados, mas também a confiança da população nas instituições.\" \n\nConsiderando os mecanismos de coesão e coerência do texto, o conectivo 'Embora' estabelece uma relação de:",
     options: {
@@ -3786,7 +3742,7 @@ const portuguesQuestions = [
     justification: "O conectivo 'embora' introduz uma ideia concessiva, reconhecendo um obstáculo sem invalidar a ideia principal."
   },
   {
-    id: 278,
+    id: 275,
     subject: "Português",
     question: "TEXTO BASE:\n\"O relatório apontou falhas operacionais significativas. Essas falhas, contudo, não inviabilizam o projeto, desde que sejam adotadas medidas corretivas adequadas.\" \n\nA expressão 'essas falhas' contribui para a coesão textual por meio de:",
     options: {
@@ -3800,7 +3756,7 @@ const portuguesQuestions = [
     justification: "A expressão retoma um termo já mencionado no texto, caracterizando coesão referencial anafórica."
   },
   {
-    id: 279,
+    id: 276,
     subject: "Português",
     question: "TEXTO BASE:\n\"A implantação do sistema foi anunciada com entusiasmo. Entretanto, a ausência de capacitação técnica comprometeu sua eficácia, o que gerou insatisfação entre os usuários.\" \n\nNo texto, a articulação entre os períodos garante a coerência principalmente porque:",
     options: {
@@ -3814,7 +3770,7 @@ const portuguesQuestions = [
     justification: "O conectivo 'entretanto' estabelece oposição lógica entre o anúncio positivo e o resultado negativo."
   },
   {
-    id: 280,
+    id: 277,
     subject: "Português",
     question: "TEXTO BASE:\n\"Os dados foram coletados ao longo de três anos. Dessa forma, as conclusões apresentadas refletem um panorama mais consistente da realidade analisada.\" \n\nA expressão 'dessa forma' contribui para a coesão ao indicar:",
     options: {
@@ -3828,7 +3784,7 @@ const portuguesQuestions = [
     justification: "O conectivo estabelece relação de consequência entre a duração da coleta de dados e a consistência das conclusões."
   },
   {
-    id: 281,
+    id: 278,
     subject: "Português",
     question: "TEXTO BASE:\n\"A empresa investiu em tecnologia de ponta e revisou seus processos internos. Contudo, manteve práticas administrativas ultrapassadas, o que comprometeu os ganhos esperados.\" \n\nA incoerência só não ocorre no texto porque:",
     options: {
@@ -3842,7 +3798,7 @@ const portuguesQuestions = [
     justification: "O uso adequado do conectivo adversativo explicita a contradição, mantendo a coerência argumentativa do texto."
   },
   {
-    id: 282,
+    id: 279,
     subject: "Português",
     question: "Na frase: “Estou morrendo de fome”, a figura de linguagem empregada é:",
     options: {
@@ -3856,7 +3812,7 @@ const portuguesQuestions = [
     justification: "Há exagero intencional para intensificar a ideia de fome, caracterizando hipérbole."
   },
   {
-    id: 283,
+    id: 280,
     subject: "Português",
     question: "Em: “O tempo é um rio que corre sem parar”, ocorre a figura de linguagem chamada:",
     options: {
@@ -3870,7 +3826,7 @@ const portuguesQuestions = [
     justification: "O tempo é identificado diretamente como um rio, sem uso de conectivo comparativo, caracterizando metáfora."
   },
   {
-    id: 284,
+    id: 281,
     subject: "Português",
     question: "Na frase: “Ele é rápido como um raio”, a figura de linguagem é:",
     options: {
@@ -4497,15 +4453,288 @@ const portuguesQuestions = [
   },
   correct: "A",
   justification: "Na alternativa A, o advérbio “ali” retoma corretamente o termo “mar”, mencionado anteriormente na mesma frase. Trata-se de um mecanismo de coesão referencial anafórica, em que o termo destacado faz referência a um elemento já expresso no enunciado. Nas demais alternativas, o referente indicado entre colchetes não corresponde adequadamente ao termo destacado no trecho."
-}
-
-
-
-
-
-
+},
+{
+    id: 329,
+    subject: "Português",
+    question: "Assinale a alternativa em que o verbo é TRANSITIVO DIRETO:",
+    options: {
+      A: "O candidato chegou cedo.",
+      B: "A comissão analisou o recurso.",
+      C: "Ele mora em Maceió.",
+      D: "Os alunos saíram rapidamente.",
+      E: "O servidor faleceu ontem."
+    },
+    correct: "B",
+    justification: "O verbo 'analisou' exige complemento sem preposição ('o recurso'), funcionando como verbo transitivo direto."
+  },
+  {
+    id: 330,
+    subject: "Português",
+    question: "Em qual alternativa o verbo é TRANSITIVO INDIRETO?",
+    options: {
+      "A": "Ela precisa de ajuda.",
+      "B": "O fiscal aplicou a multa.",
+      "C": "Os candidatos estudaram muito.",
+      "D": "A criança cresceu rápido.",
+      "E": "O réu morreu ontem."
+    },
+    correct: "A",
+    justification: "O verbo 'precisa' exige complemento com preposição ('de ajuda'), caracterizando verbo transitivo indireto."
+  },
+  {
+    id: 331,
+    subject: "Português",
+    question: "Assinale a alternativa em que o verbo é TRANSITIVO DIRETO E INDIRETO:",
+    options: {
+      A: "Ele entregou o documento ao diretor.",
+      B: "Ela saiu da sala.",
+      C: "O servidor trabalha muito.",
+      D: "O aluno chegou cedo.",
+      E: "A prova começou atrasada."
+    },
+    correct: "A",
+    justification: "O verbo 'entregou' exige dois complementos: 'o documento' (objeto direto) e 'ao diretor' (objeto indireto)."
+  },
+  {
+    id: 332,
+    subject: "Português",
+    question: "Em 'O diretor informou os candidatos sobre o resultado', o verbo é classificado como:",
+    options: {
+      A: "Intransitivo",
+      B: "Transitvo indireto",
+      C: "Transitvo direto",
+      D: "Transitvo direto e indireto",
+      E: "De ligação"
+    },
+    correct: "D",
+    justification: "O verbo 'informou' apresenta dois complementos: 'os candidatos' (objeto direto) e 'sobre o resultado' (objeto indireto)."
+  },
+  {
+    id: 333,
+    subject: "Português",
+    question: "Assinale a alternativa em que o verbo destacado é TRANSITIVO DIRETO:",
+    options: {
+      A: "Ele assistiu ao filme.",
+      B: "Ela gosta de música.",
+      C: "O candidato respondeu à questão.",
+      D: "O juiz proferiu a sentença.",
+      E: "Ele precisa de apoio."
+    },
+    correct: "D",
+    justification: "O verbo 'proferiu' exige complemento sem preposição ('a sentença'), sendo transitivo direto. As demais alternativas apresentam verbos transitivos indiretos."
+  },
+  {
+    id: 334,
+    subject: "Português",
+    question: "Assinale a alternativa em que o verbo é INTRANSITIVO:",
+    options: {
+      A: "O candidato respondeu à pergunta.",
+      B: "A criança dormiu.",
+      C: "Ela entregou o relatório.",
+      D: "O aluno fez a prova.",
+      E: "O fiscal aplicou a multa."
+    },
+    correct: "B",
+    justification: "O verbo 'dormiu' não exige complemento para completar seu sentido, sendo classificado como intransitivo."
+  },
+  {
+    id: 335,
+    subject: "Português",
+    question: "Em qual alternativa o verbo é INTRANSITIVO?",
+    options: {
+      A: "Ele comprou o livro.",
+      B: "Ela precisa de apoio.",
+      C: "O réu compareceu.",
+      D: "O servidor protocolou o pedido.",
+      E: "A banca divulgou o edital."
+    },
+    correct: "C",
+    justification: "O verbo 'compareceu' não exige complemento na oração apresentada, sendo classificado como intransitivo."
+  },
+  {
+    id: 336,
+    subject: "Português",
+    question: "Assinale a alternativa em que o verbo destacado é INTRANSITIVO:",
+    options: {
+      A: "Os alunos estudaram a matéria.",
+      B: "O fiscal verificou os documentos.",
+      C: "A testemunha falou.",
+      D: "O diretor convocou os servidores.",
+      E: "Ele entregou o relatório."
+    },
+    correct: "C",
+    justification: "O verbo 'falou', no contexto apresentado, não exige complemento, sendo classificado como intransitivo."
+  },
+  {
+    id: 337,
+    subject: "Português",
+    question: "Em 'O bebê chorou durante a madrugada', o verbo é classificado como:",
+    options: {
+      A: "Transitvo direto",
+      B: "Transitvo indireto",
+      C: "Transitvo direto e indireto",
+      D: "Intransitivo",
+      E: "De ligação"
+    },
+    correct: "D",
+    justification: "O verbo 'chorou' não exige complemento para completar seu sentido. 'Durante a madrugada' é adjunto adverbial de tempo."
+  },
+  {
+    id: 338,
+    subject: "Português",
+    question: "Assinale a alternativa em que o verbo é INTRANSITIVO:",
+    options: {
+      A: "O candidato elaborou o recurso.",
+      B: "O servidor obedeceu às normas.",
+      C: "A plateia aplaudiu.",
+      D: "O fiscal notificou o infrator.",
+      E: "Ela enviou o documento ao setor."
+    },
+    correct: "C",
+    justification: "O verbo 'aplaudiu', no contexto apresentado, não exige complemento. Portanto, é classificado como intransitivo."
+  },
+  {
+    id: 339,
+    subject: "Português",
+    question: "Assinale a alternativa em que o termo destacado exerce função de OBJETO DIRETO:",
+    options: {
+      A: "O servidor entregou o relatório.",
+      B: "O servidor entregou o relatório ao diretor.",
+      C: "O servidor precisa de apoio.",
+      D: "O servidor gosta de desafios.",
+      E: "O servidor obedece às normas."
+    },
+    correct: "A",
+    justification: "Em 'entregou o relatório', o termo 'o relatório' completa o sentido do verbo sem preposição, exercendo função de objeto direto."
+  },
+  {
+    id: 340,
+    subject: "Português",
+    question: "Na frase 'A banca divulgou o edital ontem', o termo 'o edital' é classificado como:",
+    options: {
+      A: "Objeto indireto",
+      B: "Adjunto adverbial",
+      C: "Objeto direto",
+      D: "Complemento nominal",
+      E: "Predicativo do sujeito"
+    },
+    correct: "C",
+    justification: "O verbo 'divulgou' é transitivo direto e exige complemento sem preposição. Assim, 'o edital' é objeto direto."
+  },
+  {
+    id: 341,
+    subject: "Português",
+    question: "Assinale a alternativa em que há OBJETO DIRETO:",
+    options: {
+      A: "Ele assistiu ao filme.",
+      B: "Ela respondeu à questão.",
+      C: "O candidato fez a prova.",
+      D: "Ele precisa de ajuda.",
+      E: "O servidor obedece às regras."
+    },
+    correct: "C",
+    justification: "O verbo 'fez' é transitivo direto e o termo 'a prova' completa seu sentido sem preposição, sendo objeto direto."
+  },
+  {
+    id: 342,
+    subject: "Português",
+    question: "Em 'O juiz proferiu a sentença', o termo destacado exerce função de:",
+    options: {
+      A: "Objeto indireto",
+      B: "Objeto direto",
+      C: "Predicativo do objeto",
+      D: "Complemento nominal",
+      E: "Adjunto adverbial"
+    },
+    correct: "B",
+    justification: "O verbo 'proferiu' é transitivo direto, e 'a sentença' é o termo que recebe diretamente a ação verbal."
+  },
+  {
+    id: 343,
+    subject: "Português",
+    question: "Assinale a alternativa em que o pronome exerce função de OBJETO DIRETO:",
+    options: {
+      A: "Entregaram-lhe o documento.",
+      B: "Informaram-no sobre o resultado.",
+      C: "Obedeceram-lhe prontamente.",
+      D: "Responderam-lhe com clareza.",
+      E: "Assistiram-lhe durante o tratamento."
+    },
+    correct: "B",
+    justification: "O pronome 'no' substitui um termo sem preposição, exercendo função de objeto direto do verbo 'informaram'."
+  },
+  {
+    id: 344,
+    subject: "Português",
+    question: "Assinale a alternativa em que o termo destacado exerce função de OBJETO INDIRETO:",
+    options: {
+      A: "Ele entregou o relatório.",
+      B: "Ela comprou o livro.",
+      C: "O candidato respondeu à questão.",
+      D: "O fiscal aplicou a multa.",
+      E: "O aluno fez o exercício."
+    },
+    correct: "C",
+    justification: "O verbo 'respondeu' exige preposição ('a'). Assim, 'à questão' é objeto indireto."
+  },
+  {
+    id: 345,
+    subject: "Português",
+    question: "Na frase 'O servidor obedece às normas', o termo destacado é:",
+    options: {
+      A: "Objeto direto",
+      B: "Objeto indireto",
+      C: "Adjunto adnominal",
+      D: "Complemento nominal",
+      E: "Predicativo do sujeito"
+    },
+    correct: "B",
+    justification: "O verbo 'obedecer' rege preposição 'a'. Portanto, 'às normas' exerce função de objeto indireto."
+  },
+  {
+    id: 346,
+    subject: "Português",
+    question: "Assinale a alternativa em que há OBJETO INDIRETO:",
+    options: {
+      A: "A banca publicou o resultado.",
+      B: "O candidato elaborou o recurso.",
+      C: "Ele gosta de música.",
+      D: "O fiscal lavrou o auto.",
+      E: "O juiz assinou a decisão."
+    },
+    correct: "C",
+    justification: "O verbo 'gosta' exige complemento com preposição ('de música'), caracterizando objeto indireto."
+  },
+  {
+    id: 347,
+    subject: "Português",
+    question: "Em 'Ela precisa de apoio', o termo 'de apoio' exerce função de:",
+    options: {
+      A: "Objeto direto",
+      B: "Objeto indireto",
+      C: "Adjunto adverbial",
+      D: "Predicativo do sujeito",
+      E: "Complemento nominal"
+    },
+    correct: "B",
+    justification: "O verbo 'precisar' exige preposição 'de'. Assim, 'de apoio' é objeto indireto."
+  },
+  {
+    id: 348,
+    subject: "Português",
+    question: "Assinale a alternativa em que o pronome exerce função de OBJETO INDIRETO:",
+    options: {
+      A: "Entregou-me o relatório.",
+      B: "Comprou-o ontem.",
+      C: "Publicaram-no no diário oficial.",
+      D: "Assinou-a rapidamente.",
+      E: "Divulgou-os ontem."
+    },
+    correct: "A",
+    justification: "O pronome 'me' complementa o verbo com valor de destinatário da ação (a quem se entregou), exercendo função de objeto indireto."
+  }
 ];
-
 /* =====================================================
    DIREITO ADMINISTRATIVO
 ===================================================== */
