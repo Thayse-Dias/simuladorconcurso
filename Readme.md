@@ -14,3 +14,12 @@ simulador-concurso/
 │   ├── script.js
 │   └── dashboard.js
 ```
+Questões de:
+
+1. Lógica e Probabilidade
+2. Matemática
+3. Português
+4. Direito Administrativo
+5. Legislação de Trânsito
+6. Informática
+7. Petrobrás

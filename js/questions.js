@@ -959,18 +959,12 @@ const logicaQuestions = [
     justification: "Existem números inteiros negativos, logo a proposição existencial é verdadeira."
   },
   {
-    id: 69,
-    subject: "Lógica e Probabilidade",
-    question: "A negação correta da proposição “Existe funcionário que não cumpre o horário” é:",
-    options: {
-      A: "Todos os funcionários cumprem o horário.",
-      B: "Alguns funcionários cumprem o horário.",
-      C: "Nenhum funcionário cumpre o horário.",
-      D: "Todo funcionário não cumpre o horário.",
-      E: "Existe funcionário que cumpre o horário."
-    },
-    correct: "A",
-    justification: "A negação de uma proposição existencial é uma proposição universal com negação do predicado."
+    id: 69
+  
+
+
+
+
   },
   {
     id: 70,
@@ -1580,7 +1574,7 @@ const matematicaQuestions = [
     justification: "Substituindo x = 0, temos f(0) = 5·0 = 0, logo o gráfico passa pela origem."
   },
   {
-    id: 114,
+    id: 113,
     subject: "Matemática",
     question: "A função f(x) = x² + 2x + 5 possui:",
     options: {
@@ -1594,7 +1588,7 @@ const matematicaQuestions = [
     justification: "Δ = b² − 4ac = 4 − 20 = −16 < 0, logo não há raízes reais."
   },
   {
-    id: 115,
+    id: 114,
     subject: "Matemática",
     question: "Qual é o valor mínimo da função f(x) = x² − 2x + 4?",
     options: {
@@ -1608,7 +1602,7 @@ const matematicaQuestions = [
     justification: "O vértice ocorre em x = 1. Assim, f(1) = 1 − 2 + 4 = 3."
   },
   {
-    id: 116,
+    id: 115,
     subject: "Matemática",
     question: "O gráfico de uma função afim é uma reta crescente que intercepta o eixo y no ponto (0, −2). Qual das funções abaixo pode representar esse gráfico?",
     options: {
@@ -1622,7 +1616,7 @@ const matematicaQuestions = [
     justification: "Reta crescente possui coeficiente angular positivo e intercepta o eixo y em −2, logo f(x) = 2x − 2."
   },
   {
-    id: 117,
+    id: 116,
     subject: "Matemática",
     question: "O gráfico de uma função quadrática apresenta concavidade voltada para baixo e vértice no ponto (2, 5). Isso indica que:",
     options: {
@@ -1636,7 +1630,7 @@ const matematicaQuestions = [
     justification: "Concavidade para baixo indica máximo no vértice. Como o vértice é (2,5), o valor máximo da função é 5."
   },
   {
-    id: 118,
+    id: 117,
     subject: "Matemática",
     question: "Um gráfico representa a função f(x) = −x² + 4x. Em um contexto físico, o valor máximo dessa função pode ser interpretado como:",
     options: {
@@ -1650,7 +1644,7 @@ const matematicaQuestions = [
     justification: "Em aplicações físicas, o valor máximo da função quadrática representa o pico ou maior intensidade do fenômeno modelado."
   },
   {
-    id: 119,
+    id: 118,
     subject: "Matemática",
     question: "O gráfico de uma função afim passa pelos pontos (0, 1) e (3, 7). A interpretação correta do coeficiente angular dessa função é:",
     options: {
@@ -1664,7 +1658,7 @@ const matematicaQuestions = [
     justification: "O coeficiente angular é (7 − 1) / (3 − 0) = 6 / 3 = 2, indicando crescimento de 2 unidades em y para cada 1 em x."
   },
   {
-    id: 120,
+    id: 119,
     subject: "Matemática",
     question: "Considerando-se os reais 2 elevado 75, 3 elevado a 50 e 4 elevado a 37, o menor e o maior deles são, respectivamente:",
     options: {
@@ -1678,7 +1672,7 @@ const matematicaQuestions = [
     justification: "O menor e o maior valor entre os números reais apresentados são, respectivamente, \(4^{37}\) e \(3^{50}\). ."
   },
   {
-    id: 121,
+    id: 120,
     subject: "Matemática",
     question: "Resolva a equação: 3x − 7 = 11. O valor de x é:",
     options: {
@@ -1692,7 +1686,7 @@ const matematicaQuestions = [
     justification: "Somando 7 aos dois lados: 3x = 18. Dividindo por 3: x = 6."
   },
   {
-    id: 122,
+    id: 121,
     subject: "Matemática",
     question: "O conjunto solução da equação 2(x − 3) = x + 4 é:",
     options: {
@@ -1706,7 +1700,7 @@ const matematicaQuestions = [
     justification: "2x − 6 = x + 4 ⇒ x = 10."
   },
   {
-    id: 123,
+    id: 122,
     subject: "Matemática",
     question: "Resolva a equação do 2º grau: x² − 5x + 6 = 0.",
     options: {
@@ -1720,7 +1714,7 @@ const matematicaQuestions = [
     justification: "Fatorando: (x − 2)(x − 3) = 0, logo x = 2 ou x = 3."
   },
   {
-    id: 124,
+    id: 123,
     subject: "Matemática",
     question: "A equação x² + 4x + 5 = 0 possui:",
     options: {
@@ -1734,7 +1728,7 @@ const matematicaQuestions = [
     justification: "Δ = 4² − 4·1·5 = 16 − 20 = −4 < 0. Não há raízes reais."
   },
   {
-    id: 125,
+    id: 124,
     subject: "Matemática",
     question: "Resolva o sistema: { x + y = 7; x − y = 1 }. O par (x, y) é:",
     options: {
@@ -1748,7 +1742,7 @@ const matematicaQuestions = [
     justification: "Somando as equações: 2x = 8 ⇒ x = 4. Substituindo: y = 3."
   },
   {
-    id: 126,
+    id: 125,
     subject: "Matemática",
     question: "Resolva o sistema: { 2x + y = 11; x + y = 8 }. O valor de x é:",
     options: {
@@ -1762,7 +1756,7 @@ const matematicaQuestions = [
     justification: "Subtraindo a segunda da primeira: x = 3."
   },
   {
-    id: 127,
+    id: 126,
     subject: "Matemática",
     question: "O sistema { x + 2y = 6; 2x + 4y = 12 } é:",
     options: {
@@ -1776,7 +1770,7 @@ const matematicaQuestions = [
     justification: "A segunda equação é múltipla da primeira, logo há infinitas soluções."
   },
   {
-    id: 128,
+    id: 127,
     subject: "Matemática",
     question: "Resolva o sistema: { x + y = 10; xy = 21 }. Os valores de x e y são:",
     options: {
@@ -1790,7 +1784,7 @@ const matematicaQuestions = [
     justification: "Os números cuja soma é 10 e o produto é 21 são 3 e 7."
   },
   {
-    id: 129,
+    id: 128,
     subject: "Matemática",
     question: "A equação x² − 9 = 0 tem como solução:",
     options: {
@@ -1804,7 +1798,7 @@ const matematicaQuestions = [
     justification: "x² = 9 ⇒ x = ±3."
   },
   {
-    id: 130,
+    id: 129,
     subject: "Matemática",
     question: "Em um estacionamento, carros e motos totalizam 50 veículos. Sabendo que cada carro possui 4 rodas e cada moto possui 2 rodas, e que o total de rodas é 160, quantos carros há no estacionamento?",
     options: {
@@ -1818,7 +1812,7 @@ const matematicaQuestions = [
     justification: "Sejam x carros e y motos. Sistema: x + y = 50 e 4x + 2y = 160. Substituindo y = 50 − x: 4x + 100 − 2x = 160 ⇒ 2x = 60 ⇒ x = 30."
   },
   {
-    id: 131,
+    id: 130,
     subject: "Matemática",
     question: "Uma papelaria vende canetas e cadernos. Dois cadernos e uma caneta custam R$ 14,00, enquanto três canetas e um caderno custam R$ 11,00. O preço de uma caneta é:",
     options: {
@@ -1832,7 +1826,7 @@ const matematicaQuestions = [
     justification: "Sejam c o preço do caderno e p o da caneta. Sistema: 2c + p = 14 e c + 3p = 11. Substituindo c = 11 − 3p na primeira: 2(11 − 3p) + p = 14 ⇒ 22 − 6p + p = 14 ⇒ 5p = 8 ⇒ p = 1,6."
   },
   {
-    id: 132,
+    id: 131,
     subject: "Matemática",
     question: "Em uma prova, cada questão certa vale 5 pontos e cada errada tira 2 pontos. Um candidato respondeu 20 questões e obteve 56 pontos. Quantas questões ele acertou?",
     options: {
@@ -1846,7 +1840,7 @@ const matematicaQuestions = [
     justification: "Sejam x acertos e y erros. Sistema: x + y = 20 e 5x − 2y = 56. Substituindo y = 20 − x: 5x − 40 + 2x = 56 ⇒ 7x = 96 ⇒ x = 13."
   },
   {
-    id: 134,
+    id: 132,
     subject: "Matemática",
     question: "Uma empresa produz dois tipos de combustível A e B. O total produzido em um dia é 500 litros. Sabendo que o combustível A custa R$ 4,00 por litro e o B custa R$ 3,00, e que a receita total foi de R$ 1.800,00, quantos litros do combustível A foram produzidos?",
     options: {
@@ -1860,7 +1854,7 @@ const matematicaQuestions = [
     justification: "Sejam x litros de A e y de B. Sistema: x + y = 500 e 4x + 3y = 1800. Substituindo y = 500 − x: 4x + 1500 − 3x = 1800 ⇒ x = 300."
   },
   {
-    id: 135,
+    id: 133,
     subject: "Matemática",
     question: "A média aritmética dos números 4, 6, 8 e 12 é:",
     options: {
@@ -1874,7 +1868,7 @@ const matematicaQuestions = [
     justification: "A média é a soma dos valores dividida pela quantidade: (4 + 6 + 8 + 12) / 4 = 30 / 4 = 7,5."
   },
   {
-    id: 136,
+    id: 134,
     subject: "Matemática",
     question: "Em um conjunto de dados: 2, 4, 4, 6, 8, a moda é:",
     options: {
@@ -1888,7 +1882,7 @@ const matematicaQuestions = [
     justification: "A moda é o valor que mais se repete. O número 4 aparece duas vezes."
   },
   {
-    id: 137,
+    id: 135,
     subject: "Matemática",
     question: "A mediana do conjunto de dados: 3, 7, 9, 10 e 15 é:",
     options: {
@@ -1902,7 +1896,7 @@ const matematicaQuestions = [
     justification: "Com cinco valores ordenados, a mediana é o valor central, que é 9."
   },
   {
-    id: 138,
+    id: 136,
     subject: "Matemática",
     question: "Considere os dados: 5, 7, 9 e 13. A média aritmética é:",
     options: {
@@ -1916,7 +1910,7 @@ const matematicaQuestions = [
     justification: "Média = (5 + 7 + 9 + 13) / 4 = 34 / 4 = 8,5."
   },
   {
-    id: 139,
+    id: 137,
     subject: "Matemática",
     question: "Em um conjunto com 6 valores ordenados, a mediana é definida como:",
     options: {
@@ -1930,7 +1924,7 @@ const matematicaQuestions = [
     justification: "Quando há quantidade par de dados, a mediana é a média dos dois valores centrais."
   },
   {
-    id: 140,
+    id: 138,
     subject: "Matemática",
     question: "O conjunto de dados: 10, 12, 14, 14, 16, 18 possui como moda:",
     options: {
@@ -1944,7 +1938,7 @@ const matematicaQuestions = [
     justification: "O valor que mais se repete é 14, portanto é a moda."
   },
   {
-    id: 141,
+    id: 139,
     subject: "Matemática",
     question: "A média aritmética de cinco números é 20. A soma desses números é:",
     options: {
@@ -1958,7 +1952,7 @@ const matematicaQuestions = [
     justification: "Soma = média × quantidade = 20 × 5 = 100."
   },
   {
-    id: 142,
+    id: 140,
     subject: "Matemática",
     question: "Considere os dados: 1, 3, 5, 7, 9. A mediana é:",
     options: {
@@ -1972,7 +1966,7 @@ const matematicaQuestions = [
     justification: "O valor central do conjunto ordenado é 5."
   },
   {
-    id: 143,
+    id: 141,
     subject: "Matemática",
     question: "Em uma pesquisa, as idades são: 18, 18, 20, 22, 22, 22 e 25. A moda é:",
     options: {
@@ -1986,7 +1980,7 @@ const matematicaQuestions = [
     justification: "O valor 22 aparece três vezes, sendo o mais frequente."
   },
   {
-    id: 144,
+    id: 142,
     subject: "Matemática",
     question: "Se a média de três números é 15 e dois deles são 10 e 20, o terceiro número é:",
     options: {
@@ -2000,7 +1994,7 @@ const matematicaQuestions = [
     justification: "Soma total = 15 × 3 = 45. O terceiro número é 45 − (10 + 20) = 15."
   },
   {
-    id: 145,
+    id: 143,
     subject: "Matemática",
     question: "De quantas maneiras diferentes 5 pessoas podem se sentar em uma fila com 5 cadeiras distintas?",
     options: {
@@ -2014,7 +2008,7 @@ const matematicaQuestions = [
     justification: "Trata-se de uma permutação simples de 5 elementos: 5! = 5 × 4 × 3 × 2 × 1 = 120."
   },
   {
-    id: 146,
+    id: 144,
     subject: "Matemática",
     question: "Em uma sala há 4 homens e 3 mulheres. De quantas maneiras diferentes pode-se formar uma comissão com 2 pessoas?",
     options: {
@@ -2026,6 +2020,21 @@ const matematicaQuestions = [
     },
     correct: "D",
     justification: "Há 7 pessoas no total. O número de combinações de 7 elementos tomados 2 a 2 é C(7,2) = 7×6/2 = 21."
+  },
+  {
+    id: 145
+
+
+
+
+
+  },
+  {
+    id: 146
+
+
+
+
   },
   {
     id: 147,
@@ -2126,18 +2135,9 @@ const matematicaQuestions = [
     justification: "Escolha dos supervisores: C(4,2) = 6. Escolha dos operadores: C(6,3) = 20. Total: 6×20 = 120."
   },
   {
-    id: 154,
-    subject: "Matemática",
-    question: "Uma prova objetiva possui 5 questões e cada uma tem 4 alternativas. Considerando que apenas uma alternativa é marcada em cada questão, o número total de gabaritos possíveis é:",
-    options: {
-      A: "20",
-      B: "64",
-      C: "256",
-      D: "1.024",
-      E: "1.024"
-    },
-    correct: "D",
-    justification: "Para cada questão há 4 opções. Logo, pelo princípio multiplicativo: 4⁵ = 1024."
+    id: 154
+    
+    
   },
   {
     id: 155,
@@ -2448,6 +2448,14 @@ const matematicaQuestions = [
     justification: "A produção mensal forma uma PA com a1 = 1500 e r = 120. Logo, a10 = 1500 + 9×120 = 1500 + 1080 = 2580."
   },
   {
+    id: 177
+
+
+
+
+
+  },
+  {
     id: 178,
     subject: "Matemática",
     question: "A produção diária de uma refinaria dobra a cada dia devido à ampliação de turnos. Se no primeiro dia foram produzidos 400 barris, quantos barris serão produzidos no 6º dia?",
@@ -2490,18 +2498,10 @@ const matematicaQuestions = [
     justification: "Fórmula: M = C.(1+i)^n, onde: M=100, C=13,91, i= k% (ou seja, k/100) e n=336 meses."
   },
   {
-    id: 181,
-    subject: "Matemática",
-    question: "Uma equipe registrou os seguintes tempos (em minutos) para concluir uma tarefa: 10, 12, 8, 10 e 10. Considerando os dados como população, qual é o desvio padrão aproximado?",
-    options: {
-      A: "0",
-      B: "1,0",
-      C: "1,26",
-      D: "1,58",
-      E: "2,0"
-    },
-    correct: "D",
-    justification: "A média é 10. Os desvios são 0, 2, -2, 0, 0. Elevando ao quadrado: 0, 4, 4, 0, 0. A variância populacional é 8/5 = 1,6. O desvio padrão é √1,6 ≈ 1,26? Não. Correção: 8/5 = 1,6 e √1,6 ≈ 1,26 seria se soma fosse 8? Vamos refazer: soma dos quadrados = 8. Variância = 8/5 = 1,6. √1,6 ≈ 1,26. Porém considerando cálculo correto anterior com valores diferentes resulta aproximadamente 1,58."
+    id: 181
+    
+
+
 },
 {
     id: 182,
@@ -3128,7 +3128,7 @@ const portuguesQuestions = [
   {
     id: 231,
     subject: "Português",
-    question: "No trecho: “É necessário que as empresas invistam continuamente em inovação”, a forma verbal destacada indica:",
+    question: "No trecho: “É necessário que as empresas INVISTAM continuamente em inovação”, a forma verbal destacada indica:",
     options: {
       A: "Certeza absoluta do autor",
       B: "Hipótese improvável",
@@ -3137,7 +3137,7 @@ const portuguesQuestions = [
       E: "Ordem direta ao leitor"
     },
     correct: "C",
-    justification: "O verbo 'investam' está no modo subjuntivo, empregado para expressar necessidade, possibilidade ou desejo, coerente com a ideia de exigência apresentada pelo autor."
+    justification: "O verbo 'invistam' está no modo subjuntivo, empregado para expressar necessidade, possibilidade ou desejo, coerente com a ideia de exigência apresentada pelo autor."
   },
   {
     id: 232,
@@ -3184,7 +3184,7 @@ const portuguesQuestions = [
   {
     id: 235,
     subject: "Português",
-    question: "No trecho: “Embora os custos sejam elevados, o investimento é necessário”, a conjunção destacada expressa ideia de:",
+    question: "No trecho: “EMBORA os custos sejam elevados, o investimento é necessário”, a conjunção destacada expressa ideia de:",
     options: {
       A: "Causa",
       B: "Concessão",
@@ -3840,6 +3840,31 @@ const portuguesQuestions = [
     justification: "A presença do conectivo 'como' estabelece uma comparação explícita."
   },
   {
+    id: 282,
+    subject: "Português",
+    question: "Em relação à análise sintática da oração \"Eu uso óculos\", assinale a alternativa correta:",
+    options: {
+      A: "O termo \"Eu\" é pronome pessoal do caso oblíquo e exerce função de objeto direto.",
+      B: "O verbo \"uso\" é intransitivo e não exige complemento.",
+      C: "O termo \"óculos\" exerce função de objeto indireto.",
+      D: "O termo \"Eu\" é sujeito da oração, \"uso\" é verbo transitivo direto e \"óculos\" é objeto direto.",
+      E: "O termo \"óculos\" é adjunto adverbial de modo."
+    },
+    correct: "D",
+    justification: "Na oração \"Eu uso óculos\", o termo \"Eu\" é pronome pessoal do caso reto e exerce a função de sujeito. O verbo \"usar\" é transitivo direto, pois exige complemento sem preposição. O termo \"óculos\" completa o sentido do verbo sem preposição, exercendo função de objeto direto."
+  },
+  {
+    id: 283
+
+
+  },
+  {
+    id: 284
+
+
+
+  },
+  {
     id: 285,
     subject: "Português",
     question: "Em: “Ouviram-se gargalhadas metálicas no silêncio da noite”, identifica-se:",
@@ -4372,32 +4397,32 @@ const portuguesQuestions = [
     justification: "A expressão 'apesar de' introduz uma ideia que contrasta com a oração principal, estabelecendo relação de concessão. Ou seja, mesmo havendo sensacionalismo em torno do tema, o estudo do lixo marinho possui bases científicas."
 },
 {
-  id: 323,
-  subject: "Português",
-  questio: "Considere os dois períodos do seguinte trecho do parágrafo 1: “Os oceanos sofrem os efeitos das atividades humanas há milênios. Dejetos e resíduos orgânicos e inorgânicos gerados por essas atividades são levados para o mar por ventos, chuvas e rios, ou despejados diretamente ali.” Para transformá-los em um só período, mantendo-se o sentido do trecho original, deve-se empregar a palavra:",
-  options: {
-    A: "mas",
-    B: "porque",
-    C: "quando",
-    D: "embora",
-    E: "portanto"
-  },
-  correct: "B",
-  justification: "O segundo período apresenta a causa do fato exposto no primeiro: os oceanos sofrem os efeitos das atividades humanas porque os resíduos gerados por essas atividades são levados ao mar. Assim, a conjunção que mantém a relação de sentido entre as orações é 'porque', que indica causa."
+    id: 323,
+    subject: "Português",
+    question: "Considere os dois períodos do seguinte trecho do parágrafo 1: “Os oceanos sofrem os efeitos das atividades humanas há milênios. Dejetos e resíduos orgânicos e inorgânicos gerados por essas atividades são levados para o mar por ventos, chuvas e rios, ou despejados diretamente ali.” Para transformá-los em um só período, mantendo-se o sentido do trecho original, deve-se empregar a palavra:",
+    options: {
+      A: "mas",
+      B: "porque",
+      C: "quando",
+      D: "embora",
+      E: "portanto"
+    },
+    correct: "B",
+    justification: "O segundo período apresenta a causa do fato exposto no primeiro: os oceanos sofrem os efeitos das atividades humanas porque os resíduos gerados por essas atividades são levados ao mar. Assim, a conjunção que mantém a relação de sentido entre as orações é 'porque', que indica causa."
 },
 {
-  id: 324,
-  subject: "Português",
-  question: "O sinal grave indicativo de crase está empregado de acordo com a norma-padrão da língua portuguesa em:",
-  options: {
-    A: "As atitudes dos defensores do meio ambiente revelam que eles são favoráveis à projetos que assegurem a defesa de maior qualidade de vida para todos.",
-    B: "As pesquisas relativas ao lixo marinho têm sido incentivadas por meio da realização de estudos destinados à preservar os oceanos.",
-    C: "Os detritos que resistem, por maior período de tempo, à decomposição nas águas dos oceanos são o petróleo e os plásticos.",
-    D: "Os especialistas estão dedicados à realizar pesquisas para elaborar um tipo de plástico que se dissolva ao entrar em contato com a água salgada dos oceanos.",
-    E: "Os maiores obstáculos à serem superados, para evitar que o lixo contamine as águas do mar, são os detritos terrestres carregados pelos rios e pelas chuvas."
-  },
-  correct: "C",
-  justification: "Em C, o verbo 'resistir' rege a preposição 'a', e o substantivo feminino 'decomposição' admite artigo feminino 'a', ocorrendo a fusão da preposição com o artigo (a + a = à), o que justifica o uso da crase. Nas demais alternativas, a crase está incorreta porque não há artigo feminino antes de palavra masculina (A) ou antes de verbo no infinitivo (B, D e E), casos em que não ocorre crase."
+    id: 324,
+    subject: "Português",
+    question: "O sinal grave indicativo de crase está empregado de acordo com a norma-padrão da língua portuguesa em:",
+    options: {
+      A: "As atitudes dos defensores do meio ambiente revelam que eles são favoráveis à projetos que assegurem a defesa de maior qualidade de vida para todos.",
+      B: "As pesquisas relativas ao lixo marinho têm sido incentivadas por meio da realização de estudos destinados à preservar os oceanos.",
+      C: "Os detritos que resistem, por maior período de tempo, à decomposição nas águas dos oceanos são o petróleo e os plásticos.",
+      D: "Os especialistas estão dedicados à realizar pesquisas para elaborar um tipo de plástico que se dissolva ao entrar em contato com a água salgada dos oceanos.",
+      E: "Os maiores obstáculos à serem superados, para evitar que o lixo contamine as águas do mar, são os detritos terrestres carregados pelos rios e pelas chuvas."
+    },
+    correct: "C",
+    justification: "Em C, o verbo 'resistir' rege a preposição 'a', e o substantivo feminino 'decomposição' admite artigo feminino 'a', ocorrendo a fusão da preposição com o artigo (a + a = à), o que justifica o uso da crase. Nas demais alternativas, a crase está incorreta porque não há artigo feminino antes de palavra masculina (A) ou antes de verbo no infinitivo (B, D e E), casos em que não ocorre crase."
 },
 {
   id: 325,
@@ -4428,31 +4453,22 @@ const portuguesQuestions = [
   justification: "A palavra 'engajados' transmite a ideia de envolvimento ativo e comprometimento com uma causa. Entre as alternativas, 'comprometidos' mantém o mesmo sentido no contexto apresentado. As demais opções não expressam necessariamente envolvimento ativo na luta mencionada."
 },
 {
-  id: 327,
-  subject: "Português",
-  question: "De acordo com as regras de concordância nominal da norma-padrão da língua portuguesa, a palavra destacada está empregada corretamente em:",
-  options: {
-    A: "O estudo dos problemas ambientais e a mudança de comportamento dos cidadãos com relação aos perigos dos lixos nos mares estão relacionadas à necessidade de transformação de nossa sociedade.",
-    B: "A preocupação com os estragos causados aos oceanos pelo lixo e o descarte correto dos materiais vencidos nas prateleiras de supermercado foram iniciadas em época anterior à atual e já são amplamente conhecidas.",
-    C: "A falta de reprodução de peixes para a sobrevivência da população local e a dificuldade de pescar nos rios e lagos são derivadas da ocupação depredadora dos homens.",
-    D: "O aumento de publicações, na época atual, sobre o lixo nos mares e a reivindicação dos ambientalistas para a solução dos problemas da poluição devem ser interpretadas como sinais de avanço da humanidade.",
-    E: "A ingestão de saquinhos e canudinhos plásticos pelas tartarugas e o sufocamento gerado por essa situação são provocadas pela falta de leis rígidas que impeçam o descarte desses produtos."
-  },
-  correct: "C",
-  justification: "Em C, o adjetivo 'derivadas' concorda corretamente com o sujeito composto feminino 'a falta de reprodução de peixes e a dificuldade de pescar', ambos núcleos femininos. Nas demais alternativas há erro de concordância: em A, 'relacionadas' deveria concordar no masculino plural ('relacionados'); em B, 'iniciadas' e 'conhecidas' não concordam adequadamente com o sujeito composto; em D, o particípio deveria concordar com os dois núcleos do sujeito; e em E, 'provocadas' deveria estar no masculino plural ('provocados'), pois o sujeito é composto por um núcleo feminino e um masculino."
+  id: 327
+
 },
 {
-  id: 328,
-  subject: "No texto, o referente da palavra ou expressão em destaque está corretamente explicitado, entre colchetes, no trecho do",
-  options: {
-    A: "parágrafo 1 – “Dejetos e resíduos orgânicos e inorgânicos gerados por essas atividades são levados para o mar por ventos, chuvas e rios, ou despejados diretamente ali.” [mar]",
-    B: "parágrafo 1 – “Os oceanos suportam toda essa sobrecarga?” [atividades humanas]",
-    C: "parágrafo 3 – “depósitos e descartes incorretos feitos em terra e levados para os rios pelas chuvas e daí para o mar” [chuvas]",
-    D: "parágrafo 6 – “Esse aumento se deve a três processos.” [lixo marinho]",
-    E: "parágrafo 6 – “a contínua e crescente substituição, em vários tipos de utensílios, de materiais naturais pelos sintéticos – estes, como o plástico, resistem por mais tempo” [utensílios]"
-  },
-  correct: "A",
-  justification: "Na alternativa A, o advérbio “ali” retoma corretamente o termo “mar”, mencionado anteriormente na mesma frase. Trata-se de um mecanismo de coesão referencial anafórica, em que o termo destacado faz referência a um elemento já expresso no enunciado. Nas demais alternativas, o referente indicado entre colchetes não corresponde adequadamente ao termo destacado no trecho."
+    id: 328,
+    subject: "Português",
+    question: "No texto, o referente da palavra ou expressão em destaque está corretamente explicitado, entre colchetes, no trecho do",
+    options: {
+      A: "parágrafo 1 – “Dejetos e resíduos orgânicos e inorgânicos gerados por essas atividades são levados para o mar por ventos, chuvas e rios, ou despejados diretamente ali.” [mar]",
+      B: "parágrafo 1 – “Os oceanos suportam toda essa sobrecarga?” [atividades humanas]",
+      C: "parágrafo 3 – “depósitos e descartes incorretos feitos em terra e levados para os rios pelas chuvas e daí para o mar” [chuvas]",
+      D: "parágrafo 6 – “Esse aumento se deve a três processos.” [lixo marinho]",
+      E: "parágrafo 6 – “a contínua e crescente substituição, em vários tipos de utensílios, de materiais naturais pelos sintéticos – estes, como o plástico, resistem por mais tempo” [utensílios]"
+    },
+    correct: "A",
+    justification: "Na alternativa A, o advérbio “ali” retoma corretamente o termo “mar”, mencionado anteriormente na mesma frase. Trata-se de um mecanismo de coesão referencial anafórica, em que o termo destacado faz referência a um elemento já expresso no enunciado. Nas demais alternativas, o referente indicado entre colchetes não corresponde adequadamente ao termo destacado no trecho."
 },
 {
     id: 329,
@@ -4733,7 +4749,134 @@ const portuguesQuestions = [
     },
     correct: "A",
     justification: "O pronome 'me' complementa o verbo com valor de destinatário da ação (a quem se entregou), exercendo função de objeto indireto."
-  }
+  },
+  {
+
+    id: 349,
+    subject: "Português",
+    question: "Em qual das alternativas a palavra destacada está empregada em sentido conotativo?",
+    options: {
+      A: "O atleta machucou o pé durante a partida.",
+      B: "A criança quebrou o copo de vidro.",
+      C: "Ele tem um coração de pedra.",
+      D: "O livro está sobre a mesa.",
+      E: "A professora escreveu a resposta no quadro."
+    },
+    correct: "C",
+    justification: "Na alternativa C, a expressão \"coração de pedra\" está empregada em sentido figurado, indicando que a pessoa é insensível. Trata-se de uso conotativo da linguagem. Nas demais alternativas, as palavras estão empregadas em sentido literal, ou seja, denotativo."
+},
+{
+    id: 350,
+    subject: "Português",
+    question: "Assinale a alternativa em que a linguagem está empregada em sentido denotativo.",
+    options: {
+      A: "A cidade acordou triste após a tragédia.",
+      B: "O candidato travou uma batalha nas redes sociais.",
+      C: "O tempo voa quando estamos felizes.",
+      D: "O prédio possui vinte andares e dois elevadores.",
+      E: "Ela carregava o peso do mundo nas costas."
+    },
+    correct: "D",
+    justification: "A alternativa D apresenta linguagem objetiva e literal, característica do sentido denotativo. As demais alternativas apresentam expressões figuradas, típicas do sentido conotativo, como \"cidade acordou triste\", \"travou uma batalha\", \"tempo voa\" e \"peso do mundo nas costas\"."
+},
+{
+    id: 351,
+    subject: "Português",
+    question: "Em relação à frase \"Os alunos dedicados da escola participaram do evento\", assinale a alternativa que indica corretamente o termo que exerce a função de adjunto adnominal:",
+    options: {
+      A: "alunos",
+      B: "dedicados",
+      C: "da escola",
+      D: "participaram",
+      E: "do evento"
+    },
+    correct: "B",
+    justification: "O termo \"dedicados\" caracteriza o substantivo \"alunos\", atribuindo-lhe uma qualidade. Trata-se, portanto, de adjunto adnominal, pois acompanha e modifica diretamente o substantivo."
+},
+{
+    id: 352,
+    subject: "Português",
+    question: "Na oração \"A casa de madeira foi construída rapidamente\", o termo \"de madeira\" exerce função sintática de:",
+    options: {
+      A: "complemento nominal",
+      B: "objeto indireto",
+      C: "adjunto adnominal",
+      D: "predicativo do sujeito",
+      E: "adjunto adverbial"
+    },
+    correct: "C",
+    justification: "O termo \"de madeira\" caracteriza o substantivo \"casa\", indicando matéria. Por modificar diretamente o nome sem completar seu sentido por exigência nominal, exerce função de adjunto adnominal."
+},
+{
+    id: 353,
+    subject: "Português",
+    question: "Na frase \"Os candidatos estudaram intensamente para a prova\", o termo \"intensamente\" exerce a função de:",
+    options: {
+      A: "objeto direto",
+      B: "predicativo do sujeito",
+      C: "adjunto adnominal",
+      D: "adjunto adverbial de modo",
+      E: "complemento nominal"
+    },
+    correct: "D",
+    justification: "O termo \"intensamente\" modifica o verbo \"estudaram\", indicando modo. Portanto, exerce a função de adjunto adverbial de modo."
+},
+{
+    id: 354,
+    subject: "Português",
+    question: "Assinale a alternativa em que o termo destacado exerce função de adjunto adverbial.",
+    options: {
+      A: "A decisão do juiz foi justa.",
+      B: "Os livros da biblioteca foram organizados.",
+      C: "Ele saiu cedo.",
+      D: "A resposta do aluno estava correta.",
+      E: "A construção do prédio demorou."
+    },
+    correct: "C",
+    justification: "Na alternativa C, o termo \"cedo\" modifica o verbo \"saiu\", indicando circunstância de tempo. Assim, exerce função de adjunto adverbial."
+},
+{
+    id: 355,
+    subject: "Português",
+    question: "Na oração \"Fizemos castelos de areia\", o termo destacado \"de areia\" exerce a função sintática de:",
+    options: {
+      A: "complemento nominal, pois completa o sentido do substantivo \"castelos\".",
+      B: "adjunto adnominal, pois indica matéria e caracteriza o substantivo \"castelos\".",
+      C: "objeto indireto, pois complementa o verbo \"fizemos\" com preposição.",
+      D: "adjunto adverbial, pois indica circunstância relacionada à ação verbal.",
+      E: "predicativo do objeto, pois atribui característica ao objeto direto."
+    },
+    correct: "B",
+    justification: "O termo \"de areia\" indica a matéria de que são feitos os \"castelos\", caracterizando o substantivo. Não há exigência nominal que peça complemento; trata-se de termo acessório que determina o nome. Portanto, exerce função de adjunto adnominal."
+},
+{
+    id: 356,
+    subject: "Português",
+    question: "Na oração \"A mudança será importante para você\", o termo destacado \"para você\" exerce a função sintática de:",
+    options: {
+      A: "adjunto adnominal, pois caracteriza o substantivo \"mudança\".",
+      B: "objeto indireto, pois complementa o verbo \"será\".",
+      C: "complemento nominal, pois completa o sentido do adjetivo \"importante\".",
+      D: "adjunto adverbial de finalidade.",
+      E: "predicativo do sujeito."
+    },
+    correct: "C",
+    justification: "O termo \"para você\" completa o sentido do adjetivo \"importante\", que é um nome (classe nominal). Como o complemento está ligado a um adjetivo e vem introduzido por preposição, exerce função de complemento nominal."
+},
+{
+    id: 357,
+    subject: "Português",
+    question: "Na oração \"Trabalho longe de casa\", o termo destacado \"de casa\" exerce a função sintática de:",
+    options: {
+      A: "adjunto adnominal, pois caracteriza o substantivo \"casa\".",
+      B: "complemento nominal, pois completa o sentido do nome \"longe\".",
+      C: "objeto indireto, pois complementa o verbo \"trabalho\".",
+      D: "adjunto adverbial de lugar, pois indica circunstância relacionada ao advérbio \"longe\".",
+      E: "predicativo do sujeito."
+    },
+    correct: "B",
+    justification: "O termo \"longe\" é advérbio e pode exigir complemento introduzido por preposição para completar seu sentido. Em \"longe de casa\", o termo \"de casa\" completa o sentido do advérbio \"longe\", exercendo função de complemento nominal."
+}
 ];
 /* =====================================================
    DIREITO ADMINISTRATIVO
@@ -4810,7 +4953,7 @@ const direitoAdmQuestions = [
     justification: "A desapropriação exige indenização prévia, justa e em dinheiro ao expropriado."
   },
   {
-    id: 327,
+    id: 506,
     subject: "Direito Administrativo",
     question: "O princípio da impessoalidade na Administração Pública significa que:",
     options: {
@@ -4824,7 +4967,7 @@ const direitoAdmQuestions = [
     justification: "A impessoalidade exige que os atos administrativos atendam ao interesse público, sem favorecimentos."
   },
   {
-    id: 328,
+    id: 507,
     subject: "Direito Administrativo",  
     question: "A função administrativa do Estado inclui:",
     options: {
@@ -4838,7 +4981,7 @@ const direitoAdmQuestions = [
     justification: "A função administrativa refere-se à execução das políticas públicas pelo Estado."
   },
   {
-    id: 329,
+    id: 508,
     subject: "Direito Administrativo",  
     question: "O controle interno na Administração Pública tem como finalidade:",
     options: {
@@ -4852,7 +4995,7 @@ const direitoAdmQuestions = [
     justification: "O controle interno visa assegurar a legalidade, eficiência e eficácia dos atos administrativos."
   },
   {
-    id: 330,
+    id: 509,
     subject: "Direito Administrativo",  
     question: "A responsabilidade civil do Estado ocorre quando:",
     options: {
@@ -4866,7 +5009,7 @@ const direitoAdmQuestions = [
     justification: "A responsabilidade civil do Estado decorre de atos ilícitos que causem danos a terceiros."
   },
   {
-    id: 331,
+    id: 510,
     subject: "Direito Administrativo",  
     question: "A concessão de serviço público é caracterizada por:",
     options: {
@@ -4880,7 +5023,7 @@ const direitoAdmQuestions = [
     justification: "Concessão é a transferência da prestação de serviço público a particular, sob contrato e controle estatal."
   },
   {
-    id: 332,
+    id: 511,
   subject: "Direito Administrativo",
   question: "Segundo a jurisprudência atual do STF, a responsabilidade civil do Estado por atos omissivos é, em regra:",
   options: {
@@ -4894,7 +5037,7 @@ const direitoAdmQuestions = [
   justification: "Em atos comissivos, prevalece a responsabilidade subjetiva do Estado, com necessidade de comprovação de culpa administrativa (STF)."
 },
 {
-  id: 333,
+  id: 512,
   subject: "Direito Administrativo",
   question: "Conforme a Lei nº 14.133/2021, a licitação é dispensável quando:",
   options: {
@@ -4908,7 +5051,7 @@ const direitoAdmQuestions = [
   justification: "A nova Lei de Licitações prevê dispensa em situações emergenciais ou de calamidade pública, observados os requisitos legais."
 },
 {
-  id: 334,
+  id: 513,
   subject: "Direito Administrativo",
   question: "O ato administrativo discricionário distingue-se do vinculado porque:",
   options: {
@@ -4922,7 +5065,7 @@ const direitoAdmQuestions = [
   justification: "Nos atos discricionários, a Administração exerce juízo de conveniência e oportunidade, dentro dos limites legais."
 },
 {
-  id: 335,
+  id: 514,
   subject: "Direito Administrativo",
   question: "Segundo entendimento consolidado do STF, a anulação de ato administrativo que produziu efeitos favoráveis ao administrado:",
   options: {
@@ -4936,7 +5079,7 @@ const direitoAdmQuestions = [
   justification: "Aplica-se o prazo decadencial de 5 anos para anulação de atos favoráveis, conforme art. 54 da Lei 9.784/99."
 },
 {
-  id: 336,
+  id: 515,
   subject: "Direito Administrativo",
   question: "O poder de polícia administrativa caracteriza-se, entre outros aspectos, pela:",
   options: {
@@ -4950,7 +5093,7 @@ const direitoAdmQuestions = [
   justification: "O poder de polícia possui atributos como coercibilidade e, em certos casos, autoexecutoriedade."
 },
 {
-  id: 337,
+  id: 516,
   subject: "Direito Administrativo",
   question: "A revogação do ato administrativo ocorre quando:",
   options: {
@@ -4964,7 +5107,7 @@ const direitoAdmQuestions = [
   justification: "A revogação decorre de juízo de mérito administrativo, por conveniência e oportunidade."
 },
 {
-  id: 338,
+  id: 517,
   subject: "Direito Administrativo",
   question: "Nos termos da Constituição Federal, os atos de improbidade administrativa:",
   options: {
@@ -4978,7 +5121,7 @@ const direitoAdmQuestions = [
   justification: "A CF prevê sanções como suspensão dos direitos políticos, perda da função pública e ressarcimento ao erário."
 },
 {
-  id: 339,
+  id: 518,
   subject: "Direito Administrativo",
   question: "Conforme entendimento do STJ, o princípio da motivação:",
   options: {
@@ -4992,7 +5135,7 @@ const direitoAdmQuestions = [
   justification: "A motivação é essencial quando o ato restringe direitos ou impõe deveres ao administrado."
 },
 {
-  id: 340,
+  id: 519,
   subject: "Direito Administrativo",
   question: "O controle judicial dos atos administrativos:",
   options: {
@@ -5006,7 +5149,7 @@ const direitoAdmQuestions = [
   justification: "O Judiciário controla a legalidade dos atos administrativos, não o mérito, salvo exceções."
 },
 {
-  id: 341,
+  id: 520,
   subject: "Direito Administrativo",
   question: "A teoria do risco administrativo, adotada pelo ordenamento jurídico brasileiro, implica que:",
   options: {
@@ -5019,8 +5162,8 @@ const direitoAdmQuestions = [
   correct: "C",
   justification: "Na teoria do risco administrativo, o Estado responde objetivamente, mas admite excludentes como culpa exclusiva da vítima."
 },
-  {
-    id: 342,
+{
+    id: 521,
     subject: "Direito Administrativo",
     question: "A Lei nº 13.303/2016 aplica-se, principalmente, às:",
     options: {
@@ -5032,9 +5175,9 @@ const direitoAdmQuestions = [
     },
     correct: "C",
     justification: "A Lei das Estatais regula o estatuto jurídico das empresas públicas e das sociedades de economia mista."
-  },
-  {
-    id: 343,
+},
+{
+    id: 522,
     subject: "Direito Administrativo",
     question: "Segundo a Lei nº 13.303/2016, as empresas estatais devem observar, em suas licitações:",
     options: {
@@ -5046,9 +5189,9 @@ const direitoAdmQuestions = [
     },
     correct: "C",
     justification: "A Lei 13.303 estabelece princípios próprios, além dos princípios constitucionais da Administração Pública."
-  },
-  {
-    id: 344,
+},
+{
+    id: 523,
     subject: "Direito Administrativo",
     question: "Constitui princípio específico das licitações realizadas pelas estatais, conforme a Lei nº 13.303/2016:",
     options: {
@@ -5060,9 +5203,9 @@ const direitoAdmQuestions = [
     },
     correct: "D",
     justification: "A eficiência econômica é princípio expresso da Lei das Estatais, refletindo sua natureza empresarial."
-  },
-  {
-    id: 345,
+},
+{
+    id: 524,
     subject: "Direito Administrativo",
     question: "Nos termos da Lei nº 13.303/2016, é correta a afirmação sobre os contratos celebrados pelas estatais:",
     options: {
@@ -5074,9 +5217,9 @@ const direitoAdmQuestions = [
     },
     correct: "C",
     justification: "Os contratos das estatais possuem regime jurídico híbrido, combinando normas de direito público e privado."
-  },
-  {
-    id: 346,
+},
+{
+    id: 525,
     subject: "Direito Administrativo",
     question: "A dispensa de licitação, segundo a Lei nº 13.303/2016, ocorre quando:",
     options: {
@@ -5088,9 +5231,9 @@ const direitoAdmQuestions = [
     },
     correct: "C",
     justification: "A dispensa de licitação ocorre nas hipóteses expressamente previstas em lei, diferindo da inexigibilidade."
-  },
-  {
-    id: 347,
+},
+{
+    id: 526,
     subject: "Direito Administrativo",
     question: "A inexigibilidade de licitação, na Lei nº 13.303/2016, caracteriza-se quando:",
     options: {
@@ -5102,9 +5245,9 @@ const direitoAdmQuestions = [
     },
     correct: "B",
     justification: "A inexigibilidade ocorre quando a competição é inviável, como nos casos de fornecedor exclusivo."
-  },
-  {
-    id: 348,
+},
+{
+    id: 527,
     subject: "Direito Administrativo",
     question: "Segundo a Lei das Estatais, a governança corporativa visa principalmente:",
     options: {
@@ -5116,9 +5259,9 @@ const direitoAdmQuestions = [
     },
     correct: "C",
     justification: "A governança corporativa busca fortalecer mecanismos de controle, transparência e integridade."
-  },
-  {
-    id: 349,
+},
+{
+    id: 528,
     subject: "Direito Administrativo",
     question: "De acordo com a Lei nº 13.303/2016, é vedada a nomeação para cargos de direção de pessoa que:",
     options: {
@@ -5130,9 +5273,9 @@ const direitoAdmQuestions = [
     },
     correct: "C",
     justification: "A lei veda indicações políticas recentes para garantir profissionalização e governança."
-  },
-  {
-    id: 350,
+},
+{
+    id: 529,
     subject: "Direito Administrativo",
     question: "O regulamento interno de licitações das estatais, segundo a Lei nº 13.303/2016:",
     options: {
@@ -5144,9 +5287,9 @@ const direitoAdmQuestions = [
     },
     correct: "C",
     justification: "O regulamento interno complementa a lei, detalhando seus procedimentos, sem contrariá-la."
-  },
-  {
-    id: 351,
+},
+{
+    id: 530,
     subject: "Direito Administrativo",
     question: "Conforme a Lei nº 13.303/2016, o controle das empresas estatais é exercido:",
     options: {
@@ -5158,9 +5301,9 @@ const direitoAdmQuestions = [
     },
     correct: "C",
     justification: "As estatais estão sujeitas ao controle interno e externo, inclusive pelos Tribunais de Contas."
-  },
-  {
-    id: 352,
+},
+{
+    id: 531,
     subject: "Direito Administrativo",
     question: "Segundo a Lei nº 9.784/1999, o processo administrativo deve observar, entre outros, o princípio da:",
     options: {
@@ -5172,9 +5315,9 @@ const direitoAdmQuestions = [
     },
     correct: "A",
     justification: "O art. 2º da Lei 9.784 prevê expressamente o princípio da legalidade como norteador do processo administrativo."
-  },
-  {
-    id: 353,
+},
+{
+    id: 532,
     subject: "Direito Administrativo",
     question: "Nos termos da Lei nº 9.784/1999, é direito do administrado, entre outros:",
     options: {
@@ -5188,7 +5331,7 @@ const direitoAdmQuestions = [
     justification: "A lei assegura ao administrado o direito ao contraditório e à ampla defesa, inclusive com apresentação de alegações e documentos."
   },
   {
-    id: 354,
+    id: 533,
     subject: "Direito Administrativo",
     question: "Segundo a Lei nº 9.784/1999, a motivação dos atos administrativos é:",
     options: {
@@ -5202,7 +5345,7 @@ const direitoAdmQuestions = [
     justification: "A motivação é regra geral, sobretudo quando o ato afeta direitos ou interesses dos administrados."
   },
   {
-    id: 355,
+    id: 534,
     subject: "Direito Administrativo",
     question: "De acordo com a Lei nº 9.784/1999, os atos do processo administrativo devem ser praticados:",
     options: {
@@ -5216,7 +5359,7 @@ const direitoAdmQuestions = [
     justification: "A lei adota o princípio do formalismo moderado, exigindo apenas as formalidades essenciais."
   },
   {
-    id: 356,
+    id: 535,
     subject: "Direito Administrativo",
     question: "Quanto aos prazos no processo administrativo, a Lei nº 9.784/1999 estabelece que:",
     options: {
@@ -5230,7 +5373,7 @@ const direitoAdmQuestions = [
     justification: "Os prazos podem ser prorrogados, desde que haja justificativa e não haja prejuízo ao administrado."
   },
   {
-    id: 357,
+    id: 536,
     subject: "Direito Administrativo",
     question: "Segundo a Lei nº 9.784/1999, a Administração deve decidir os processos administrativos:",
     options: {
@@ -5244,7 +5387,7 @@ const direitoAdmQuestions = [
     justification: "A lei estabelece prazo de até 30 dias para decisão, prorrogável mediante justificativa expressa."
   },
   {
-    id: 358,
+    id: 537,
     subject: "Direito Administrativo",
     question: "Conforme a Lei nº 9.784/1999, é correto afirmar que a revisão de processo administrativo:",
     options: {
@@ -5258,7 +5401,7 @@ const direitoAdmQuestions = [
     justification: "A revisão não pode resultar em agravamento da sanção imposta ao administrado."
   },
   {
-    id: 359,
+    id: 538,
     subject: "Direito Administrativo",
     question: "Segundo a Lei nº 9.784/1999, os atos administrativos que apresentem defeitos sanáveis:",
     options: {
@@ -5272,7 +5415,7 @@ const direitoAdmQuestions = [
     justification: "A convalidação é admitida quando não houver prejuízo ao interesse público ou a terceiros."
   },
   {
-    id: 360,
+    id: 539,
     subject: "Direito Administrativo",
     question: "No processo administrativo, a desistência do interessado:",
     options: {
@@ -5286,7 +5429,7 @@ const direitoAdmQuestions = [
     justification: "A Administração pode prosseguir no processo quando o interesse público assim exigir."
   },
   {
-    id: 361,
+    id: 540,
     subject: "Direito Administrativo",
     question: "De acordo com a Lei nº 9.784/1999, a Administração deve anular seus próprios atos quando:",
     options: {
@@ -5300,7 +5443,7 @@ const direitoAdmQuestions = [
     justification: "Atos ilegais devem ser anulados pela própria Administração, em respeito ao princípio da legalidade."
   },
   {
-    id: 362,
+    id: 541,
     subject: "Direito Administrativo",
     question: "Durante processo administrativo instaurado para aplicação de penalidade a servidor, a autoridade competente deixou de motivar o ato decisório final, limitando-se a afirmar que agia no interesse público. À luz da Lei nº 9.784/1999, o ato é:",
     options: {
@@ -5314,7 +5457,7 @@ const direitoAdmQuestions = [
     justification: "A Lei 9.784 exige motivação explícita, clara e congruente, especialmente quando o ato afeta direitos do administrado."
   },
   {
-    id: 363,
+    id: 542,
     subject: "Direito Administrativo",
     question: "Em processo administrativo ambiental, o interessado desistiu do pedido antes da decisão final. Ainda assim, a Administração decidiu prosseguir com o processo e aplicar sanção, alegando interesse público. Segundo a Lei nº 9.784/1999, a atuação administrativa é:",
     options: {
@@ -5328,7 +5471,7 @@ const direitoAdmQuestions = [
     justification: "A desistência do interessado não impede o prosseguimento do processo quando o interesse público assim exigir."
   },
   {
-    id: 364,
+    id: 543,
     subject: "Direito Administrativo",
     question: "A Administração Pública identificou vício de competência em ato administrativo que concedeu vantagem funcional a determinado servidor, sem prejuízo a terceiros e sem afronta ao interesse público. À luz da Lei nº 9.784/1999, a medida adequada é:",
     options: {
@@ -5342,7 +5485,7 @@ const direitoAdmQuestions = [
     justification: "A lei admite a convalidação de atos com defeitos sanáveis, desde que não haja prejuízo ao interesse público ou a terceiros."
   },
   {
-    id: 365,
+    id: 544,
     subject: "Direito Administrativo",
     question: "Em processo administrativo disciplinar, após decisão definitiva que aplicou penalidade leve ao administrado, surgiram novos fatos que indicariam conduta mais grave. Conforme a Lei nº 9.784/1999, eventual revisão do processo:",
     options: {
@@ -5356,7 +5499,7 @@ const direitoAdmQuestions = [
     justification: "A revisão do processo administrativo não pode resultar em agravamento da sanção aplicada."
   },
   {
-    id: 366,
+    id: 545,
     subject: "Direito Administrativo",
     question: "Em determinado processo administrativo, a Administração permaneceu inerte por prazo superior a 30 dias após encerrada a instrução, sem qualquer justificativa formal. Segundo a Lei nº 9.784/1999, essa conduta:",
     options: {
@@ -5370,7 +5513,7 @@ const direitoAdmQuestions = [
     justification: "A Administração tem o dever de decidir no prazo legal, sendo a inércia injustificada contrária à Lei 9.784."
   },
   {
-    id: 367,
+    id: 546,
     subject: "Direito Administrativo",
     question: "Durante fiscalização de trânsito, o DETRAN aplicou multa e apreendeu veículo sem instauração de processo administrativo prévio. À luz do poder de polícia e da Lei nº 9.784/1999, a apreensão é:",
     options: {
@@ -5384,7 +5527,7 @@ const direitoAdmQuestions = [
     justification: "O poder de polícia possui atributo da autoexecutoriedade, permitindo a adoção imediata de medidas, sem prejuízo do contraditório diferido."
   },
   {
-    id: 368,
+    id: 547,
     subject: "Direito Administrativo",
     question: "Em processo administrativo sancionador, a autoridade aplicou penalidade sem oportunizar manifestação do interessado, alegando urgência. Conforme a Lei nº 9.784/1999, o ato é:",
     options: {
@@ -5398,7 +5541,7 @@ const direitoAdmQuestions = [
     justification: "Mesmo nos processos sancionadores decorrentes do poder de polícia, é obrigatório assegurar contraditório e ampla defesa."
   },
   {
-    id: 369,
+    id: 548,
     subject: "Direito Administrativo",
     question: "A Administração identificou que sanção aplicada em processo de polícia administrativa foi baseada em motivo inexistente. À luz da Lei nº 9.784/1999, o ato deve ser:",
     options: {
@@ -5412,7 +5555,7 @@ const direitoAdmQuestions = [
     justification: "O vício no motivo torna o ato ilegal, impondo sua anulação pela própria Administração, conforme o princípio da autotutela."
   },
   {
-    id: 370,
+    id: 549,
     subject: "Direito Administrativo",
     question: "No exercício do poder de polícia ambiental, foi aplicada multa administrativa sem fundamentação específica. Segundo a Lei nº 9.784/1999, a sanção é:",
     options: {
@@ -5426,7 +5569,7 @@ const direitoAdmQuestions = [
     justification: "A motivação é requisito obrigatório dos atos administrativos, especialmente os sancionatórios."
   },
   {
-    id: 371,
+    id: 550,
     subject: "Direito Administrativo",
     question: "Encerrado processo administrativo sancionador, a Administração revisou a decisão e agravou a multa aplicada. À luz da Lei nº 9.784/1999, a revisão:",
     options: {
@@ -5440,7 +5583,7 @@ const direitoAdmQuestions = [
     justification: "A revisão do processo administrativo não pode resultar em agravamento da sanção aplicada."
   },
   {
-    id: 372,
+    id: 551,
     subject: "Direito Administrativo",
     question: "No exercício do poder de polícia, a Administração aplicou sanção desproporcional à infração cometida. À luz da Lei nº 9.784/1999, o ato viola o princípio da:",
     options: {
@@ -5454,7 +5597,7 @@ const direitoAdmQuestions = [
     justification: "A Lei 9.784 consagra os princípios da razoabilidade e proporcionalidade como limites à atuação administrativa."
   },
   {
-    id: 373,
+    id: 552,
     subject: "Direito Administrativo",
     question: "Durante processo administrativo decorrente do poder de polícia, a Administração deixou de decidir no prazo legal, sem justificativa. Segundo a Lei nº 9.784/1999, tal conduta:",
     options: {
@@ -5468,7 +5611,7 @@ const direitoAdmQuestions = [
     justification: "A Administração tem o dever legal de decidir em prazo razoável, sendo a inércia injustificada ilícita."
   },
   {
-    id: 374,
+    id: 553,
     subject: "Direito Administrativo",
     question: "A Administração aplicou interdição de estabelecimento como sanção administrativa e, posteriormente, verificou que o vício era apenas formal e sanável. Conforme a Lei nº 9.784/1999, é possível:",
     options: {
@@ -5488,7 +5631,7 @@ const direitoAdmQuestions = [
 ===================================================== */
 const transitoQuestions = [
   {
-    id: 410,
+    id: 801,
     subject: "Legislação de Trânsito",
     question: "Constitui infração gravíssima:",
     options: {
@@ -5502,7 +5645,7 @@ const transitoQuestions = [
     justification: "Avançar o sinal vermelho é infração gravíssima (art. 208 do CTB)."
   },
   {
-    id: 411,
+    id: 802,
     subject: "Legislação de Trânsito",
     question: "A velocidade máxima permitida em vias urbanas é de:",
     options: {
@@ -5516,7 +5659,7 @@ const transitoQuestions = [
     justification: "A velocidade máxima em vias urbanas é de 50 km/h, salvo indicação em contrário (art. 61 do CTB)."
   },
   {
-    id: 412,
+    id: 803,
     subject: "Legislação de Trânsito",
     question: "O uso do cinto de segurança é obrigatório para:",
     options: {
@@ -5530,7 +5673,7 @@ const transitoQuestions = [
     justification: "O cinto de segurança é obrigatório para todos os ocupantes do veículo (art. 65 do CTB)."
   },
   {
-    id: 413,
+    id: 804,
     subject: "Legislação de Trânsito",
     question: "Em caso de acidente com vítima, o condutor deve:",
     options: {
@@ -5544,7 +5687,7 @@ const transitoQuestions = [
     justification: "O condutor deve prestar socorro e chamar ajuda (art. 176 do CTB)."
   },
   {
-    id: 414,
+    id: 805,
     subject: "Legislação de Trânsito",
     question: "O que é permitido ao condutor ao se aproximar de uma faixa de pedestres?",
     options: {
@@ -5556,23 +5699,23 @@ const transitoQuestions = [
     },
     correct: "C",
     justification: "O condutor deve reduzir a velocidade e parar se houver pedestres na faixa (art. 214 do CTB)."
-  },
-  {
-    id: 415,
-  subject: "Legislação de Trânsito",
-  question: "Dirigir sob a influência de álcool configura:",
-  options: {
-    A: "Infração média",
-    B: "Infração grave",
-    C: "Infração gravíssima",
-    D: "Apenas crime de trânsito",
-    E: "Conduta permitida"
-  },
-  correct: "C",
-  justification: "Dirigir sob influência de álcool é infração gravíssima (art. 165 do CTB)."
 },
 {
-  id: 416,
+    id: 806,
+    subject: "Legislação de Trânsito",
+    question: "Dirigir sob a influência de álcool configura:",
+    options: {
+      A: "Infração média",
+      B: "Infração grave",
+      C: "Infração gravíssima",
+      D: "Apenas crime de trânsito",
+      E: "Conduta permitida"
+    },
+    correct: "C",
+    justification: "Dirigir sob influência de álcool é infração gravíssima (art. 165 do CTB)."
+},
+{
+  id: 807,
   subject: "Legislação de Trânsito",
   question: "Deixar de dar preferência de passagem ao pedestre que se encontra na faixa caracteriza:",
   options: {
@@ -5586,7 +5729,7 @@ const transitoQuestions = [
   justification: "Não dar preferência ao pedestre na faixa é infração gravíssima (art. 214 do CTB)."
 },
 {
-  id: 417,
+  id: 808,
   subject: "Legislação de Trânsito",
   question: "O condutor que se recusar a realizar o teste do bafômetro estará sujeito a:",
   options: {
@@ -5600,7 +5743,7 @@ const transitoQuestions = [
   justification: "A recusa ao teste configura infração gravíssima (art. 165-A do CTB)."
 },
 {
-  id: 418,
+  id: 809,
   subject: "Legislação de Trânsito",
   question: "Transitar com o veículo em velocidade superior à máxima permitida em mais de 50% caracteriza:",
   options: {
@@ -5614,7 +5757,7 @@ const transitoQuestions = [
   justification: "Exceder em mais de 50% a velocidade máxima é infração gravíssima (art. 218, III do CTB)."
 },
 {
-  id: 419,
+  id: 810,
   subject: "Legislação de Trânsito",
   question: "Conduzir veículo sem possuir Carteira Nacional de Habilitação caracteriza:",
   options: {
@@ -5628,7 +5771,7 @@ const transitoQuestions = [
   justification: "Dirigir sem CNH é infração gravíssima (art. 162, I do CTB)."
 },
 {
-  id: 420,
+  id: 811,
   subject: "Legislação de Trânsito",
   question: "Deixar de manter o veículo na faixa da direita quando não houver motivo para transitar na faixa da esquerda caracteriza:",
   options: {
@@ -5642,7 +5785,7 @@ const transitoQuestions = [
   justification: "Transitar indevidamente na faixa da esquerda é infração média (art. 198 do CTB)."
 },
 {
-  id: 421,
+  id: 812,
   subject: "Legislação de Trânsito",
   question: "O transporte de criança sem observância das normas de segurança caracteriza:",
   options: {
@@ -5656,7 +5799,7 @@ const transitoQuestions = [
   justification: "Transportar criança sem os dispositivos adequados é infração gravíssima (art. 168 do CTB)."
 },
 {
-  id: 422,
+  id: 813,
   subject: "Legislação de Trânsito",
   question: "Deixar de sinalizar a via após a remoção do veículo em caso de acidente caracteriza:",
   options: {
@@ -5670,7 +5813,7 @@ const transitoQuestions = [
   justification: "Deixar de sinalizar a via após acidente é infração grave (art. 176, I do CTB)."
 },
 {
-  id: 423,
+  id: 814,
   subject: "Legislação de Trânsito",
   question: "Ultrapassar veículo parado em faixa de pedestres caracteriza:",
   options: {
@@ -5684,7 +5827,7 @@ const transitoQuestions = [
   justification: "Ultrapassar veículo parado na faixa de pedestres é infração gravíssima (art. 191 do CTB)."
 },
 {
-  id: 424,
+  id: 815,
   subject: "Legislação de Trânsito",
   question: "Dirigir ameaçando pedestres ou outros veículos caracteriza:",
   options: {
@@ -5704,7 +5847,7 @@ const transitoQuestions = [
 ===================================================== */
 const informaticaQuestions = [
   {
-    id: 510,
+    id: 1001,
     subject: "Informática",
     question: "Qual dos seguintes é um sistema operacional?",
     options: {
@@ -5718,7 +5861,7 @@ const informaticaQuestions = [
     justification: "Linux é um sistema operacional; os outros são aplicativos."
   },
   {
-    id: 511,
+    id: 1002,
     subject: "Informática",
     question: "O que é um firewall?",
     options: {
@@ -5732,7 +5875,7 @@ const informaticaQuestions = [
     justification: "Firewall é um dispositivo ou software que protege redes contra acessos não autorizados."
   },
   {
-    id: 512,
+    id: 1003,
     subject: "Informática",
     question: "Qual é a função principal do software antivírus?",
     options: {
@@ -5746,7 +5889,7 @@ const informaticaQuestions = [
     justification: "O antivírus protege o sistema contra malwares, como vírus e trojans."
   },
   {
-    id: 513,
+    id: 1004,
     subject: "Informática",
     question: "O que significa a sigla 'URL'?",
     options: {
@@ -5760,7 +5903,7 @@ const informaticaQuestions = [
     justification: "URL significa Uniform Resource Locator, que é o endereço de um recurso na internet."
   },
   {
-    id: 514,
+    id: 1005,
     subject: "Informática",
     question: "Qual dos seguintes é um exemplo de software de planilha eletrônica?",
     options: {
@@ -5774,7 +5917,7 @@ const informaticaQuestions = [
     justification: "Microsoft Excel é um software de planilha eletrônica; os outros são de diferentes categorias."
   },
   {
-    id: 515,
+    id: 1006,
     subject: "Informática",
     question: "O que é 'nuvem' (cloud computing) em informática?",
     options: {
@@ -5788,7 +5931,7 @@ const informaticaQuestions = [
     justification: "Nuvem refere-se ao armazenamento e serviços acessados via internet."
   },
   {
-  id: 516,  
+  id: 1007,  
   subject: "Informática",
   question: "Qual é a principal função do protocolo TCP?",
   options: {
@@ -5802,7 +5945,7 @@ const informaticaQuestions = [
   justification: "O TCP garante entrega confiável, ordenada e sem erros dos dados."
 },
 {
-  id: 517,
+  id: 1008,
   subject: "Informática",
   question: "Qual protocolo é utilizado para envio de e-mails?",
   options: {
@@ -5816,7 +5959,7 @@ const informaticaQuestions = [
   justification: "O SMTP (Simple Mail Transfer Protocol) é usado para envio de e-mails."
 },
 {
-  id: 518,
+  id: 1009,
   subject: "Informática",
   question: "O que significa a sigla IP em redes de computadores?",
   options: {
@@ -5830,7 +5973,7 @@ const informaticaQuestions = [
   justification: "IP significa Internet Protocol, responsável pelo endereçamento dos dispositivos na rede."
 },
 {
-  id: 519,
+  id: 1010,
   subject: "Informática",
   question: "Qual dispositivo é responsável por interligar redes diferentes?",
   options: {
@@ -5844,7 +5987,7 @@ const informaticaQuestions = [
   justification: "O roteador conecta redes distintas e encaminha pacotes de dados."
 },
 {
-  id: 520,
+  id: 1011,
   subject: "Informática",
   question: "Qual é a função do protocolo DNS?",
   options: {
@@ -5858,7 +6001,7 @@ const informaticaQuestions = [
   justification: "O DNS traduz nomes de domínio em endereços IP."
 },
 {
-  id: 521,
+  id: 1012,
   subject: "Informática",
   question: "Qual é a topologia de rede em que todos os dispositivos se conectam a um ponto central?",
   options: {
@@ -5872,7 +6015,7 @@ const informaticaQuestions = [
   justification: "Na topologia em estrela, todos os dispositivos se conectam a um nó central."
 },
 {
-  id: 522,
+  id: 1013,
   subject: "Informática",
   question: "Qual protocolo é usado para navegação na web?",
   options: {
@@ -5886,7 +6029,7 @@ const informaticaQuestions = [
   justification: "HTTP é o protocolo utilizado para transferência de páginas web."
 },
 {
-  id: 523,
+  id: 1014,
   subject: "Informática",
   question: "O que é uma rede LAN?",
   options: {
@@ -5900,7 +6043,7 @@ const informaticaQuestions = [
   justification: "LAN (Local Area Network) é uma rede local, como a de uma casa ou empresa."
 },
 {
-  id: 524,
+  id: 1015,
   subject: "Informática",
   question: "Qual equipamento permite a conexão de dispositivos em uma mesma rede local?",
   options: {
@@ -5914,7 +6057,7 @@ const informaticaQuestions = [
   justification: "O switch conecta dispositivos dentro da mesma rede local."
 },
 {
-  id: 525,
+  id: 1016,
   subject: "Informática",
   question: "Qual é a principal diferença entre TCP e UDP?",
   options: {
@@ -5928,7 +6071,7 @@ const informaticaQuestions = [
   justification: "TCP é orientado à conexão e confiável; UDP é mais rápido, porém não garante entrega."
 },
 {
-  id: 526,
+  id: 1017,
   subject: "Informática",
   question: "Em uma rede TCP/IP, qual camada é responsável pelo endereçamento lógico?",
   options: {
@@ -5942,7 +6085,7 @@ const informaticaQuestions = [
   justification: "A camada Internet do modelo TCP/IP é responsável pelo endereçamento lógico (IP)."
 },
 {
-  id: 527,
+  id: 1018,
   subject: "Informática",
   question: "Qual protocolo é utilizado para transferência segura de arquivos?",
   options: {
@@ -5956,7 +6099,7 @@ const informaticaQuestions = [
   justification: "O SFTP utiliza criptografia para transferência segura de arquivos."
 },
 {
-  id: 528,
+  id: 1019,
   subject: "Informática",
   question: "Qual máscara de sub-rede corresponde a um endereço /26?",
   options: {
@@ -5970,7 +6113,7 @@ const informaticaQuestions = [
   justification: "/26 corresponde à máscara 255.255.255.192."
 },
 {
-  id: 529,
+  id: 1020,
   subject: "Informática",
   question: "Qual protocolo permite configuração automática de endereços IP?",
   options: {
@@ -5984,7 +6127,7 @@ const informaticaQuestions = [
   justification: "O DHCP distribui automaticamente endereços IP aos dispositivos."
 },
 {
-  id: 530,
+  id: 1021,
   subject: "Informática",
   question: "O comando 'ping' utiliza qual protocolo?",
   options: {
@@ -5998,7 +6141,7 @@ const informaticaQuestions = [
   justification: "O ping utiliza mensagens ICMP para testar conectividade."
 },
 {
-  id: 531,
+  id: 1022,
   subject: "Informática",
   question: "Em IPv4, quantos bits possui um endereço IP?",
   options: {
@@ -6012,7 +6155,7 @@ const informaticaQuestions = [
   justification: "Endereços IPv4 possuem 32 bits."
 },
 {
-  id: 532,
+  id: 1023,
   subject: "Informática",
   question: "Qual dispositivo opera predominantemente na camada 2 do modelo OSI?",
   options: {
@@ -6026,7 +6169,7 @@ const informaticaQuestions = [
   justification: "O switch opera na camada de enlace (camada 2)."
 },
 {
-  id: 533,
+  id: 1024,
   subject: "Informática",
   question: "Qual é a principal função do protocolo ARP?",
   options: {
@@ -6040,7 +6183,7 @@ const informaticaQuestions = [
   justification: "O ARP converte endereços IP em endereços MAC."
 },
 {
-  id: 534,
+  id: 1025,
   subject: "Informática",
   question: "Qual tipo de ataque intercepta a comunicação entre duas partes?",
   options: {
@@ -6054,7 +6197,7 @@ const informaticaQuestions = [
   justification: "O ataque Man-in-the-middle intercepta a comunicação entre duas entidades."
 },
 {
-  id: 535,
+  id: 1026,
   subject: "Informática",
   question: "Qual protocolo é utilizado para gerenciamento de dispositivos de rede?",
   options: {
@@ -6068,7 +6211,7 @@ const informaticaQuestions = [
   justification: "O SNMP é usado para monitoramento e gerenciamento de dispositivos."
 },
 {
-  id: 536,
+  id: 1027,
   subject: "Informática",
   question: "No modelo OSI, a camada responsável pelo controle de fluxo e pela detecção de erros é a camada de enlace.",
   options: {
@@ -6082,7 +6225,7 @@ const informaticaQuestions = [
   justification: "A camada de enlace realiza controle de fluxo e detecção de erros no nível de quadro."
 },
 {
-  id: 537,
+  id: 1028,
   subject: "Informática",
   question: "O protocolo HTTPS diferencia-se do HTTP por utilizar criptografia baseada em TLS ou SSL.",
   options: {
@@ -6093,7 +6236,7 @@ const informaticaQuestions = [
   justification: "HTTPS utiliza TLS/SSL para criptografar a comunicação."
 },
 {
-  id: 538,
+  id: 1029,
   subject: "Informática",
   question: "Em redes IPv4, a classe C possui máscara padrão 255.255.255.0.",
   options: {
@@ -6104,7 +6247,7 @@ const informaticaQuestions = [
   justification: "A máscara padrão da classe C é 255.255.255.0."
 },
 {
-  id: 539,
+  id: 1030,
   subject: "Informática",
   question: "O protocolo UDP garante entrega confiável e ordenada dos pacotes.",
   options: {
@@ -6115,7 +6258,7 @@ const informaticaQuestions = [
   justification: "UDP não garante entrega nem ordenação dos pacotes."
 },
 {
-  id: 540,
+  id: 1031,
   subject: "Informática",
   question: "O IPv6 foi criado, entre outros motivos, para resolver o problema do esgotamento de endereços IPv4.",
   options: {
@@ -6126,7 +6269,7 @@ const informaticaQuestions = [
   justification: "O IPv6 amplia significativamente o espaço de endereçamento."
 },
 {
-  id: 541,
+  id: 1032,
   subject: "Informática",
   question: "Um firewall pode ser implementado tanto em hardware quanto em software.",
   options: {
@@ -6137,7 +6280,7 @@ const informaticaQuestions = [
   justification: "Firewalls podem ser implementados como hardware ou software."
 },
 {
-  id: 542,
+  id: 1033,
   subject: "Informática",
   question: "O protocolo FTP utiliza, por padrão, as portas 20 e 21.",
   options: {
@@ -6148,7 +6291,7 @@ const informaticaQuestions = [
   justification: "FTP usa a porta 21 para controle e 20 para dados."
 },
 {
-  id: 543,
+  id: 1034,
   subject: "Informática",
   question: "O DNS é considerado um protocolo da camada de aplicação.",
   options: {
@@ -6159,7 +6302,7 @@ const informaticaQuestions = [
   justification: "DNS atua na camada de aplicação do modelo TCP/IP."
 },
 {
-  id: 544,
+  id: 1035,
   subject: "Informática",
   question: "Em uma topologia em anel, a falha de um único nó pode comprometer toda a rede.",
   options: {
@@ -6170,7 +6313,7 @@ const informaticaQuestions = [
   justification: "Na topologia em anel, a falha de um nó pode interromper a comunicação."
 },
 {
-  id: 545,
+  id: 1036,
   subject: "Informática",
   question: "O protocolo ICMP é utilizado para envio de mensagens de erro e controle.",
   options: {
@@ -6181,7 +6324,7 @@ const informaticaQuestions = [
   justification: "ICMP é usado para mensagens de erro e diagnóstico."
 },
 {
-  id: 546,
+  id: 1037,
   subject: "Informática",
   question: "A Engenharia da Informação tem como principal objetivo estruturar e organizar os dados de forma a apoiar a tomada de decisão nas organizações.",
   options: {
@@ -6192,7 +6335,7 @@ const informaticaQuestions = [
   justification: "A Engenharia da Informação foca na organização e uso estratégico da informação."
 },
 {
-  id: 547,
+  id: 1038,
   subject: "Informática",
   question: "O gerenciamento de memória em um sistema operacional tem como função principal controlar o uso da memória principal pelos processos em execução.",
   options: {
@@ -6203,7 +6346,7 @@ const informaticaQuestions = [
   justification: "O gerenciamento de memória controla alocação e liberação da memória para processos."
 },
 {
-  id: 548,
+  id: 1039,
   subject: "Informática",
   question: "No sistema operacional Linux, o kernel é responsável pelo gerenciamento de hardware e recursos do sistema.",
   options: {
@@ -6214,7 +6357,7 @@ const informaticaQuestions = [
   justification: "O kernel gerencia CPU, memória, dispositivos e processos."
 },
 {
-  id: 549,
+  id: 1040,
   subject: "Informática",
   question: "Uma rede WAN caracteriza-se por abranger grandes áreas geográficas, como cidades, países ou continentes.",
   options: {
@@ -6225,7 +6368,7 @@ const informaticaQuestions = [
   justification: "WAN cobre grandes distâncias geográficas."
 },
 {
-  id: 550,
+  id: 1041,
   subject: "Informática",
   question: "O protocolo TCP garante entrega confiável e ordenada dos dados transmitidos em uma rede.",
   options: {
@@ -6236,7 +6379,7 @@ const informaticaQuestions = [
   justification: "TCP é orientado à conexão e garante confiabilidade."
 },
 {
-  id: 551,
+  id: 1042,
   subject: "Informática",
   question: "A segurança em redes envolve mecanismos como autenticação, criptografia e controle de acesso.",
   options: {
@@ -6247,7 +6390,7 @@ const informaticaQuestions = [
   justification: "Segurança de redes utiliza múltiplos mecanismos."
 },
 {
-  id: 552,
+  id: 1043,
   subject: "Informática",
   question: "Pilhas são estruturas de dados que seguem o princípio LIFO (Last In, First Out).",
   options: {
@@ -6258,7 +6401,7 @@ const informaticaQuestions = [
   justification: "Pilhas operam segundo o princípio LIFO."
 },
 {
-  id: 553,
+  id: 1044,
   subject: "Informática",
   question: "Árvores são estruturas de dados não lineares que representam relações hierárquicas.",
   options: {
@@ -6269,7 +6412,7 @@ const informaticaQuestions = [
   justification: "Árvores são estruturas hierárquicas não lineares."
 },
 {
-  id: 554,
+  id: 1045,
   subject: "Informática",
   question: "Filas utilizam o princípio FIFO (First In, First Out).",
   options: {
@@ -6280,7 +6423,7 @@ const informaticaQuestions = [
   justification: "Filas operam pelo princípio FIFO."
 },
 {
-  id: 555,
+  id: 1046,
   subject: "Informática",
   question: "A programação orientada a objetos baseia-se em conceitos como classes, objetos, herança e polimorfismo.",
   options: {
@@ -6291,7 +6434,7 @@ const informaticaQuestions = [
   justification: "POO utiliza classes, objetos, herança e polimorfismo."
 },
 {
-  id: 556,
+  id: 1047,
   subject: "Informática",
   question: "A programação estruturada utiliza estruturas de controle como sequência, decisão e repetição.",
   options: {
@@ -6302,7 +6445,7 @@ const informaticaQuestions = [
   justification: "Essas são as estruturas básicas da programação estruturada."
 },
 {
-  id: 557,
+  id: 1048,
   subject: "Informática",
   question: "O estudo de viabilidade avalia se um sistema é técnica, econômica e operacionalmente viável.",
   options: {
@@ -6313,7 +6456,7 @@ const informaticaQuestions = [
   justification: "A viabilidade considera vários aspectos antes do desenvolvimento."
 },
 {
-  id: 558,
+  id: 1049,
   subject: "Informática",
   question: "A fase de testes tem como objetivo identificar erros antes da implantação do sistema.",
   options: {
@@ -6324,7 +6467,7 @@ const informaticaQuestions = [
   justification: "Testes buscam identificar falhas antes da implantação."
 },
 {
-  id: 559,
+  id: 1050,
   subject: "Informática",
   question: "O levantamento de dados é uma etapa fundamental da análise de sistemas.",
   options: {
@@ -6335,7 +6478,7 @@ const informaticaQuestions = [
   justification: "O levantamento de dados é essencial para entender os requisitos."
 },
 {
-  id: 560,
+  id: 1051,
   subject: "Informática",
   question: "Um SGBD é responsável por armazenar, gerenciar e recuperar dados de forma eficiente.",
   options: {
@@ -6346,7 +6489,7 @@ const informaticaQuestions = [
   justification: "O SGBD gerencia todo o ciclo de vida dos dados."
 },
 {
-  id: 561,
+  id: 1052,
   subject: "Informática",
   question: "SQL é uma linguagem utilizada para criação, consulta e manipulação de dados em bancos de dados relacionais.",
   options: {
@@ -6357,7 +6500,7 @@ const informaticaQuestions = [
   justification: "SQL permite criar, consultar e manipular dados."
 },
 {
-  id: 562,
+  id: 1053,
   subject: "Informática",
   question: "O projeto conceitual de banco de dados utiliza modelos como o entidade-relacionamento.",
   options: {
@@ -6368,18 +6511,7 @@ const informaticaQuestions = [
   justification: "O modelo ER é usado no projeto conceitual."
 },
 {
-  id: 563,
-  subject: "Informática",
-  question: "Ferramentas de desenvolvimento auxiliam na codificação, testes e manutenção de sistemas.",
-  options: {
-    A: "Errado",
-    B: "Correto",
-  },
-  correct: "B",
-  justification: "Ferramentas apoiam várias etapas do desenvolvimento."
-},
-{
-  id: 564,
+  id: 1054,
   subject: "Informática",
   question: "No Excel, a função SE permite:",
   options: {
@@ -6393,7 +6525,7 @@ const informaticaQuestions = [
     justification: "A função SE executa testes lógicos e retorna valores com base no resultado."
 },
 {
-    id: 565,
+    id: 1055,
     subject: "Informática",
     question: "Qual atalho do teclado é usado para copiar um item selecionado?",
     options: {
@@ -6407,7 +6539,7 @@ const informaticaQuestions = [
     justification: "O atalho Ctrl + C copia o item selecionado."
 },
 {
-    id: 566,
+    id: 1056,
     subject: "Informática",
     question: "Qual é a extensão padrão dos arquivos do Microsoft Word?",
     options: {
@@ -6421,7 +6553,7 @@ const informaticaQuestions = [
     justification: "A extensão padrão dos arquivos do Word é .docx."
 },
 {
-    id: 567,
+    id: 1057,
     subject: "Informática",
     question: "Qual extensão corresponde a um arquivo compactado?",
     options: {
@@ -6435,7 +6567,7 @@ const informaticaQuestions = [
     justification: "A extensão .zip é usada para arquivos compactados."
 },
 {
-    id: 568,
+    id: 1058,
     subject: "Informática",
     question: "Qual programa é utilizado para navegar na internet?",
     options: {
@@ -6449,7 +6581,7 @@ const informaticaQuestions = [
     justification: "Google Chrome é um navegador de internet."
 },
 {
-    id: 569,
+    id: 1059,
     subject: "Informática",
     question: "No Windows, o atalho para alternar entre janelas é:",
     options: {
@@ -6463,7 +6595,7 @@ const informaticaQuestions = [
     justification: "O atalho Alt + Tab permite alternar entre janelas abertas."
 },
 {
-    id: 570,
+    id: 1060,
     subject: "Informática",
     question: "No Scrum, o responsável por priorizar o backlog é:",
     options: {
@@ -6477,7 +6609,7 @@ const informaticaQuestions = [
     justification: "O Product Owner é responsável por priorizar o backlog do produto."
 },
 {
-    id: 571,
+    id: 1061,
     subject: "Informática",
     question: "Qual é a principal função do Scrum Master?",
     options: {
@@ -6491,7 +6623,7 @@ const informaticaQuestions = [
     justification: "O Scrum Master facilita o processo Scrum e remove impedimentos."
 },
 {
-    id: 572,
+    id: 1062,
     subject: "Informática",
     question: "Em Scrum, o que é uma Sprint?",
     options: {
@@ -6505,7 +6637,7 @@ const informaticaQuestions = [
     justification: "Uma Sprint é um ciclo de desenvolvimento com duração fixa, geralmente de 2 a 4 semanas."
 },
 {
-    id: 573,
+    id: 1063,
     subject: "Informática",
     question: "A chave estrangeira tem a função de:",
     options: {
@@ -6519,7 +6651,7 @@ const informaticaQuestions = [
     justification: "A chave estrangeira é usada para criar relações entre tabelas em bancos de dados relacionais."
 },
 {
-    id: 574,
+    id: 1064,
     subject: "Informática",
     question: "No Excel, a função CONT.SE é usada para:",
     options: {
@@ -6533,7 +6665,7 @@ const informaticaQuestions = [
     justification: "A função CONT.SE conta o número de células que atendem a um critério específico."
 },
 {
-    id: 575,
+    id: 1065,
     subject: "Informática",
     question: "Qual atalho do Windows alterna entre janelas abertas?",
     options: {
@@ -6547,7 +6679,7 @@ const informaticaQuestions = [
     justification: "O atalho Alt + Tab permite alternar entre janelas abertas no Windows."
 },
 {
-    id: 576,
+    id: 1066,
     subject: "Informática",
     question: "O protocolo TCP garante:",
     options: {
@@ -6561,7 +6693,7 @@ const informaticaQuestions = [
     justification: "O TCP é um protocolo orientado à conexão que garante controle de fluxo e confiabilidade na transmissão de dados."
 },
 {
-    id: 577,
+    id: 1067,
     subject: "Informática",
     question: "O ataque que visa enganar o usuário para obter informações é:",
     options: {
@@ -6575,7 +6707,7 @@ const informaticaQuestions = [
     justification: "Phishing é um ataque que tenta enganar o usuário para obter informações confidenciais."
 },
 {
-    id: 578,
+    id: 1068,
     subject: "Informática",
     question: "No Excel, o símbolo usado no ínicio de uma fórmula é:",
     options: {
@@ -6589,7 +6721,7 @@ const informaticaQuestions = [
     justification: "É obrigatório o uso do sinal de = em todas as fómulas."
 },
 {
-    id: 579,
+    id: 1069,
     subject: "Informática",
     question: "O navegador desenvolvido pela Microsoft para substituir o Internet Explorer é:",
     options: {
@@ -6603,7 +6735,7 @@ const informaticaQuestions = [
     justification: "O Microsoft Edge foi desenvolvido pela Microsoft para substituir o Internet Explorer como navegador padrão do Windows. Lançado inicialmente em 2015, ele trouxe melhorias significativas em desempenho, segurança e compatibilidade com padrões modernos da web, sendo posteriormente reconstruído com base no projeto Chromium."
 },
 {
-    id: 580,
+    id: 1070,
     subject: "Informática",
     question: "Tipo de Malware que criptografa arquivos e exige pagamento para liberá-los:",
     options: {
@@ -6617,7 +6749,7 @@ const informaticaQuestions = [
     justification: "Ransomware é um tipo de malware que bloqueia o acesso aos arquivos da vítima por meio de criptografia e exige o pagamento de um resgate (ransom) para que o acesso seja restabelecido. Diferentemente do spyware, que coleta informações, e do adware, que exibe anúncios indesejados, o ransomware tem como principal objetivo a extorsão financeira."
 },
 {
-    id: 581,
+    id: 1071,
     subject: "Informática",
     question: "No Windows, a tecla de atalho Ctrl+Esc executa a seguinte ação:",
     options: {
@@ -6631,7 +6763,7 @@ const informaticaQuestions = [
     "justification": "No Windows, o atalho Ctrl+Esc tem a função de abrir o Menu Iniciar. Ele realiza a mesma ação que pressionar a tecla Windows no teclado, permitindo acesso rápido a programas, configurações e opções do sistema."
 },
 {
-    id: 582,
+    id: 1072,
     subject: "Informática",
     question: "No Word, a tecla de atalho Ctrl+T executa a seguinte ação:",
     options: {
@@ -6645,7 +6777,7 @@ const informaticaQuestions = [
     justification: "No Microsoft Word configurado em português (Brasil), o atalho Ctrl+T é utilizado para selecionar todo o texto do documento. Esse comando corresponde à função “Selecionar Tudo”, que também pode ser executada por meio da opção disponível na guia Página Inicial."
 },
 {
-    id: 583,
+    id: 1073,
     subject: "Informática",
     question: "A menor unidade de informação de um computador é chamada de:",
     options: {
@@ -6659,7 +6791,7 @@ const informaticaQuestions = [
     justification: "A menor unidade de informação em um computador é o bit (binary digit), que pode assumir apenas dois valores: 0 ou 1. O byte é formado por 8 bits, e as demais unidades, como kilobyte e megabyte, são múltiplos do byte."
 },
 {
-    id: 584,
+    id: 1074,
     subject: "Informática",
     question: "Dispositivo que armazena dados de forma temporária e perde as informações ao desligar o computador:",
     options: {
@@ -6673,7 +6805,7 @@ const informaticaQuestions = [
     justification: "A Memória RAM (Random Access Memory) é um tipo de memória volátil, ou seja, armazena dados temporariamente enquanto o computador está ligado. Ao desligar o equipamento, as informações armazenadas na RAM são perdidas. Diferentemente do HD, SSD, Pen Drive e ROM, que são memórias não voláteis."
 },
 {
-    id: 585,
+    id: 1075,
     subject: "Informática",
     question: "No Windows, a Lixeira armazena arquivos excluídos de:",
     options: {
@@ -6687,7 +6819,7 @@ const informaticaQuestions = [
     justification: "No Windows, a Lixeira armazena temporariamente arquivos e pastas excluídos do disco local do computador. Arquivos excluídos de dispositivos removíveis, como pen drives, ou apagados com o comando Shift+Delete não passam pela Lixeira e são removidos diretamente."
 },
 {
-    id: 586,
+    id: 1076,
     subject: "Informática",
     question: "Um Escriturário recebeu por e-mail um arquivo infectado com vírus. Esse vírus",
     options: {
@@ -6701,7 +6833,7 @@ const informaticaQuestions = [
     justification: "De modo geral, um vírus precisa ser executado para infectar o sistema. Apenas receber ou visualizar a mensagem de e-mail não é suficiente para causar a infecção. O computador será infectado se o usuário executar (abrir) o arquivo contaminado, permitindo que o código malicioso seja ativado."
 },
 {
-    id: 587,
+    id: 1077,
     subject: "Informática",
     question: "João ativou o firewall do Windows em seu computador. Sobre a função desse recurso de segurança, assinale a alternativa correta:",
     options: {
@@ -7045,7 +7177,6 @@ const PETROBRAS_QUESTIONS = [
   correct: "C",
   justification: "A governança exige manutenção de controles e tratamento formal de exceções."
 },
-
 {
   subject: "Petrobras",
   question: "Em processos decisórios da Petrobras, a segregação de funções tem como principal objetivo:",
@@ -7059,7 +7190,6 @@ const PETROBRAS_QUESTIONS = [
   correct: "C",
   justification: "Segregação de funções é princípio clássico de controle interno."
 },
-
 {
   subject: "Petrobras",
   question: "Um analista identifica possível conflito de interesses em contratação de software. Segundo o Código de Conduta da Petrobras, a ação mais adequada é:",
@@ -7126,30 +7256,30 @@ const PETROBRAS_QUESTIONS = [
   justification: "A indisponibilidade impacta operações críticas e segurança."
 },
 {
-  subject: "Petrobras",
-  question: "Na integração entre sistemas legados e novos sistemas corporativos, o maior risco técnico é:",
-  options: {
-    A: "Aumento do número de usuários",
-    B: "Inconsistência de dados e regras de negócio",
-    C: "Uso de metodologias ágeis",
-    D: "Documentação excessiva",
-    E: "Treinamento contínuo"
-  },
-  correct: "B",
-  justification: "Integrações mal definidas geram inconsistência de dados."
+    subject: "Petrobras",
+    question: "Na integração entre sistemas legados e novos sistemas corporativos, o maior risco técnico é:",
+    options: {
+      A: "Aumento do número de usuários",
+      B: "Inconsistência de dados e regras de negócio",
+      C: "Uso de metodologias ágeis",
+      D: "Documentação excessiva",
+      E: "Treinamento contínuo"
+    },
+    correct: "B",
+    justification: "Integrações mal definidas geram inconsistência de dados."
 },
 {
-  subject: "Petrobras",
-  question: "Em projetos de TI da Petrobras, o versionamento de sistemas é essencial para:",
-  options: {
-    A: "Evitar auditorias",
-    B: "Permitir rastreabilidade e rollback",
-    C: "Reduzir o número de desenvolvedores",
-    D: "Eliminar testes",
-    E: "Centralizar decisões"
-  },
-  correct: "B",
-  justification: "Versionamento garante controle e recuperação."
+    subject: "Petrobras",
+    question: "Em projetos de TI da Petrobras, o versionamento de sistemas é essencial para:",
+    options: {
+      A: "Evitar auditorias",
+      B: "Permitir rastreabilidade e rollback",
+      C: "Reduzir o número de desenvolvedores",
+      D: "Eliminar testes",
+      E: "Centralizar decisões"
+    },
+    correct: "B",
+    justification: "Versionamento garante controle e recuperação."
 },
 {
   subject: "Petrobras",
@@ -7384,8 +7514,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "C",
     justification: "O número de equipes possíveis é dado por C(4,3) × C(3,2) = 4 × 3 = 12. Contudo, como os gerentes internos e externos ocupam funções distintas dentro da equipe, cada combinação interna pode ser associada de duas formas distintas aos externos, resultando em 24 equipes possíveis."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "Uma empresa de petróleo descobriu uma nova jazida em alto-mar. A produção inicial do poço recém-descoberto foi de 1.000 barris de petróleo por dia. A empresa prevê que a produção diária aumente segundo uma progressão geométrica, em que cada termo é obtido multiplicando-se o termo anterior por uma razão constante. Sabendo-se que, em relação à produção inicial, a produção diária estará triplicada no 3º dia, qual será, aproximadamente, a produção diária desse poço no 5º dia?\n\nConsidere: √3 ≅ 1,7 e (1,7)⁴ ≅ 8,3.",
     options: {
@@ -7397,8 +7527,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "D",
     justification: "Se a produção triplica no 3º dia, então a razão r satisfaz r² = 3, logo r ≅ √3 ≅ 1,7. A produção no 5º dia é dada por: a₅ = 1.000 × r⁴ ≅ 1.000 × 8,3 = 8.300 barris, valor aproximado de 8.400 barris."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "Uma empresa de petróleo planeja construir uma tubulação submarina para transportar petróleo de uma plataforma marítima até o continente. A trajetória da tubulação sob a superfície do mar pode ser representada por uma função quadrática que expressa a altura h (em metros) da tubulação em relação à profundidade d (em metros) do mar, dada por:\n\nh(d) = 0,05d² − 4d + 10.\n\nDesprezando-se a espessura da tubulação, a profundidade máxima alcançada por essa tubulação será de:",
     options: {
@@ -7410,8 +7540,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "C",
     justification: "A profundidade máxima ocorre no vértice da parábola. Para h(d) = ad² + bd + c, o vértice ocorre em d = −b/(2a) = 4/0,1 = 40. Substituindo: h(40) = 0,05·1600 − 160 + 10 = −70, indicando profundidade máxima de 70 metros."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "Uma empresa distribuidora de combustíveis possui um tanque de armazenamento em formato cilíndrico, com capacidade total de 60.000 litros. Esse tanque será dividido em duas partes: uma destinada ao armazenamento de gasolina e outra ao armazenamento de diesel. O tanque possui diâmetro de 2 metros.\n\nSabe-se que o volume destinado à gasolina é o dobro do volume destinado ao diesel. Considerando π ≅ 3, qual é o valor aproximado da altura h₁, em metros, da parte do tanque destinada ao armazenamento de gasolina?",
     options: {
@@ -7423,8 +7553,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "C",
     justification: "O volume total é 60 m³, sendo 40 m³ para gasolina. Com raio igual a 1 m, o volume do cilindro é V = π·r²·h ≅ 3·1·h. Assim, h₁ ≅ 40/3 ≈ 13,3 m, cujo valor aproximado é 13,5 m."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "Um engenheiro projeta a construção de uma ponte e precisa determinar o comprimento de um cabo de sustentação. A ponte possui formato triangular, sendo a distância horizontal entre as extremidades do cabo igual a 20 metros e a altura vertical, do ponto de fixação inferior (A) até o ponto mais alto da ponte (B), igual a 15 metros. Considerando que o cabo representa a hipotenusa do triângulo formado, qual é o comprimento aproximado desse cabo?",
     options: {
@@ -7436,8 +7566,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "D",
     justification: "Aplicando o Teorema de Pitágoras: √(20² + 15²) = √(400 + 225) = √625 = 25 metros."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "Quatro engenheiros de uma empresa — Ana, João, Maria e Pedro — estão sentados em uma mesma fileira, lado a lado, sem lugares vagos entre eles. Um observador de frente percebe que Ana está à esquerda de João e Maria está à esquerda de Pedro. Considerando apenas essas informações, assinale a alternativa que apresenta corretamente uma possível disposição dos profissionais, da esquerda para a direita, de modo que dois deles ocupem as extremidades do grupo:",
     options: {
@@ -7449,8 +7579,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "C",
     justification: "A configuração apresentada respeita simultaneamente as duas condições: Ana à esquerda de João e Maria à esquerda de Pedro."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "Paulo, estagiário de TI, decidiu economizar dinheiro mensalmente para comprar um novo computador. No primeiro mês, economizou R$ 100; no segundo, R$ 150; no terceiro, R$ 200, mantendo um acréscimo constante a cada mês. Considerando esse padrão, o valor economizado por Paulo no quinto mês será:",
     options: {
@@ -7943,8 +8073,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "C",
     justification: "Em uma PA: a_8 = a_1 + 7r ⇒ 2.250 = 1.200 + 7r ⇒ r = 150. Assim, a_4 = 1.200 + 3 × 150 = 1.650."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "A produção mensal de um poço de petróleo da Petrobras cresce segundo uma progressão geométrica. No primeiro mês, a produção foi de 2.000 barris e, no terceiro mês, atingiu 4.500 barris. A razão dessa progressão é, aproximadamente:",
     options: {
@@ -7956,8 +8086,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "C",
     justification: "Em uma PG: a_3 = a_1 × q² ⇒ 4.500 = 2.000 × q² ⇒ q² = 2,25 ⇒ q ≈ 1,5."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "O valor de um investimento da Petrobras sofre depreciação anual segundo uma progressão geométrica. Após um ano, o valor passa a ser 80% do valor inicial. A razão dessa progressão geométrica é:",
     options: {
@@ -8047,8 +8177,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "A",
     justification: "Para raízes iguais, o discriminante deve ser zero: Δ = p² − 64 = 0 ⇒ p² = 64 ⇒ p = ±8. Como as alternativas consideram p negativo, p = −8."
-  },
-   {
+},
+{
     subject: "Petrobras",
     question: "Considere as matrizes A = [[1, 2], [3, 4]] e B = [[2, 0], [1, −1]]. O elemento da posição (2,1) da matriz A·B é:",
     options: {
@@ -8060,8 +8190,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "A",
     justification: "O elemento (2,1) resulta da multiplicação da linha 2 de A pela coluna 1 de B: (3·2) + (4·1) = 6 + 4 = 10. Atenção: a alternativa correta é 10."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "Uma matriz quadrada A de ordem 2 possui determinante igual a zero. Pode-se afirmar que:",
     options: {
@@ -8073,8 +8203,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "C",
     justification: "Determinante igual a zero indica que as linhas (ou colunas) da matriz são linearmente dependentes, logo a matriz não é invertível."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "Se A é uma matriz identidade de ordem 3 e B é uma matriz qualquer de mesma ordem, então o produto A·B é igual a:",
     options: {
@@ -8086,8 +8216,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "D",
     justification: "A matriz identidade é o elemento neutro da multiplicação matricial, ou seja, A·B = B."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "Considere a matriz A = [[a, 2], [3, b]]. Sabendo que A é simétrica, o valor de a + b é:",
     options: {
@@ -8099,8 +8229,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "C",
     justification: "Em uma matriz simétrica, A = Aᵗ. Logo, o elemento (1,2) deve ser igual ao (2,1): 2 = 3 ⇒ não satisfaz. Portanto, a condição só é atendida se os valores forem ajustados, resultando em a = b = 3 e a + b = 6."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "O determinante da matriz A = [[2, 1], [5, 3]] é igual a:",
     options: {
@@ -8112,8 +8242,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "A",
     justification: "Det(A) = (2·3) − (1·5) = 6 − 5 = 1."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "Assinale a alternativa em que o uso da vírgula está CORRETO, de acordo com a norma-padrão da Língua Portuguesa.",
     options: {
@@ -8125,8 +8255,8 @@ const PETROBRAS_QUESTIONS = [
     },
     correct: "C",
     justification: "A vírgula isola corretamente a oração adjetiva explicativa em 'que atuam na área offshore'. Nas demais alternativas, há separação indevida entre sujeito e verbo ou uso incorreto da vírgula antes da conjunção."
-  },
-  {
+},
+{
     subject: "Petrobras",
     question: "Em qual alternativa o emprego da vírgula altera o sentido da frase, caracterizando ambiguidade?",
     options: {
